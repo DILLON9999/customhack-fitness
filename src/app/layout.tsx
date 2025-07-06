@@ -4,6 +4,7 @@ import "./globals.css";
 import { LingoProvider, loadDictionary } from "lingo.dev/react/rsc";
 import AppLocaleSwitcher from "@/components/common/app-locale-switcher";
 import { AutumnProvider } from "autumn-js/react";
+import { AuthProvider } from "@/lib/auth-context";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CustomStack",
-  description: "This is CustomStack for your CustomHack project",
+  title: "FitTrack - Personalized Fitness",
+  description: "Your personalized fitness journey starts here",
 };
 
 export default function RootLayout({
@@ -28,16 +29,16 @@ export default function RootLayout({
   return (
     <LingoProvider loadDictionary={(locale) => loadDictionary(locale)}>
       <AutumnProvider>
-        <html>
-          <body
-            className={`${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)] antialiased`}
-          >
-            <div className="flex flex-col gap-8 items-center min-h-screen py-8 px-4 max-w-3xl mx-auto">
+        <AuthProvider>
+          <html>
+            <body
+              className={`${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)] antialiased`}
+            >
               {children}
-            </div>
-            <AppLocaleSwitcher />
-          </body>
-        </html>
+              <AppLocaleSwitcher />
+            </body>
+          </html>
+        </AuthProvider>
       </AutumnProvider>
     </LingoProvider>
   );
