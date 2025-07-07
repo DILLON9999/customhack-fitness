@@ -162,17 +162,14 @@ export default function IntermediateDashboard() {
       {/* Main Content */}
       <div className="flex-1 p-4 max-w-7xl mx-auto space-y-4">
         {/* Header */}
-        <div className="relative mb-6">
+        <div className="relative mb-6 py-4">
           <div className="text-center">
-            <h1 className="text-3xl font-bold text-gray-900 mb-1">
+            <h1 className="text-3xl font-bold text-gray-900">
               Optimize Your Performance
             </h1>
-            <p className="text-base text-gray-600">
-              Track advanced metrics, fine-tune your nutrition, and achieve your fitness goals with precision.
-            </p>
           </div>
           
-          {/* Goal Selection - Absolute Positioned Top Right */}
+          {/* Goal Selection - Positioned to not affect title centering */}
           <div className="absolute top-0 right-0">
             <div className="bg-white rounded-lg shadow-md p-3 border border-gray-100">
               <h3 className="text-xs font-medium text-gray-700 mb-2 text-center">Your Goal</h3>

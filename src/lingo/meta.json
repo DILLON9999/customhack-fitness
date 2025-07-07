@@ -2018,6 +2018,14 @@
           "overrides": {},
           "content": "Consistency is key! Track your workouts, maintain your streak, and build lasting habits."
         },
+        "12/declaration/body/14/argument/3/3/5/1": {
+          "type": "element",
+          "hash": "6aea332907564007426c26076ab38fd3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Your Goal"
+        },
         "12/declaration/body/14/argument/3/3/5/1/1": {
           "type": "element",
           "hash": "6aea332907564007426c26076ab38fd3",
@@ -2037,6 +2045,22 @@
         "12/declaration/body/14/argument/3/3/5/1/3/3": {
           "type": "element",
           "hash": "9d63f79611cbca86020a24114cd14d12",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Zap></element:Zap> Gain Muscle"
+        },
+        "12/declaration/body/14/argument/3/3/5/3/1": {
+          "type": "element",
+          "hash": "e493ab3096fefdc2979f0b60bc625dd7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Target></element:Target> Lose Weight"
+        },
+        "12/declaration/body/14/argument/3/3/5/3/3": {
+          "type": "element",
+          "hash": "14c3544fc6edf1c627bc527587543fab",
           "context": "",
           "skip": false,
           "overrides": {},
@@ -2510,6 +2534,14 @@
           "overrides": {},
           "content": "Track advanced metrics, fine-tune your nutrition, and achieve your fitness goals with precision."
         },
+        "10/declaration/body/11/argument/3/3/5/1": {
+          "type": "element",
+          "hash": "6aea332907564007426c26076ab38fd3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Your Goal"
+        },
         "10/declaration/body/11/argument/3/3/5/1/1": {
           "type": "element",
           "hash": "6aea332907564007426c26076ab38fd3",
@@ -2529,6 +2561,22 @@
         "10/declaration/body/11/argument/3/3/5/1/3/3": {
           "type": "element",
           "hash": "9d63f79611cbca86020a24114cd14d12",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Zap></element:Zap> Gain Muscle"
+        },
+        "10/declaration/body/11/argument/3/3/5/3/1": {
+          "type": "element",
+          "hash": "e493ab3096fefdc2979f0b60bc625dd7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Target></element:Target> Lose Weight"
+        },
+        "10/declaration/body/11/argument/3/3/5/3/3": {
+          "type": "element",
+          "hash": "14c3544fc6edf1c627bc527587543fab",
           "context": "",
           "skip": false,
           "overrides": {},

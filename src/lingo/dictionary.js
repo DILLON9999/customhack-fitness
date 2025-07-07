@@ -2717,6 +2717,78 @@ export default {
           },
           hash: "9d63f79611cbca86020a24114cd14d12",
         },
+        "10/declaration/body/11/argument/3/3/1/1": {
+          content: {
+            de: "Optimiere deine Leistung",
+            en: "Optimize Your Performance",
+            es: "Optimiza tu rendimiento",
+            fr: "Optimisez vos performances",
+          },
+          hash: "1646430227d99b4c44dabb827227fce4",
+        },
+        "10/declaration/body/11/argument/3/3/1/3": {
+          content: {
+            de: "Verfolge fortgeschrittene Kennzahlen, passe deine Ernährung an und erreiche deine Fitnessziele mit Präzision.",
+            en: "Track advanced metrics, fine-tune your nutrition, and achieve your fitness goals with precision.",
+            es: "Haz seguimiento de métricas avanzadas, ajusta tu nutrición y alcanza tus objetivos de fitness con precisión.",
+            fr: "Suivez des métriques avancées, affinez votre nutrition et atteignez vos objectifs de fitness avec précision.",
+          },
+          hash: "b6f937ad2114c91815a75e9d72dab0fc",
+        },
+        "10/declaration/body/11/argument/3/3/5/1": {
+          content: {
+            de: "Dein Ziel",
+            en: "Your Goal",
+            es: "Tu objetivo",
+            fr: "Votre objectif",
+          },
+          hash: "6aea332907564007426c26076ab38fd3",
+        },
+        "10/declaration/body/11/argument/3/3/5/1/1": {
+          content: {
+            de: "Dein Ziel",
+            en: "Your Goal",
+            es: "Tu objetivo",
+            fr: "Votre objectif",
+          },
+          hash: "6aea332907564007426c26076ab38fd3",
+        },
+        "10/declaration/body/11/argument/3/3/5/1/3/1": {
+          content: {
+            de: "<element:Target></element:Target> Gewicht verlieren",
+            en: "<element:Target></element:Target> Lose Weight",
+            es: "<element:Target></element:Target> Perder peso",
+            fr: "<element:Target></element:Target> Perdre du poids",
+          },
+          hash: "a10203ffd88ac1895284a7e902edc5f6",
+        },
+        "10/declaration/body/11/argument/3/3/5/1/3/3": {
+          content: {
+            de: "<element:Zap></element:Zap> Muskeln aufbauen",
+            en: "<element:Zap></element:Zap> Gain Muscle",
+            es: "<element:Zap></element:Zap> Ganar músculo",
+            fr: "<element:Zap></element:Zap> Prendre du muscle",
+          },
+          hash: "9d63f79611cbca86020a24114cd14d12",
+        },
+        "10/declaration/body/11/argument/3/3/5/3/1": {
+          content: {
+            de: "<element:Target></element:Target> Gewicht verlieren",
+            en: "<element:Target></element:Target> Lose Weight",
+            es: "<element:Target></element:Target> Perder peso",
+            fr: "<element:Target></element:Target> Perdre du poids",
+          },
+          hash: "e493ab3096fefdc2979f0b60bc625dd7",
+        },
+        "10/declaration/body/11/argument/3/3/5/3/3": {
+          content: {
+            de: "<element:Zap></element:Zap> Muskeln aufbauen",
+            en: "<element:Zap></element:Zap> Gain Muscle",
+            es: "<element:Zap></element:Zap> Ganar músculo",
+            fr: "<element:Zap></element:Zap> Prendre du muscle",
+          },
+          hash: "14c3544fc6edf1c627bc527587543fab",
+        },
         "9/declaration/body/10/argument/3/3/1/1": {
           content: {
             de: "Optimiere deine Leistung",
