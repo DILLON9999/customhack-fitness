@@ -894,6 +894,217 @@ export default {
         },
       },
     },
+    "components/common/icon-attribution.tsx": {
+      entries: {
+        "1/declaration/body/0/argument/1": {
+          content: {
+            de: "Icons erstellt von <element:a>Vitaly Gorbachev</element:a> von <element:a>www.flaticon.com</element:a>",
+            en: "Icons made by <element:a>Vitaly Gorbachev</element:a>  from <element:a>www.flaticon.com</element:a>",
+            es: "Iconos creados por <element:a>Vitaly Gorbachev</element:a> de <element:a>www.flaticon.com</element:a>",
+            fr: "Icônes créées par <element:a>Vitaly Gorbachev</element:a> de <element:a>www.flaticon.com</element:a>",
+          },
+          hash: "fecbaad3bb92debc37266ec7104f37c8",
+        },
+        "1/declaration/body/0/argument/1/3-title": {
+          content: {
+            de: "Vitaly Gorbachev",
+            en: "Vitaly Gorbachev",
+            es: "Vitaly Gorbachev",
+            fr: "Vitaly Gorbachev",
+          },
+          hash: "23f68e5b5cef7e7f25dcf129333aca63",
+        },
+        "1/declaration/body/0/argument/1/8-title": {
+          content: {
+            de: "Flaticon",
+            en: "Flaticon",
+            es: "Flaticon",
+            fr: "Flaticon",
+          },
+          hash: "666b9bfdaf7e95e4767cf4b4d94ada57",
+        },
+        "1/declaration/body/0/argument/11": {
+          content: {
+            de: "Icons erstellt von <element:a>Vitaly Gorbachev</element:a> von <element:a>www.flaticon.com</element:a>",
+            en: "Icons made by <element:a>Dragon Icons</element:a>  from <element:a>www.flaticon.com</element:a>",
+            es: "Iconos creados por <element:a>Vitaly Gorbachev</element:a> de <element:a>www.flaticon.com</element:a>",
+            fr: "Icônes créées par <element:a>Vitaly Gorbachev</element:a> de <element:a>www.flaticon.com</element:a>",
+          },
+          hash: "fecbaad3bb92debc37266ec7104f37c8",
+        },
+        "1/declaration/body/0/argument/11/3-title": {
+          content: {
+            de: "Dragon Icons",
+            en: "Dragon Icons",
+            es: "Dragon Icons",
+            fr: "Dragon Icons",
+          },
+          hash: "afd60893cb6e3c031e9ee6ad1c4b724a",
+        },
+        "1/declaration/body/0/argument/11/8-title": {
+          content: {
+            de: "Flaticon",
+            en: "Flaticon",
+            es: "Flaticon",
+            fr: "Flaticon",
+          },
+          hash: "666b9bfdaf7e95e4767cf4b4d94ada57",
+        },
+        "1/declaration/body/0/argument/13": {
+          content: {
+            de: "Icons erstellt von <element:a>Vitaly Gorbachev</element:a> von <element:a>www.flaticon.com</element:a>",
+            en: "Icons made by <element:a>Vectoricons</element:a>  from <element:a>www.flaticon.com</element:a>",
+            es: "Iconos creados por <element:a>Vitaly Gorbachev</element:a> de <element:a>www.flaticon.com</element:a>",
+            fr: "Icônes créées par <element:a>Vitaly Gorbachev</element:a> de <element:a>www.flaticon.com</element:a>",
+          },
+          hash: "fecbaad3bb92debc37266ec7104f37c8",
+        },
+        "1/declaration/body/0/argument/13/3-title": {
+          content: {
+            de: "Vectoricons",
+            en: "Vectoricons",
+            es: "Vectoricons",
+            fr: "Vectoricons",
+          },
+          hash: "f9809e0cb484eda46bf63a9ef50be50a",
+        },
+        "1/declaration/body/0/argument/13/8-title": {
+          content: {
+            de: "Flaticon",
+            en: "Flaticon",
+            es: "Flaticon",
+            fr: "Flaticon",
+          },
+          hash: "666b9bfdaf7e95e4767cf4b4d94ada57",
+        },
+        "1/declaration/body/0/argument/3": {
+          content: {
+            de: "Icons erstellt von <element:a>Vitaly Gorbachev</element:a> von <element:a>www.flaticon.com</element:a>",
+            en: "Icons made by <element:a>Freepik</element:a>  from <element:a>www.flaticon.com</element:a>",
+            es: "Iconos creados por <element:a>Vitaly Gorbachev</element:a> de <element:a>www.flaticon.com</element:a>",
+            fr: "Icônes créées par <element:a>Vitaly Gorbachev</element:a> de <element:a>www.flaticon.com</element:a>",
+          },
+          hash: "fecbaad3bb92debc37266ec7104f37c8",
+        },
+        "1/declaration/body/0/argument/3/3-title": {
+          content: {
+            de: "Freepik",
+            en: "Freepik",
+            es: "Freepik",
+            fr: "Freepik",
+          },
+          hash: "ba28a69c564485d34ad85fe64459d1ee",
+        },
+        "1/declaration/body/0/argument/3/8-title": {
+          content: {
+            de: "Flaticon",
+            en: "Flaticon",
+            es: "Flaticon",
+            fr: "Flaticon",
+          },
+          hash: "666b9bfdaf7e95e4767cf4b4d94ada57",
+        },
+        "1/declaration/body/0/argument/5": {
+          content: {
+            de: "Icons erstellt von <element:a>Vitaly Gorbachev</element:a> von <element:a>www.flaticon.com</element:a>",
+            en: "Icons made by <element:a>Iconriver</element:a>  from <element:a>www.flaticon.com</element:a>",
+            es: "Iconos creados por <element:a>Vitaly Gorbachev</element:a> de <element:a>www.flaticon.com</element:a>",
+            fr: "Icônes créées par <element:a>Vitaly Gorbachev</element:a> de <element:a>www.flaticon.com</element:a>",
+          },
+          hash: "fecbaad3bb92debc37266ec7104f37c8",
+        },
+        "1/declaration/body/0/argument/5/3-title": {
+          content: {
+            de: "Iconriver",
+            en: "Iconriver",
+            es: "Iconriver",
+            fr: "Iconriver",
+          },
+          hash: "6297f9829daa2e489d2fe8eb7d4acb86",
+        },
+        "1/declaration/body/0/argument/5/8-title": {
+          content: {
+            de: "Flaticon",
+            en: "Flaticon",
+            es: "Flaticon",
+            fr: "Flaticon",
+          },
+          hash: "666b9bfdaf7e95e4767cf4b4d94ada57",
+        },
+        "1/declaration/body/0/argument/7": {
+          content: {
+            de: "Icons erstellt von <element:a>Vitaly Gorbachev</element:a> von <element:a>www.flaticon.com</element:a>",
+            en: "Icons made by <element:a>Us and Up</element:a>  from <element:a>www.flaticon.com</element:a>",
+            es: "Iconos creados por <element:a>Vitaly Gorbachev</element:a> de <element:a>www.flaticon.com</element:a>",
+            fr: "Icônes créées par <element:a>Vitaly Gorbachev</element:a> de <element:a>www.flaticon.com</element:a>",
+          },
+          hash: "fecbaad3bb92debc37266ec7104f37c8",
+        },
+        "1/declaration/body/0/argument/7/3-title": {
+          content: {
+            de: "Us and Up",
+            en: "Us and Up",
+            es: "Us and Up",
+            fr: "Us and Up",
+          },
+          hash: "d91b0acb99775a4eccdb5be9262b01e6",
+        },
+        "1/declaration/body/0/argument/7/8-title": {
+          content: {
+            de: "Flaticon",
+            en: "Flaticon",
+            es: "Flaticon",
+            fr: "Flaticon",
+          },
+          hash: "666b9bfdaf7e95e4767cf4b4d94ada57",
+        },
+        "1/declaration/body/0/argument/9": {
+          content: {
+            de: "Icons erstellt von <element:a>Vitaly Gorbachev</element:a> von <element:a>www.flaticon.com</element:a>",
+            en: "Icons made by <element:a>riajulislam</element:a>  from <element:a>www.flaticon.com</element:a>",
+            es: "Iconos creados por <element:a>Vitaly Gorbachev</element:a> de <element:a>www.flaticon.com</element:a>",
+            fr: "Icônes créées par <element:a>Vitaly Gorbachev</element:a> de <element:a>www.flaticon.com</element:a>",
+          },
+          hash: "fecbaad3bb92debc37266ec7104f37c8",
+        },
+        "1/declaration/body/0/argument/9/3-title": {
+          content: {
+            de: "riajulislam",
+            en: "riajulislam",
+            es: "riajulislam",
+            fr: "riajulislam",
+          },
+          hash: "398d5e1b9aaba513eb9c200fbc793291",
+        },
+        "1/declaration/body/0/argument/9/8-title": {
+          content: {
+            de: "Flaticon",
+            en: "Flaticon",
+            es: "Flaticon",
+            fr: "Flaticon",
+          },
+          hash: "666b9bfdaf7e95e4767cf4b4d94ada57",
+        },
+        "1/declaration/body/1/argument/1/expression/0/body": {
+          content: {
+            de: "Icons erstellt von <element:a>{attr.name}</element:a> von <element:a>www.flaticon.com</element:a>",
+            en: "Icons made by <element:a>{attr.name}</element:a>  from <element:a>www.flaticon.com</element:a>",
+            es: "Iconos creados por <element:a>{attr.name}</element:a> de <element:a>www.flaticon.com</element:a>",
+            fr: "Icônes créées par <element:a>{attr.name}</element:a> de <element:a>www.flaticon.com</element:a>",
+          },
+          hash: "35e4ee2e0ba77c0571a67e794af99603",
+        },
+        "1/declaration/body/1/argument/1/expression/0/body/8-title": {
+          content: {
+            de: "Flaticon",
+            en: "Flaticon",
+            es: "Flaticon",
+            fr: "Flaticon",
+          },
+          hash: "666b9bfdaf7e95e4767cf4b4d94ada57",
+        },
+      },
+    },
     "components/dashboard.tsx": {
       entries: {
         "10/declaration/body/10/argument/3/1/1/1/1": {
@@ -2326,6 +2537,96 @@ export default {
           },
           hash: "fea0cf973a6f657b4cc0989d56f36218",
         },
+        "10/declaration/body/10/argument/3/3/1/1": {
+          content: {
+            de: "Optimiere deine Leistung",
+            en: "Optimize Your Performance",
+            es: "Optimiza tu rendimiento",
+            fr: "Optimisez vos performances",
+          },
+          hash: "1646430227d99b4c44dabb827227fce4",
+        },
+        "10/declaration/body/10/argument/3/3/1/3": {
+          content: {
+            de: "Verfolge fortgeschrittene Kennzahlen, passe deine Ernährung an und erreiche deine Fitnessziele mit Präzision.",
+            en: "Track advanced metrics, fine-tune your nutrition, and achieve your fitness goals with precision.",
+            es: "Haz seguimiento de métricas avanzadas, ajusta tu nutrición y alcanza tus objetivos de fitness con precisión.",
+            fr: "Suivez des métriques avancées, affinez votre nutrition et atteignez vos objectifs de fitness avec précision.",
+          },
+          hash: "b6f937ad2114c91815a75e9d72dab0fc",
+        },
+        "10/declaration/body/10/argument/3/3/5/1/1": {
+          content: {
+            de: "Dein Ziel",
+            en: "Your Goal",
+            es: "Tu objetivo",
+            fr: "Votre objectif",
+          },
+          hash: "6aea332907564007426c26076ab38fd3",
+        },
+        "10/declaration/body/10/argument/3/3/5/1/3/1": {
+          content: {
+            de: "<element:Target></element:Target> Gewicht verlieren",
+            en: "<element:Target></element:Target> Lose Weight",
+            es: "<element:Target></element:Target> Perder peso",
+            fr: "<element:Target></element:Target> Perdre du poids",
+          },
+          hash: "a10203ffd88ac1895284a7e902edc5f6",
+        },
+        "10/declaration/body/10/argument/3/3/5/1/3/3": {
+          content: {
+            de: "<element:Zap></element:Zap> Muskeln aufbauen",
+            en: "<element:Zap></element:Zap> Gain Muscle",
+            es: "<element:Zap></element:Zap> Ganar músculo",
+            fr: "<element:Zap></element:Zap> Prendre du muscle",
+          },
+          hash: "9d63f79611cbca86020a24114cd14d12",
+        },
+        "9/declaration/body/10/argument/3/3/1/1": {
+          content: {
+            de: "Optimiere deine Leistung",
+            en: "Optimize Your Performance",
+            es: "Optimiza tu rendimiento",
+            fr: "Optimisez vos performances",
+          },
+          hash: "1646430227d99b4c44dabb827227fce4",
+        },
+        "9/declaration/body/10/argument/3/3/1/3": {
+          content: {
+            de: "Verfolge fortgeschrittene Kennzahlen, passe deine Ernährung an und erreiche deine Fitnessziele mit Präzision.",
+            en: "Track advanced metrics, fine-tune your nutrition, and achieve your fitness goals with precision.",
+            es: "Haz seguimiento de métricas avanzadas, ajusta tu nutrición y alcanza tus objetivos de fitness con precisión.",
+            fr: "Suivez des métriques avancées, affinez votre nutrition et atteignez vos objectifs de fitness avec précision.",
+          },
+          hash: "b6f937ad2114c91815a75e9d72dab0fc",
+        },
+        "9/declaration/body/10/argument/3/3/5/1/1": {
+          content: {
+            de: "Dein Ziel",
+            en: "Your Goal",
+            es: "Tu objetivo",
+            fr: "Votre objectif",
+          },
+          hash: "6aea332907564007426c26076ab38fd3",
+        },
+        "9/declaration/body/10/argument/3/3/5/1/3/1": {
+          content: {
+            de: "<element:Target></element:Target> Gewicht verlieren",
+            en: "<element:Target></element:Target> Lose Weight",
+            es: "<element:Target></element:Target> Perder peso",
+            fr: "<element:Target></element:Target> Perdre du poids",
+          },
+          hash: "a10203ffd88ac1895284a7e902edc5f6",
+        },
+        "9/declaration/body/10/argument/3/3/5/1/3/3": {
+          content: {
+            de: "<element:Zap></element:Zap> Muskeln aufbauen",
+            en: "<element:Zap></element:Zap> Gain Muscle",
+            es: "<element:Zap></element:Zap> Ganar músculo",
+            fr: "<element:Zap></element:Zap> Prendre du muscle",
+          },
+          hash: "9d63f79611cbca86020a24114cd14d12",
+        },
       },
     },
     "components/dashboards/pro-dashboard.tsx": {
@@ -3332,6 +3633,240 @@ export default {
           },
           hash: "b35d04b56e8950fdeec5f9a73de9d8ee",
         },
+        "8/declaration/body/16/argument/1/3/1": {
+          content: {
+            de: "Aktivität eintragen",
+            en: "Log Activity",
+            es: "Registrar actividad",
+            fr: "Enregistrer une activité",
+          },
+          hash: "d2f8cb657c95280444c6c87165e7b59c",
+        },
+        "8/declaration/body/16/argument/1/5/5/1/3": {
+          content: {
+            de: "Workout",
+            en: "Workout",
+            es: "Entrenamiento",
+            fr: "Entraînement",
+          },
+          hash: "c81b285c234b1fc7e4fd96e66e1f7337",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/1/1": {
+          content: {
+            de: "Dauer (Minuten) *",
+            en: "Duration (minutes) *",
+            es: "Duración (minutos) *",
+            fr: "Durée (minutes) *",
+          },
+          hash: "6dd4c711ac061baa18391be54ede43b4",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/1/3-placeholder": {
+          content: {
+            de: "30",
+            en: "30",
+            es: "30",
+            fr: "30",
+          },
+          hash: "68f48813072709a5578a77368cb6eaee",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/1": {
+          content: {
+            de: "Workout-Typ",
+            en: "Workout Type",
+            es: "Tipo de entrenamiento",
+            fr: "Type d'entraînement",
+          },
+          hash: "7879142e0d2fbfb87b68eef20f393710",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/1": {
+          content: {
+            de: "Typ auswählen...",
+            en: "Select type...",
+            es: "Seleccionar tipo...",
+            fr: "Sélectionner un type...",
+          },
+          hash: "b1351c0abb557fa0e28d714f966f82d3",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/11": {
+          content: {
+            de: "Laufen",
+            en: "Running",
+            es: "Running",
+            fr: "Course à pied",
+          },
+          hash: "010d4795c3d5df31edde92a3441d7017",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/13": {
+          content: {
+            de: "Radfahren",
+            en: "Cycling",
+            es: "Ciclismo",
+            fr: "Cyclisme",
+          },
+          hash: "e08fa01ac6e95f902a87f7c86eebae2f",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/15": {
+          content: {
+            de: "Schwimmen",
+            en: "Swimming",
+            es: "Natación",
+            fr: "Natation",
+          },
+          hash: "ae8c5212692f57444c316cddc6d034f9",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/17": {
+          content: {
+            de: "Sport",
+            en: "Sports",
+            es: "Deportes",
+            fr: "Sports",
+          },
+          hash: "9a471f95945421960faa376bda8b61c5",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/19": {
+          content: {
+            de: "Sonstiges",
+            en: "Other",
+            es: "Otro",
+            fr: "Autre",
+          },
+          hash: "79acaa6cd481262bea4e743a422529d2",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/3": {
+          content: {
+            de: "Cardio",
+            en: "Cardio",
+            es: "Cardio",
+            fr: "Cardio",
+          },
+          hash: "690afc773ae95fae62eded15d4699bb0",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/5": {
+          content: {
+            de: "Krafttraining",
+            en: "Strength Training",
+            es: "Entrenamiento de fuerza",
+            fr: "Musculation",
+          },
+          hash: "5761a9bbbc6a91d898106c6b4fa79470",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/7": {
+          content: {
+            de: "Yoga",
+            en: "Yoga",
+            es: "Yoga",
+            fr: "Yoga",
+          },
+          hash: "cd2fc0a0df39e03e5982e24ac83d3410",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/9": {
+          content: {
+            de: "Gehen",
+            en: "Walking",
+            es: "Caminata",
+            fr: "Marche",
+          },
+          hash: "e212d25b019c939adb9f0937e55ddd40",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/5/1": {
+          content: {
+            de: "Trainierte Muskelgruppen",
+            en: "Muscle Groups Trained",
+            es: "Grupos musculares entrenados",
+            fr: "Groupes musculaires entraînés",
+          },
+          hash: "ff13a47ee35d26bde183ce900f33a847",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/5/3-placeholder": {
+          content: {
+            de: "Wie ist es gelaufen?",
+            en: "How did it go?",
+            es: "¿Cómo te fue?",
+            fr: "Comment ça s'est passé ?",
+          },
+          hash: "8222deaf81e530e1e7bb4701487baf48",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/7/1": {
+          content: {
+            de: "Notizen",
+            en: "Notes",
+            es: "Notas",
+            fr: "Notes",
+          },
+          hash: "2aebb7c9911bc09f40648a3e67867fbc",
+        },
+        "8/declaration/body/16/argument/1/5/5/3/7/3-placeholder": {
+          content: {
+            de: "Wie ist es gelaufen?",
+            en: "How did it go?",
+            es: "¿Cómo te fue?",
+            fr: "Comment ça s'est passé ?",
+          },
+          hash: "8222deaf81e530e1e7bb4701487baf48",
+        },
+        "8/declaration/body/16/argument/1/5/9/1/3": {
+          content: {
+            de: "Ernährung",
+            en: "Nutrition",
+            es: "Nutrición",
+            fr: "Nutrition",
+          },
+          hash: "522ed04eed90df49c1c0394e88804ec6",
+        },
+        "8/declaration/body/16/argument/1/5/9/3/1/1": {
+          content: {
+            de: "Kalorien *",
+            en: "Calories *",
+            es: "Calorías *",
+            fr: "Calories *",
+          },
+          hash: "6ddd3bf68c80c94497184342a12c1823",
+        },
+        "8/declaration/body/16/argument/1/5/9/3/1/3-placeholder": {
+          content: {
+            de: "2000",
+            en: "2000",
+            es: "2000",
+            fr: "2000",
+          },
+          hash: "37d0be321914b50a14abb23987e6414e",
+        },
+        "8/declaration/body/16/argument/1/5/9/3/3/1": {
+          content: {
+            de: "Protein (gramm)",
+            en: "Protein (grams)",
+            es: "Proteínas (gramos)",
+            fr: "Protéines (grammes)",
+          },
+          hash: "985b7fab9909f4d92e747008c39e30a1",
+        },
+        "8/declaration/body/16/argument/1/5/9/3/3/3-placeholder": {
+          content: {
+            de: "120",
+            en: "120",
+            es: "120",
+            fr: "120",
+          },
+          hash: "f636dc4c84bbe36491e1b3cae15fcf62",
+        },
+        "8/declaration/body/16/argument/1/5/9/3/5/1": {
+          content: {
+            de: "Notizen",
+            en: "Notes",
+            es: "Notas",
+            fr: "Notes",
+          },
+          hash: "2aebb7c9911bc09f40648a3e67867fbc",
+        },
+        "8/declaration/body/16/argument/1/5/9/3/5/3-placeholder": {
+          content: {
+            de: "Was hast du gegessen?",
+            en: "What did you eat?",
+            es: "¿Qué comiste?",
+            fr: "Qu'avez-vous mangé ?",
+          },
+          hash: "b35d04b56e8950fdeec5f9a73de9d8ee",
+        },
       },
     },
     "components/fitness/fitness-calendar.tsx": {
@@ -3794,6 +4329,154 @@ export default {
           hash: "142173f9752e18e92109623a3ee68cad",
         },
         "8/declaration/body/27/argument/7/1/1": {
+          content: {
+            de: "<element:Dumbbell></element:Dumbbell> Training",
+            en: "<element:Dumbbell></element:Dumbbell> Workout",
+            es: "<element:Dumbbell></element:Dumbbell> Entrenamiento",
+            fr: "<element:Dumbbell></element:Dumbbell> Entraînement",
+          },
+          hash: "41055a260308373bc15c130ce57fe604",
+        },
+        "9/declaration/body/27/argument/15/1/expression/0/body/4/argument/1/3/1/expression/alternate/1/expression/consequent/3":
+          {
+            content: {
+              de: "/<function:getNutritionGoal/>",
+              en: "/<function:getNutritionGoal/>",
+              es: "/<function:getNutritionGoal/>",
+              fr: "/<function:getNutritionGoal/>",
+            },
+            hash: "c5d96c0fd7ca5a6b690044a87d6a6299",
+          },
+        "9/declaration/body/27/argument/15/1/expression/0/body/4/argument/1/3/1/expression/consequent/1/expression/alternate/alternate/consequent-title":
+          {
+            content: {
+              de: "Verpasstes Training",
+              en: "Missed workout",
+              es: "Entrenamiento perdido",
+              fr: "Entraînement manqué",
+            },
+            hash: "e09e72097801f815733897742ceac96d",
+          },
+        "9/declaration/body/27/argument/15/1/expression/0/body/4/argument/1/3/1/expression/consequent/1/expression/alternate/consequent-title":
+          {
+            content: {
+              de: "Workout abgeschlossen",
+              en: "Workout completed",
+              es: "Entrenamiento completado",
+              fr: "Entraînement terminé",
+            },
+            hash: "86d680f99ff3adb8650e7218921f159f",
+          },
+        "9/declaration/body/27/argument/15/1/expression/0/body/4/argument/1/3/1/expression/consequent/1/expression/consequent-title":
+          {
+            content: {
+              de: "Workout abgeschlossen",
+              en: "Workout completed",
+              es: "Entrenamiento completado",
+              fr: "Entraînement terminé",
+            },
+            hash: "86d680f99ff3adb8650e7218921f159f",
+          },
+        "9/declaration/body/27/argument/19/1/expression/consequent/1/3": {
+          content: {
+            de: "Training absolviert",
+            en: "Workout Done",
+            es: "Entrenamiento completado",
+            fr: "Entraînement terminé",
+          },
+          hash: "aaf357a8bd241d7070c3138b7321ac2a",
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/3/3": {
+          content: {
+            de: "Tag verpasst",
+            en: "Missed Day",
+            es: "Día perdido",
+            fr: "Jour manqué",
+          },
+          hash: "3e3975219771f259028f6905ec55d0e1",
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/1-alt": {
+          content: {
+            de: "Brust",
+            en: "Chest",
+            es: "Pecho",
+            fr: "Poitrine",
+          },
+          hash: "0e2405a5ff7b5401e98eca4bb39bf2d7",
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/11": {
+          content: {
+            de: "Arme",
+            en: "Arms",
+            es: "Brazos",
+            fr: "Bras",
+          },
+          hash: "64fcc7173e15cdbbbe959b571a63261e",
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/13-alt": {
+          content: {
+            de: "Beine",
+            en: "Legs",
+            es: "Piernas",
+            fr: "Jambes",
+          },
+          hash: "bc11c226f2cf39f2c5ee5208196a26a5",
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/15": {
+          content: {
+            de: "Beine",
+            en: "Legs",
+            es: "Piernas",
+            fr: "Jambes",
+          },
+          hash: "bc11c226f2cf39f2c5ee5208196a26a5",
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/3": {
+          content: {
+            de: "Brust",
+            en: "Chest",
+            es: "Pecho",
+            fr: "Poitrine",
+          },
+          hash: "0e2405a5ff7b5401e98eca4bb39bf2d7",
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/5-alt": {
+          content: {
+            de: "Rücken",
+            en: "Back",
+            es: "Espalda",
+            fr: "Dos",
+          },
+          hash: "f541015a827e37cb3b1234e56bc2aa3c",
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/7": {
+          content: {
+            de: "Rücken",
+            en: "Back",
+            es: "Espalda",
+            fr: "Dos",
+          },
+          hash: "f541015a827e37cb3b1234e56bc2aa3c",
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/9-alt": {
+          content: {
+            de: "Arme",
+            en: "Arms",
+            es: "Brazos",
+            fr: "Bras",
+          },
+          hash: "64fcc7173e15cdbbbe959b571a63261e",
+        },
+        "9/declaration/body/27/argument/19/3/3": {
+          content: {
+            de: "Heute",
+            en: "Today",
+            es: "Hoy",
+            fr: "Aujourd'hui",
+          },
+          hash: "142173f9752e18e92109623a3ee68cad",
+        },
+        "9/declaration/body/27/argument/7/1/1": {
           content: {
             de: "<element:Dumbbell></element:Dumbbell> Training",
             en: "<element:Dumbbell></element:Dumbbell> Workout",

@@ -1,9 +1,12 @@
+export type MuscleGroup = 'chest' | 'back' | 'arms' | 'legs'
+
 export interface WorkoutEntry {
   id: string
   user_id: string
   date: string // YYYY-MM-DD format
   duration_minutes: number
   workout_type?: string
+  muscle_groups?: MuscleGroup[]
   notes?: string
   created_at: string
   updated_at: string

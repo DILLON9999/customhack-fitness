@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { format, startOfMonth, endOfMonth, eachDayOfInterval, isSameMonth, isToday, parseISO, isSameDay } from "date-fns";
 import { ChevronLeft, ChevronRight, Dumbbell, Apple, Plus, Play, Pause, Square, Timer } from "lucide-react";
-import { DayData, WorkoutEntry, NutritionEntry, FitnessGoal } from "@/types/fitness";
+import { DayData, WorkoutEntry, NutritionEntry, FitnessGoal, MuscleGroup } from "@/types/fitness";
 import { supabase } from "@/lib/supabase";
 import { useAuth } from "@/lib/auth-context";
 
@@ -15,6 +15,22 @@ interface FitnessCalendarProps {
 }
 
 type CalendarMode = 'workout' | 'nutrition';
+
+// Helper function to get muscle group icon path
+const getMuscleGroupIconPath = (group: MuscleGroup) => {
+  switch (group) {
+    case 'chest':
+      return '/icons/muscle-groups/chest.png';
+    case 'back':
+      return '/icons/muscle-groups/back.png';
+    case 'arms':
+      return '/icons/muscle-groups/arms.png';
+    case 'legs':
+      return '/icons/muscle-groups/legs.png';
+    default:
+      return '/icons/muscle-groups/exercise.png';
+  }
+};
 
 export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutComplete, fitnessGoal = 'lose_weight' }: FitnessCalendarProps) {
   const { user } = useAuth();
@@ -187,7 +203,7 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
     const isTodayDate = isToday(day);
     const isPastDate = day < new Date(new Date().setHours(0, 0, 0, 0));
     
-    let classes = "relative h-12 w-full p-0.5 cursor-pointer transition-all duration-200 hover:scale-105 rounded-md border ";
+    let classes = "relative h-16 w-full p-1 cursor-pointer transition-all duration-200 hover:scale-105 rounded-md border ";
     
     if (!isCurrentMonth) {
       classes += "text-gray-300 bg-gray-50 border-gray-100 ";
@@ -423,10 +439,26 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
                 
                 <div className="flex items-center justify-center">
                   {mode === 'workout' ? (
-                    // Workout mode - show green/red dots
+                    // Workout mode - show muscle group icons
                     <>
-                      {dayData?.hasWorkout ? (
-                        <div className="w-2 h-2 bg-green-500 rounded-full" title="Workout completed" />
+                      {dayData?.hasWorkout && dayData.workout?.muscle_groups && dayData.workout.muscle_groups.length > 0 ? (
+                        <div className="flex flex-wrap gap-1 justify-center" title={`Muscle groups: ${dayData.workout.muscle_groups.join(', ')}`}>
+                          {dayData.workout.muscle_groups.slice(0, 4).map((group, index) => {
+                            const iconPath = getMuscleGroupIconPath(group);
+                            return (
+                              <img 
+                                key={index} 
+                                src={iconPath}
+                                alt={`${group} workout`}
+                                className="w-10 h-10 opacity-90" 
+                              />
+                            );
+                          })}
+                        </div>
+                      ) : dayData?.hasWorkout ? (
+                        <div title="Workout completed">
+                          <Dumbbell className="w-2.5 h-2.5 text-green-600" />
+                        </div>
                       ) : isPastDate && isCurrentMonth ? (
                         <div className="w-2 h-2 bg-red-400 rounded-full" title="Missed workout" />
                       ) : isCurrentMonth ? (
@@ -462,13 +494,14 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
         {mode === 'workout' ? (
           <>
             <div className="flex items-center gap-1">
-              <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+              <Dumbbell className="w-3 h-3 text-green-600" />
               <span>Workout Done</span>
             </div>
             <div className="flex items-center gap-1">
               <div className="w-2 h-2 bg-red-400 rounded-full"></div>
               <span>Missed Day</span>
             </div>
+
           </>
         ) : (
           <>

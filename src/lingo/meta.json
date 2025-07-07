@@ -872,6 +872,194 @@
         }
       }
     },
+    "components/common/icon-attribution.tsx": {
+      "scopes": {
+        "1/declaration/body/0/argument/1": {
+          "type": "element",
+          "hash": "fecbaad3bb92debc37266ec7104f37c8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Icons made by <element:a>Vitaly Gorbachev</element:a>  from <element:a>www.flaticon.com</element:a>"
+        },
+        "1/declaration/body/0/argument/1/3-title": {
+          "type": "attribute",
+          "hash": "23f68e5b5cef7e7f25dcf129333aca63",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Vitaly Gorbachev"
+        },
+        "1/declaration/body/0/argument/1/8-title": {
+          "type": "attribute",
+          "hash": "666b9bfdaf7e95e4767cf4b4d94ada57",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Flaticon"
+        },
+        "1/declaration/body/0/argument/11": {
+          "type": "element",
+          "hash": "fecbaad3bb92debc37266ec7104f37c8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Icons made by <element:a>Dragon Icons</element:a>  from <element:a>www.flaticon.com</element:a>"
+        },
+        "1/declaration/body/0/argument/11/3-title": {
+          "type": "attribute",
+          "hash": "afd60893cb6e3c031e9ee6ad1c4b724a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Dragon Icons"
+        },
+        "1/declaration/body/0/argument/11/8-title": {
+          "type": "attribute",
+          "hash": "666b9bfdaf7e95e4767cf4b4d94ada57",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Flaticon"
+        },
+        "1/declaration/body/0/argument/13": {
+          "type": "element",
+          "hash": "fecbaad3bb92debc37266ec7104f37c8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Icons made by <element:a>Vectoricons</element:a>  from <element:a>www.flaticon.com</element:a>"
+        },
+        "1/declaration/body/0/argument/13/3-title": {
+          "type": "attribute",
+          "hash": "f9809e0cb484eda46bf63a9ef50be50a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Vectoricons"
+        },
+        "1/declaration/body/0/argument/13/8-title": {
+          "type": "attribute",
+          "hash": "666b9bfdaf7e95e4767cf4b4d94ada57",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Flaticon"
+        },
+        "1/declaration/body/0/argument/3": {
+          "type": "element",
+          "hash": "fecbaad3bb92debc37266ec7104f37c8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Icons made by <element:a>Freepik</element:a>  from <element:a>www.flaticon.com</element:a>"
+        },
+        "1/declaration/body/0/argument/3/3-title": {
+          "type": "attribute",
+          "hash": "ba28a69c564485d34ad85fe64459d1ee",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Freepik"
+        },
+        "1/declaration/body/0/argument/3/8-title": {
+          "type": "attribute",
+          "hash": "666b9bfdaf7e95e4767cf4b4d94ada57",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Flaticon"
+        },
+        "1/declaration/body/0/argument/5": {
+          "type": "element",
+          "hash": "fecbaad3bb92debc37266ec7104f37c8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Icons made by <element:a>Iconriver</element:a>  from <element:a>www.flaticon.com</element:a>"
+        },
+        "1/declaration/body/0/argument/5/3-title": {
+          "type": "attribute",
+          "hash": "6297f9829daa2e489d2fe8eb7d4acb86",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Iconriver"
+        },
+        "1/declaration/body/0/argument/5/8-title": {
+          "type": "attribute",
+          "hash": "666b9bfdaf7e95e4767cf4b4d94ada57",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Flaticon"
+        },
+        "1/declaration/body/0/argument/7": {
+          "type": "element",
+          "hash": "fecbaad3bb92debc37266ec7104f37c8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Icons made by <element:a>Us and Up</element:a>  from <element:a>www.flaticon.com</element:a>"
+        },
+        "1/declaration/body/0/argument/7/3-title": {
+          "type": "attribute",
+          "hash": "d91b0acb99775a4eccdb5be9262b01e6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Us and Up"
+        },
+        "1/declaration/body/0/argument/7/8-title": {
+          "type": "attribute",
+          "hash": "666b9bfdaf7e95e4767cf4b4d94ada57",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Flaticon"
+        },
+        "1/declaration/body/0/argument/9": {
+          "type": "element",
+          "hash": "fecbaad3bb92debc37266ec7104f37c8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Icons made by <element:a>riajulislam</element:a>  from <element:a>www.flaticon.com</element:a>"
+        },
+        "1/declaration/body/0/argument/9/3-title": {
+          "type": "attribute",
+          "hash": "398d5e1b9aaba513eb9c200fbc793291",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "riajulislam"
+        },
+        "1/declaration/body/0/argument/9/8-title": {
+          "type": "attribute",
+          "hash": "666b9bfdaf7e95e4767cf4b4d94ada57",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Flaticon"
+        },
+        "1/declaration/body/1/argument/1/expression/0/body": {
+          "type": "element",
+          "hash": "35e4ee2e0ba77c0571a67e794af99603",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Icons made by <element:a>{attr.name}</element:a>  from <element:a>www.flaticon.com</element:a>"
+        },
+        "1/declaration/body/1/argument/1/expression/0/body/8-title": {
+          "type": "attribute",
+          "hash": "666b9bfdaf7e95e4767cf4b4d94ada57",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Flaticon"
+        }
+      }
+    },
     "components/dashboard.tsx": {
       "scopes": {
         "10/declaration/body/10/argument/3/1/1/1/1": {
@@ -2145,6 +2333,86 @@
           "skip": false,
           "overrides": {},
           "content": "• Flexibility assessments"
+        },
+        "10/declaration/body/10/argument/3/3/1/1": {
+          "type": "element",
+          "hash": "1646430227d99b4c44dabb827227fce4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Optimize Your Performance"
+        },
+        "10/declaration/body/10/argument/3/3/1/3": {
+          "type": "element",
+          "hash": "b6f937ad2114c91815a75e9d72dab0fc",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Track advanced metrics, fine-tune your nutrition, and achieve your fitness goals with precision."
+        },
+        "10/declaration/body/10/argument/3/3/5/1/1": {
+          "type": "element",
+          "hash": "6aea332907564007426c26076ab38fd3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Your Goal"
+        },
+        "10/declaration/body/10/argument/3/3/5/1/3/1": {
+          "type": "element",
+          "hash": "a10203ffd88ac1895284a7e902edc5f6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Target></element:Target> Lose Weight"
+        },
+        "10/declaration/body/10/argument/3/3/5/1/3/3": {
+          "type": "element",
+          "hash": "9d63f79611cbca86020a24114cd14d12",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Zap></element:Zap> Gain Muscle"
+        },
+        "9/declaration/body/10/argument/3/3/1/1": {
+          "type": "element",
+          "hash": "1646430227d99b4c44dabb827227fce4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Optimize Your Performance"
+        },
+        "9/declaration/body/10/argument/3/3/1/3": {
+          "type": "element",
+          "hash": "b6f937ad2114c91815a75e9d72dab0fc",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Track advanced metrics, fine-tune your nutrition, and achieve your fitness goals with precision."
+        },
+        "9/declaration/body/10/argument/3/3/5/1/1": {
+          "type": "element",
+          "hash": "6aea332907564007426c26076ab38fd3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Your Goal"
+        },
+        "9/declaration/body/10/argument/3/3/5/1/3/1": {
+          "type": "element",
+          "hash": "a10203ffd88ac1895284a7e902edc5f6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Target></element:Target> Lose Weight"
+        },
+        "9/declaration/body/10/argument/3/3/5/1/3/3": {
+          "type": "element",
+          "hash": "9d63f79611cbca86020a24114cd14d12",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Zap></element:Zap> Gain Muscle"
         }
       }
     },
@@ -3053,6 +3321,214 @@
           "skip": false,
           "overrides": {},
           "content": "What did you eat?"
+        },
+        "8/declaration/body/16/argument/1/3/1": {
+          "type": "element",
+          "hash": "d2f8cb657c95280444c6c87165e7b59c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Log Activity"
+        },
+        "8/declaration/body/16/argument/1/5/5/1/3": {
+          "type": "element",
+          "hash": "c81b285c234b1fc7e4fd96e66e1f7337",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Workout"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/1/1": {
+          "type": "element",
+          "hash": "6dd4c711ac061baa18391be54ede43b4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Duration (minutes) *"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/1/3-placeholder": {
+          "type": "attribute",
+          "hash": "68f48813072709a5578a77368cb6eaee",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "30"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/1": {
+          "type": "element",
+          "hash": "7879142e0d2fbfb87b68eef20f393710",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Workout Type"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/1": {
+          "type": "element",
+          "hash": "b1351c0abb557fa0e28d714f966f82d3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select type..."
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/11": {
+          "type": "element",
+          "hash": "010d4795c3d5df31edde92a3441d7017",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Running"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/13": {
+          "type": "element",
+          "hash": "e08fa01ac6e95f902a87f7c86eebae2f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Cycling"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/15": {
+          "type": "element",
+          "hash": "ae8c5212692f57444c316cddc6d034f9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Swimming"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/17": {
+          "type": "element",
+          "hash": "9a471f95945421960faa376bda8b61c5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sports"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/19": {
+          "type": "element",
+          "hash": "79acaa6cd481262bea4e743a422529d2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Other"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/3": {
+          "type": "element",
+          "hash": "690afc773ae95fae62eded15d4699bb0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Cardio"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/5": {
+          "type": "element",
+          "hash": "5761a9bbbc6a91d898106c6b4fa79470",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Strength Training"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/7": {
+          "type": "element",
+          "hash": "cd2fc0a0df39e03e5982e24ac83d3410",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Yoga"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/3/3/9": {
+          "type": "element",
+          "hash": "e212d25b019c939adb9f0937e55ddd40",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Walking"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/5/1": {
+          "type": "element",
+          "hash": "ff13a47ee35d26bde183ce900f33a847",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Muscle Groups Trained"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/5/3-placeholder": {
+          "type": "attribute",
+          "hash": "8222deaf81e530e1e7bb4701487baf48",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "How did it go?"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/7/1": {
+          "type": "element",
+          "hash": "2aebb7c9911bc09f40648a3e67867fbc",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Notes"
+        },
+        "8/declaration/body/16/argument/1/5/5/3/7/3-placeholder": {
+          "type": "attribute",
+          "hash": "8222deaf81e530e1e7bb4701487baf48",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "How did it go?"
+        },
+        "8/declaration/body/16/argument/1/5/9/1/3": {
+          "type": "element",
+          "hash": "522ed04eed90df49c1c0394e88804ec6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Nutrition"
+        },
+        "8/declaration/body/16/argument/1/5/9/3/1/1": {
+          "type": "element",
+          "hash": "6ddd3bf68c80c94497184342a12c1823",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Calories *"
+        },
+        "8/declaration/body/16/argument/1/5/9/3/1/3-placeholder": {
+          "type": "attribute",
+          "hash": "37d0be321914b50a14abb23987e6414e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "2000"
+        },
+        "8/declaration/body/16/argument/1/5/9/3/3/1": {
+          "type": "element",
+          "hash": "985b7fab9909f4d92e747008c39e30a1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Protein (grams)"
+        },
+        "8/declaration/body/16/argument/1/5/9/3/3/3-placeholder": {
+          "type": "attribute",
+          "hash": "f636dc4c84bbe36491e1b3cae15fcf62",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "120"
+        },
+        "8/declaration/body/16/argument/1/5/9/3/5/1": {
+          "type": "element",
+          "hash": "2aebb7c9911bc09f40648a3e67867fbc",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Notes"
+        },
+        "8/declaration/body/16/argument/1/5/9/3/5/3-placeholder": {
+          "type": "attribute",
+          "hash": "b35d04b56e8950fdeec5f9a73de9d8ee",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "What did you eat?"
         }
       }
     },
@@ -3443,6 +3919,134 @@
           "content": "Today"
         },
         "8/declaration/body/27/argument/7/1/1": {
+          "type": "element",
+          "hash": "41055a260308373bc15c130ce57fe604",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Dumbbell></element:Dumbbell> Workout"
+        },
+        "9/declaration/body/27/argument/15/1/expression/0/body/4/argument/1/3/1/expression/alternate/1/expression/consequent/3": {
+          "type": "element",
+          "hash": "c5d96c0fd7ca5a6b690044a87d6a6299",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "/<function:getNutritionGoal/>"
+        },
+        "9/declaration/body/27/argument/15/1/expression/0/body/4/argument/1/3/1/expression/consequent/1/expression/alternate/alternate/consequent-title": {
+          "type": "attribute",
+          "hash": "e09e72097801f815733897742ceac96d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Missed workout"
+        },
+        "9/declaration/body/27/argument/15/1/expression/0/body/4/argument/1/3/1/expression/consequent/1/expression/alternate/consequent-title": {
+          "type": "attribute",
+          "hash": "86d680f99ff3adb8650e7218921f159f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Workout completed"
+        },
+        "9/declaration/body/27/argument/15/1/expression/0/body/4/argument/1/3/1/expression/consequent/1/expression/consequent-title": {
+          "type": "attribute",
+          "hash": "86d680f99ff3adb8650e7218921f159f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Workout completed"
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/1/3": {
+          "type": "element",
+          "hash": "aaf357a8bd241d7070c3138b7321ac2a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Workout Done"
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/3/3": {
+          "type": "element",
+          "hash": "3e3975219771f259028f6905ec55d0e1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Missed Day"
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/1-alt": {
+          "type": "attribute",
+          "hash": "0e2405a5ff7b5401e98eca4bb39bf2d7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Chest"
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/11": {
+          "type": "element",
+          "hash": "64fcc7173e15cdbbbe959b571a63261e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Arms"
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/13-alt": {
+          "type": "attribute",
+          "hash": "bc11c226f2cf39f2c5ee5208196a26a5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Legs"
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/15": {
+          "type": "element",
+          "hash": "bc11c226f2cf39f2c5ee5208196a26a5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Legs"
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/3": {
+          "type": "element",
+          "hash": "0e2405a5ff7b5401e98eca4bb39bf2d7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Chest"
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/5-alt": {
+          "type": "attribute",
+          "hash": "f541015a827e37cb3b1234e56bc2aa3c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Back"
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/7": {
+          "type": "element",
+          "hash": "f541015a827e37cb3b1234e56bc2aa3c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Back"
+        },
+        "9/declaration/body/27/argument/19/1/expression/consequent/5/9-alt": {
+          "type": "attribute",
+          "hash": "64fcc7173e15cdbbbe959b571a63261e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Arms"
+        },
+        "9/declaration/body/27/argument/19/3/3": {
+          "type": "element",
+          "hash": "142173f9752e18e92109623a3ee68cad",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Today"
+        },
+        "9/declaration/body/27/argument/7/1/1": {
           "type": "element",
           "hash": "41055a260308373bc15c130ce57fe604",
           "context": "",

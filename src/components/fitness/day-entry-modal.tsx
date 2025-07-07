@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { X, Dumbbell, Apple, Save, Trash2 } from "lucide-react";
-import { DayData, WorkoutEntry, NutritionEntry } from "@/types/fitness";
+import { DayData, WorkoutEntry, NutritionEntry, MuscleGroup } from "@/types/fitness";
 import { supabase } from "@/lib/supabase";
 import { useAuth } from "@/lib/auth-context";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
@@ -20,6 +20,7 @@ export default function DayEntryModal({ isOpen, onClose, date, dayData, onSave }
   const { user } = useAuth();
   const [workoutDuration, setWorkoutDuration] = useState("");
   const [workoutType, setWorkoutType] = useState("");
+  const [muscleGroups, setMuscleGroups] = useState<MuscleGroup[]>([]);
   const [workoutNotes, setWorkoutNotes] = useState("");
   const [calories, setCalories] = useState("");
   const [protein, setProtein] = useState("");
@@ -31,6 +32,7 @@ export default function DayEntryModal({ isOpen, onClose, date, dayData, onSave }
       // Pre-fill form with existing data
       setWorkoutDuration(dayData.workout?.duration_minutes?.toString() || "");
       setWorkoutType(dayData.workout?.workout_type || "");
+      setMuscleGroups(dayData.workout?.muscle_groups || []);
       setWorkoutNotes(dayData.workout?.notes || "");
       setCalories(dayData.nutrition?.calories?.toString() || "");
       setProtein(dayData.nutrition?.protein?.toString() || "");
@@ -49,6 +51,7 @@ export default function DayEntryModal({ isOpen, onClose, date, dayData, onSave }
         date,
         duration_minutes: parseInt(workoutDuration),
         workout_type: workoutType || null,
+        muscle_groups: muscleGroups.length > 0 ? muscleGroups : null,
         notes: workoutNotes || null,
       };
 
@@ -162,6 +165,7 @@ export default function DayEntryModal({ isOpen, onClose, date, dayData, onSave }
       
       setWorkoutDuration("");
       setWorkoutType("");
+      setMuscleGroups([]);
       setWorkoutNotes("");
       onSave();
     } catch (error) {
@@ -267,6 +271,34 @@ export default function DayEntryModal({ isOpen, onClose, date, dayData, onSave }
                   <option value="sports">Sports</option>
                   <option value="other">Other</option>
                 </select>
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Muscle Groups Trained
+                </label>
+                <div className="grid grid-cols-2 gap-2">
+                  {(['chest', 'back', 'arms', 'legs'] as MuscleGroup[]).map((group) => (
+                    <button
+                      key={group}
+                      type="button"
+                      onClick={() => {
+                        setMuscleGroups(prev => 
+                          prev.includes(group) 
+                            ? prev.filter(g => g !== group)
+                            : [...prev, group]
+                        );
+                      }}
+                      className={`p-2 rounded-lg border-2 transition-all capitalize ${
+                        muscleGroups.includes(group)
+                          ? 'border-green-500 bg-green-50 text-green-700'
+                          : 'border-gray-200 bg-gray-50 text-gray-600 hover:border-gray-300'
+                      }`}
+                    >
+                      {group}
+                    </button>
+                  ))}
+                </div>
               </div>
 
               <div>
