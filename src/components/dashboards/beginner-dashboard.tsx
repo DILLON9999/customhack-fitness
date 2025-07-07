@@ -3,14 +3,15 @@
 import { useState } from "react";
 import { format } from "date-fns";
 import WorkoutTimer from "@/components/fitness/workout-timer";
-import FitnessCalendar from "@/components/fitness/fitness-calendar";
+import BeginnerFitnessCalendar from "@/components/fitness/beginner-fitness-calendar";
 import StreakDisplay from "@/components/fitness/streak-display";
-import DayEntryModal from "@/components/fitness/day-entry-modal";
+import BeginnerDayEntryModal from "@/components/fitness/beginner-day-entry-modal";
 import MealTracker from "@/components/fitness/meal-tracker";
 import { DayData, MealAnalysis, FitnessGoal } from "@/types/fitness";
 import { supabase } from "@/lib/supabase";
 import { useAuth } from "@/lib/auth-context";
 import { Target, Zap } from "lucide-react";
+import Confetti from "@/components/magicui/confetti";
 
 export default function BeginnerDashboard() {
   const { user } = useAuth();
@@ -19,6 +20,9 @@ export default function BeginnerDashboard() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [refreshTrigger, setRefreshTrigger] = useState(0);
   const [fitnessGoal, setFitnessGoal] = useState<FitnessGoal>('lose_weight');
+  const [showWorkoutConfetti, setShowWorkoutConfetti] = useState(false);
+  const [showProteinConfetti, setShowProteinConfetti] = useState(false);
+  const [lastProteinTotal, setLastProteinTotal] = useState(0);
 
   const handleDayClick = (date: string, dayData: DayData) => {
     setSelectedDate(date);
@@ -29,6 +33,11 @@ export default function BeginnerDashboard() {
   const handleModalSave = () => {
     setIsModalOpen(false);
     setRefreshTrigger(prev => prev + 1);
+  };
+
+  const handleWorkoutSavedFromModal = () => {
+    // Trigger confetti when a workout is saved via calendar modal
+    setShowWorkoutConfetti(true);
   };
 
   const handleWorkoutComplete = async (durationMinutes: number) => {
@@ -101,6 +110,9 @@ export default function BeginnerDashboard() {
         console.error('Award function error:', awardErr);
       }
 
+      // Trigger workout celebration confetti
+      setShowWorkoutConfetti(true);
+      
       // Refresh the calendar and streak display
       setRefreshTrigger(prev => prev + 1);
     } catch (error) {
@@ -138,6 +150,39 @@ export default function BeginnerDashboard() {
       }
 
       console.log('Meal analysis saved successfully:', result);
+      
+      // Check if protein goal was just hit (120g for muscle gain)
+      if (fitnessGoal === 'gain_muscle') {
+        // Calculate new protein total by fetching all meals for today
+        const today = format(new Date(), 'yyyy-MM-dd');
+        const { data: allMeals } = await supabase
+          .from('nutrition_entries')
+          .select('*')
+          .eq('user_id', user.id)
+          .eq('date', today);
+        
+        if (allMeals) {
+          const newProteinTotal = allMeals.reduce((sum, meal) => {
+            if (meal.protein) return sum + meal.protein;
+            try {
+              if (meal.notes && meal.notes.startsWith('{')) {
+                const analysis = JSON.parse(meal.notes);
+                return sum + (analysis.total_protein || 0);
+              }
+            } catch (e) {
+              // Ignore parsing errors
+            }
+            return sum;
+          }, 0);
+          
+          // Trigger confetti if we just crossed the 120g threshold
+          if (lastProteinTotal < 120 && newProteinTotal >= 120) {
+            setShowProteinConfetti(true);
+          }
+          
+          setLastProteinTotal(newProteinTotal);
+        }
+      }
       
       // Refresh components
       setRefreshTrigger(prev => prev + 1);
@@ -209,7 +254,7 @@ export default function BeginnerDashboard() {
 
           {/* Center Column - Calendar */}
           <div className="lg:col-span-5">
-            <FitnessCalendar 
+            <BeginnerFitnessCalendar 
               onDayClick={handleDayClick}
               refreshTrigger={refreshTrigger}
               onWorkoutComplete={handleWorkoutComplete}
@@ -229,13 +274,22 @@ export default function BeginnerDashboard() {
 
         {/* Day Entry Modal */}
         {isModalOpen && selectedDayData && (
-          <DayEntryModal
+          <BeginnerDayEntryModal
             isOpen={isModalOpen}
             onClose={() => setIsModalOpen(false)}
             date={selectedDate}
             dayData={selectedDayData}
             onSave={handleModalSave}
+            onWorkoutSaved={handleWorkoutSavedFromModal}
           />
+        )}
+
+        {/* Confetti Celebrations */}
+        {showWorkoutConfetti && (
+          <Confetti onComplete={() => setShowWorkoutConfetti(false)} />
+        )}
+        {showProteinConfetti && (
+          <Confetti onComplete={() => setShowProteinConfetti(false)} />
         )}
       </div>
     </div>

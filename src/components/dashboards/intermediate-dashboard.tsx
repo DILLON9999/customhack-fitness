@@ -9,7 +9,6 @@ import { DayData, MealAnalysis, FitnessGoal } from "@/types/fitness";
 import { supabase } from "@/lib/supabase";
 import { useAuth } from "@/lib/auth-context";
 import { Target, Zap } from "lucide-react";
-import IconAttribution from "@/components/common/icon-attribution";
 
 export default function IntermediateDashboard() {
   const { user } = useAuth();
@@ -231,9 +230,6 @@ export default function IntermediateDashboard() {
             onSave={handleModalSave}
           />
         )}
-
-        {/* Icon Attribution */}
-        <IconAttribution />
       </div>
     </div>
   );
