@@ -2182,6 +2182,15 @@ export default {
           },
           hash: "832179bf966e43e64a65dafb989f5e01",
         },
+        "12/declaration/body/14/argument/3/3/5/1": {
+          content: {
+            de: "Dein Ziel",
+            en: "Your Goal",
+            es: "Tu objetivo",
+            fr: "Votre objectif",
+          },
+          hash: "6aea332907564007426c26076ab38fd3",
+        },
         "12/declaration/body/14/argument/3/3/5/1/1": {
           content: {
             de: "Dein Ziel",
@@ -2208,6 +2217,24 @@ export default {
             fr: "<element:Zap></element:Zap> Prendre du muscle",
           },
           hash: "9d63f79611cbca86020a24114cd14d12",
+        },
+        "12/declaration/body/14/argument/3/3/5/3/1": {
+          content: {
+            de: "<element:Target></element:Target> Gewicht verlieren",
+            en: "<element:Target></element:Target> Lose Weight",
+            es: "<element:Target></element:Target> Perder peso",
+            fr: "<element:Target></element:Target> Perdre du poids",
+          },
+          hash: "e493ab3096fefdc2979f0b60bc625dd7",
+        },
+        "12/declaration/body/14/argument/3/3/5/3/3": {
+          content: {
+            de: "<element:Zap></element:Zap> Muskeln aufbauen",
+            en: "<element:Zap></element:Zap> Gain Muscle",
+            es: "<element:Zap></element:Zap> Ganar músculo",
+            fr: "<element:Zap></element:Zap> Prendre du muscle",
+          },
+          hash: "14c3544fc6edf1c627bc527587543fab",
         },
         "9/declaration/body/8/argument/11/1": {
           content: {
@@ -3341,6 +3368,78 @@ export default {
             fr: "• Métriques de puissance",
           },
           hash: "100979c447f9e5c91ac4b74e0698df50",
+        },
+        "10/declaration/body/11/argument/3/3/1/1": {
+          content: {
+            de: "Beherrschen Sie Ihre Leistung",
+            en: "Master Your Performance",
+            es: "Domina tu rendimiento",
+            fr: "Maîtrisez votre performance",
+          },
+          hash: "e0a4ceaf87d5235d31d0a1372924a268",
+        },
+        "10/declaration/body/11/argument/3/3/5/1/1": {
+          content: {
+            de: "Dein Ziel",
+            en: "Your Goal",
+            es: "Tu objetivo",
+            fr: "Votre objectif",
+          },
+          hash: "6aea332907564007426c26076ab38fd3",
+        },
+        "10/declaration/body/11/argument/3/3/5/1/3/1": {
+          content: {
+            de: "<element:Target></element:Target> Schnitt",
+            en: "<element:Target></element:Target> Cut",
+            es: "<element:Target></element:Target> Corte",
+            fr: "<element:Target></element:Target> Réduction",
+          },
+          hash: "3df3f2b7bdb780a6d693c74bd1f9e67f",
+        },
+        "10/declaration/body/11/argument/3/3/5/1/3/3": {
+          content: {
+            de: "<element:Zap></element:Zap> Masse",
+            en: "<element:Zap></element:Zap> Bulk",
+            es: "<element:Zap></element:Zap> Masivo",
+            fr: "<element:Zap></element:Zap> En masse",
+          },
+          hash: "be6ebf2646a26da70ac143d11e499059",
+        },
+        "11/declaration/body/11/argument/3/3/1/1": {
+          content: {
+            de: "Beherrschen Sie Ihre Leistung",
+            en: "Master Your Performance",
+            es: "Domina tu rendimiento",
+            fr: "Maîtrisez votre performance",
+          },
+          hash: "e0a4ceaf87d5235d31d0a1372924a268",
+        },
+        "11/declaration/body/11/argument/3/3/5/1/1": {
+          content: {
+            de: "Dein Ziel",
+            en: "Your Goal",
+            es: "Tu objetivo",
+            fr: "Votre objectif",
+          },
+          hash: "6aea332907564007426c26076ab38fd3",
+        },
+        "11/declaration/body/11/argument/3/3/5/1/3/1": {
+          content: {
+            de: "<element:Target></element:Target> Schnitt",
+            en: "<element:Target></element:Target> Cut",
+            es: "<element:Target></element:Target> Corte",
+            fr: "<element:Target></element:Target> Réduction",
+          },
+          hash: "3df3f2b7bdb780a6d693c74bd1f9e67f",
+        },
+        "11/declaration/body/11/argument/3/3/5/1/3/3": {
+          content: {
+            de: "<element:Zap></element:Zap> Masse",
+            en: "<element:Zap></element:Zap> Bulk",
+            es: "<element:Zap></element:Zap> Masivo",
+            fr: "<element:Zap></element:Zap> En masse",
+          },
+          hash: "be6ebf2646a26da70ac143d11e499059",
         },
       },
     },
@@ -5242,6 +5341,552 @@ export default {
             fr: "<element:Dumbbell></element:Dumbbell> Entraînement",
           },
           hash: "41055a260308373bc15c130ce57fe604",
+        },
+      },
+    },
+    "components/fitness/form-analyzer.tsx": {
+      entries: {
+        "4/declaration/body/10/argument/1/3/3/expression/alternate/alternate/3/1":
+          {
+            content: {
+              de: "Formvideo hochladen",
+              en: "Upload Form Video",
+              es: "Subir video de forma",
+              fr: "Télécharger la vidéo du mouvement",
+            },
+            hash: "66113a56491efa77c83cdb44b6fd2198",
+          },
+        "4/declaration/body/10/argument/1/3/3/expression/alternate/alternate/3/3":
+          {
+            content: {
+              de: "MP4, MOV oder andere Videoformate (max. 50MB)",
+              en: "MP4, MOV, or other video formats (max 50MB)",
+              es: "MP4, MOV u otros formatos de video (máx. 50MB)",
+              fr: "Formats MP4, MOV ou autres formats vidéo (max 50Mo)",
+            },
+            hash: "0e0c9d00c62b53c557630a84762dd92b",
+          },
+        "4/declaration/body/10/argument/1/3/3/expression/alternate/consequent/3":
+          {
+            content: {
+              de: "Video hochgeladen",
+              en: "Video uploaded",
+              es: "Video subido",
+              fr: "Vidéo téléchargée",
+            },
+            hash: "366b5caca87df73aa064e551514ecd06",
+          },
+        "4/declaration/body/10/argument/1/3/3/expression/consequent/3": {
+          content: {
+            de: "Analyse der Form...",
+            en: "Analyzing form...",
+            es: "Analizando forma...",
+            fr: "Analyse du mouvement en cours...",
+          },
+          hash: "0bffefc28da75711a7af84c337743c75",
+        },
+        "4/declaration/body/10/argument/1/3/3/expression/consequent/5": {
+          content: {
+            de: "Dies kann 30-60 Sekunden dauern",
+            en: "This may take 30-60 seconds",
+            es: "Esto puede tardar entre 30-60 segundos",
+            fr: "Cela peut prendre 30 à 60 secondes",
+          },
+          hash: "351f41044ad197ad1ef2d3694753c61b",
+        },
+        "4/declaration/body/10/argument/1/9/1/expression/right/11/1/3": {
+          content: {
+            de: "Verbesserungsbereiche",
+            en: "Areas for Improvement",
+            es: "Áreas de mejora",
+            fr: "Points à améliorer",
+          },
+          hash: "2c32f25c1fbac4ee965207e18a6afec7",
+        },
+        "4/declaration/body/10/argument/1/9/1/expression/right/11/3/1/expression/0/body":
+          {
+            content: {
+              de: "• <expression/>",
+              en: "• {weakness}",
+              es: "• <expression/>",
+              fr: "• <expression/>",
+            },
+            hash: "b49bdbf505c21c42b42da6dbbfc91c19",
+          },
+        "4/declaration/body/10/argument/1/9/1/expression/right/11/3/1/expression/0/body/1":
+          {
+            content: {
+              de: "•",
+              en: "•",
+              es: "•",
+              fr: "•",
+            },
+            hash: "99ccb4acb838f40b4b4d613bee966170",
+          },
+        "4/declaration/body/10/argument/1/9/1/expression/right/15/1": {
+          content: {
+            de: "Beurteilung des Trainers",
+            en: "Coach's Assessment",
+            es: "Evaluación del entrenador",
+            fr: "Évaluation du coach",
+          },
+          hash: "fce5c832797af0069ee4501e4b01af12",
+        },
+        "4/declaration/body/10/argument/1/9/1/expression/right/3/3": {
+          content: {
+            de: "{analysis.rep_count} Wiederholungen abgeschlossen",
+            en: "{analysis.rep_count} reps completed",
+            es: "{analysis.rep_count} repeticiones completadas",
+            fr: "{analysis.rep_count} répétitions effectuées",
+          },
+          hash: "f09e9f676cffe1966692a355589b438b",
+        },
+        "4/declaration/body/10/argument/1/9/1/expression/right/7/1/3": {
+          content: {
+            de: "Stärken",
+            en: "Strengths",
+            es: "Fortalezas",
+            fr: "Points forts",
+          },
+          hash: "3dcb6a201c2b7b63ff923faa2054cb2c",
+        },
+        "4/declaration/body/10/argument/1/9/1/expression/right/7/3/1/expression/0/body":
+          {
+            content: {
+              de: "• <expression/>",
+              en: "• <expression/>",
+              es: "• <expression/>",
+              fr: "• <expression/>",
+            },
+            hash: "b49bdbf505c21c42b42da6dbbfc91c19",
+          },
+        "4/declaration/body/10/argument/1/9/1/expression/right/7/3/1/expression/0/body/1":
+          {
+            content: {
+              de: "•",
+              en: "•",
+              es: "•",
+              fr: "•",
+            },
+            hash: "99ccb4acb838f40b4b4d613bee966170",
+          },
+        "4/declaration/body/12/argument/1/3/3/expression/alternate/alternate/3/1":
+          {
+            content: {
+              de: "Formvideo hochladen",
+              en: "Upload Form Video",
+              es: "Subir video de forma",
+              fr: "Télécharger la vidéo du mouvement",
+            },
+            hash: "66113a56491efa77c83cdb44b6fd2198",
+          },
+        "4/declaration/body/12/argument/1/3/3/expression/alternate/alternate/3/3":
+          {
+            content: {
+              de: "MP4, MOV oder andere Videoformate (max. 50MB)",
+              en: "MP4, MOV, or other video formats (max 50MB)",
+              es: "MP4, MOV u otros formatos de video (máx. 50MB)",
+              fr: "Formats MP4, MOV ou autres formats vidéo (max 50Mo)",
+            },
+            hash: "0e0c9d00c62b53c557630a84762dd92b",
+          },
+        "4/declaration/body/12/argument/1/3/3/expression/alternate/consequent/3":
+          {
+            content: {
+              de: "Video hochgeladen",
+              en: "Video uploaded",
+              es: "Video subido",
+              fr: "Vidéo téléchargée",
+            },
+            hash: "366b5caca87df73aa064e551514ecd06",
+          },
+        "4/declaration/body/12/argument/1/3/3/expression/consequent/3": {
+          content: {
+            de: "Analyse der Form...",
+            en: "Analyzing form...",
+            es: "Analizando forma...",
+            fr: "Analyse du mouvement en cours...",
+          },
+          hash: "0bffefc28da75711a7af84c337743c75",
+        },
+        "4/declaration/body/12/argument/1/3/3/expression/consequent/5": {
+          content: {
+            de: "Dies kann 30-60 Sekunden dauern",
+            en: "This may take 30-60 seconds",
+            es: "Esto puede tardar entre 30-60 segundos",
+            fr: "Cela peut prendre 30 à 60 secondes",
+          },
+          hash: "351f41044ad197ad1ef2d3694753c61b",
+        },
+        "4/declaration/body/12/argument/1/9/1/expression/right/11/1/3": {
+          content: {
+            de: "Verbesserungsbereiche",
+            en: "Areas for Improvement",
+            es: "Áreas de mejora",
+            fr: "Points à améliorer",
+          },
+          hash: "2c32f25c1fbac4ee965207e18a6afec7",
+        },
+        "4/declaration/body/12/argument/1/9/1/expression/right/11/3/1/expression/0/body/1":
+          {
+            content: {
+              de: "•",
+              en: "•",
+              es: "•",
+              fr: "•",
+            },
+            hash: "99ccb4acb838f40b4b4d613bee966170",
+          },
+        "4/declaration/body/12/argument/1/9/1/expression/right/3/3": {
+          content: {
+            de: "{analysis.rep_count} Wiederholungen abgeschlossen",
+            en: "{analysis.rep_count} reps completed",
+            es: "{analysis.rep_count} repeticiones completadas",
+            fr: "{analysis.rep_count} répétitions effectuées",
+          },
+          hash: "f09e9f676cffe1966692a355589b438b",
+        },
+        "4/declaration/body/12/argument/1/9/1/expression/right/7/1/3": {
+          content: {
+            de: "Stärken",
+            en: "Strengths",
+            es: "Fortalezas",
+            fr: "Points forts",
+          },
+          hash: "3dcb6a201c2b7b63ff923faa2054cb2c",
+        },
+        "4/declaration/body/12/argument/1/9/1/expression/right/7/3/1/expression/0/body/1":
+          {
+            content: {
+              de: "•",
+              en: "•",
+              es: "•",
+              fr: "•",
+            },
+            hash: "99ccb4acb838f40b4b4d613bee966170",
+          },
+        "4/declaration/body/13/argument/1/3/3/expression/alternate/alternate/3/1":
+          {
+            content: {
+              de: "Formvideo hochladen",
+              en: "Upload Form Video",
+              es: "Subir video de forma",
+              fr: "Télécharger la vidéo du mouvement",
+            },
+            hash: "66113a56491efa77c83cdb44b6fd2198",
+          },
+        "4/declaration/body/13/argument/1/3/3/expression/alternate/alternate/3/3":
+          {
+            content: {
+              de: "MP4, MOV oder andere Videoformate (max. 50MB)",
+              en: "MP4, MOV, or other video formats (max 50MB)",
+              es: "MP4, MOV u otros formatos de video (máx. 50MB)",
+              fr: "Formats MP4, MOV ou autres formats vidéo (max 50Mo)",
+            },
+            hash: "0e0c9d00c62b53c557630a84762dd92b",
+          },
+        "4/declaration/body/13/argument/1/3/3/expression/alternate/consequent/3":
+          {
+            content: {
+              de: "Video hochgeladen",
+              en: "Video uploaded",
+              es: "Video subido",
+              fr: "Vidéo téléchargée",
+            },
+            hash: "366b5caca87df73aa064e551514ecd06",
+          },
+        "4/declaration/body/13/argument/1/3/3/expression/consequent/3": {
+          content: {
+            de: "Analyse der Form...",
+            en: "Analyzing form...",
+            es: "Analizando forma...",
+            fr: "Analyse du mouvement en cours...",
+          },
+          hash: "0bffefc28da75711a7af84c337743c75",
+        },
+        "4/declaration/body/13/argument/1/3/3/expression/consequent/5": {
+          content: {
+            de: "Dies kann 30-60 Sekunden dauern",
+            en: "This may take 30-60 seconds",
+            es: "Esto puede tardar entre 30-60 segundos",
+            fr: "Cela peut prendre 30 à 60 secondes",
+          },
+          hash: "351f41044ad197ad1ef2d3694753c61b",
+        },
+        "4/declaration/body/13/argument/1/9/1/expression/right/11/1/3": {
+          content: {
+            de: "Verbesserungsbereiche",
+            en: "Areas for Improvement",
+            es: "Áreas de mejora",
+            fr: "Points à améliorer",
+          },
+          hash: "2c32f25c1fbac4ee965207e18a6afec7",
+        },
+        "4/declaration/body/13/argument/1/9/1/expression/right/11/3/1/expression/0/body/1":
+          {
+            content: {
+              de: "•",
+              en: "•",
+              es: "•",
+              fr: "•",
+            },
+            hash: "99ccb4acb838f40b4b4d613bee966170",
+          },
+        "4/declaration/body/13/argument/1/9/1/expression/right/3/3": {
+          content: {
+            de: "{analysis.rep_count} Wiederholungen abgeschlossen",
+            en: "{analysis.rep_count} reps completed",
+            es: "{analysis.rep_count} repeticiones completadas",
+            fr: "{analysis.rep_count} répétitions effectuées",
+          },
+          hash: "f09e9f676cffe1966692a355589b438b",
+        },
+        "4/declaration/body/13/argument/1/9/1/expression/right/7/1/3": {
+          content: {
+            de: "Stärken",
+            en: "Strengths",
+            es: "Fortalezas",
+            fr: "Points forts",
+          },
+          hash: "3dcb6a201c2b7b63ff923faa2054cb2c",
+        },
+        "4/declaration/body/13/argument/1/9/1/expression/right/7/3/1/expression/0/body/1":
+          {
+            content: {
+              de: "•",
+              en: "•",
+              es: "•",
+              fr: "•",
+            },
+            hash: "99ccb4acb838f40b4b4d613bee966170",
+          },
+        "4/declaration/body/14/argument/1/3/3/expression/alternate/alternate/3/1":
+          {
+            content: {
+              de: "Formvideo hochladen",
+              en: "Upload Form Video",
+              es: "Subir video de forma",
+              fr: "Télécharger la vidéo du mouvement",
+            },
+            hash: "66113a56491efa77c83cdb44b6fd2198",
+          },
+        "4/declaration/body/14/argument/1/3/3/expression/alternate/alternate/3/3":
+          {
+            content: {
+              de: "MP4, MOV oder andere Videoformate (max. 50MB)",
+              en: "MP4, MOV, or other video formats (max 50MB)",
+              es: "MP4, MOV u otros formatos de video (máx. 50MB)",
+              fr: "Formats MP4, MOV ou autres formats vidéo (max 50Mo)",
+            },
+            hash: "0e0c9d00c62b53c557630a84762dd92b",
+          },
+        "4/declaration/body/14/argument/1/3/3/expression/alternate/alternate/alternate/3/1":
+          {
+            content: {
+              de: "Formvideo hochladen",
+              en: "Upload Form Video",
+              es: "Subir video de forma",
+              fr: "Télécharger la vidéo du mouvement",
+            },
+            hash: "66113a56491efa77c83cdb44b6fd2198",
+          },
+        "4/declaration/body/14/argument/1/3/3/expression/alternate/alternate/alternate/3/3":
+          {
+            content: {
+              de: "MP4, MOV oder andere Videoformate (max. 50MB)",
+              en: "MP4, MOV, or other video formats (max 50MB)",
+              es: "MP4, MOV u otros formatos de video (máx. 50MB)",
+              fr: "Formats MP4, MOV ou autres formats vidéo (max 50Mo)",
+            },
+            hash: "0e0c9d00c62b53c557630a84762dd92b",
+          },
+        "4/declaration/body/14/argument/1/3/3/expression/alternate/alternate/consequent/3":
+          {
+            content: {
+              de: "Video hochgeladen",
+              en: "Video uploaded",
+              es: "Video subido",
+              fr: "Vidéo téléchargée",
+            },
+            hash: "366b5caca87df73aa064e551514ecd06",
+          },
+        "4/declaration/body/14/argument/1/3/3/expression/alternate/consequent/3":
+          {
+            content: {
+              de: "Analyse der Form...",
+              en: "Analyzing form...",
+              es: "Analizando forma...",
+              fr: "Analyse du mouvement en cours...",
+            },
+            hash: "0bffefc28da75711a7af84c337743c75",
+          },
+        "4/declaration/body/14/argument/1/3/3/expression/alternate/consequent/5":
+          {
+            content: {
+              de: "Dies kann 30-60 Sekunden dauern",
+              en: "This may take 30-60 seconds",
+              es: "Esto puede tardar entre 30-60 segundos",
+              fr: "Cela peut prendre 30 à 60 secondes",
+            },
+            hash: "351f41044ad197ad1ef2d3694753c61b",
+          },
+        "4/declaration/body/14/argument/1/3/3/expression/consequent/1/expression/right/1-alt":
+          {
+            content: {
+              de: "Video-Vorschaubild",
+              en: "Video thumbnail",
+              es: "Miniatura del vídeo",
+              fr: "Vignette de la vidéo",
+            },
+            hash: "b9859e532cba2056247471c4111a2189",
+          },
+        "4/declaration/body/14/argument/1/3/3/expression/consequent/3": {
+          content: {
+            de: "Analyse der Form...",
+            en: "Analyzing form...",
+            es: "Analizando forma...",
+            fr: "Analyse du mouvement en cours...",
+          },
+          hash: "0bffefc28da75711a7af84c337743c75",
+        },
+        "4/declaration/body/14/argument/1/3/3/expression/consequent/3/3": {
+          content: {
+            de: "Analyse abgeschlossen!",
+            en: "Analysis Complete!",
+            es: "¡Análisis completo!",
+            fr: "Analyse terminée !",
+          },
+          hash: "f1cb0588852783b9676c6b939eff52d8",
+        },
+        "4/declaration/body/14/argument/1/3/3/expression/consequent/5": {
+          content: {
+            de: "Dies kann 30-60 Sekunden dauern",
+            en: "This may take 30-60 seconds",
+            es: "Esto puede tardar entre 30-60 segundos",
+            fr: "Cela peut prendre 30 à 60 secondes",
+          },
+          hash: "351f41044ad197ad1ef2d3694753c61b",
+        },
+        "4/declaration/body/14/argument/1/3/3/expression/consequent/5/3": {
+          content: {
+            de: "Klicken, um Ergebnisse anzuzeigen",
+            en: "Click to view results",
+            es: "Haz clic para ver los resultados",
+            fr: "Cliquez pour voir les résultats",
+          },
+          hash: "d915a008e7c5e8e3a17d2c1942b2fb61",
+        },
+        "4/declaration/body/14/argument/1/9/1/expression/right/11/1/3": {
+          content: {
+            de: "Verbesserungsbereiche",
+            en: "Areas for Improvement",
+            es: "Áreas de mejora",
+            fr: "Points à améliorer",
+          },
+          hash: "2c32f25c1fbac4ee965207e18a6afec7",
+        },
+        "4/declaration/body/14/argument/1/9/1/expression/right/11/3/1/expression/0/body/1":
+          {
+            content: {
+              de: "•",
+              en: "•",
+              es: "•",
+              fr: "•",
+            },
+            hash: "99ccb4acb838f40b4b4d613bee966170",
+          },
+        "4/declaration/body/14/argument/1/9/1/expression/right/3/3": {
+          content: {
+            de: "{analysis.rep_count} Wiederholungen abgeschlossen",
+            en: "{analysis.rep_count} reps completed",
+            es: "{analysis.rep_count} repeticiones completadas",
+            fr: "{analysis.rep_count} répétitions effectuées",
+          },
+          hash: "f09e9f676cffe1966692a355589b438b",
+        },
+        "4/declaration/body/14/argument/1/9/1/expression/right/7/1/3": {
+          content: {
+            de: "Stärken",
+            en: "Strengths",
+            es: "Fortalezas",
+            fr: "Points forts",
+          },
+          hash: "3dcb6a201c2b7b63ff923faa2054cb2c",
+        },
+        "4/declaration/body/14/argument/1/9/1/expression/right/7/3/1/expression/0/body/1":
+          {
+            content: {
+              de: "•",
+              en: "•",
+              es: "•",
+              fr: "•",
+            },
+            hash: "99ccb4acb838f40b4b4d613bee966170",
+          },
+        "4/declaration/body/14/argument/5/1/expression/right/7/1/11/1/3": {
+          content: {
+            de: "Stärken",
+            en: "Strengths",
+            es: "Fortalezas",
+            fr: "Points forts",
+          },
+          hash: "3dcb6a201c2b7b63ff923faa2054cb2c",
+        },
+        "4/declaration/body/14/argument/5/1/expression/right/7/1/11/3/1/expression/0/body/1":
+          {
+            content: {
+              de: "•",
+              en: "•",
+              es: "•",
+              fr: "•",
+            },
+            hash: "99ccb4acb838f40b4b4d613bee966170",
+          },
+        "4/declaration/body/14/argument/5/1/expression/right/7/1/15/1/3": {
+          content: {
+            de: "Verbesserungsbereiche",
+            en: "Areas for Improvement",
+            es: "Áreas de mejora",
+            fr: "Points à améliorer",
+          },
+          hash: "2c32f25c1fbac4ee965207e18a6afec7",
+        },
+        "4/declaration/body/14/argument/5/1/expression/right/7/1/15/3/1/expression/0/body/1":
+          {
+            content: {
+              de: "•",
+              en: "•",
+              es: "•",
+              fr: "•",
+            },
+            hash: "99ccb4acb838f40b4b4d613bee966170",
+          },
+        "4/declaration/body/14/argument/5/1/expression/right/7/1/19": {
+          content: {
+            de: "Neues Video analysieren",
+            en: "Analyze New Video",
+            es: "Analizar nuevo vídeo",
+            fr: "Analyser une nouvelle vidéo",
+          },
+          hash: "cbba6f29dbb27fc6d837fe14b9284664",
+        },
+        "4/declaration/body/14/argument/5/1/expression/right/7/1/3/1": {
+          content: {
+            de: "Formanalyse-Ergebnisse",
+            en: "Form Analysis Results",
+            es: "Resultados del análisis de forma",
+            fr: "Résultats d'analyse de forme",
+          },
+          hash: "497a16f9bef28b682e0c39671ff1769f",
+        },
+        "4/declaration/body/14/argument/5/1/expression/right/7/1/7/3": {
+          content: {
+            de: "{analysis.rep_count} Wiederholungen abgeschlossen",
+            en: "{analysis.rep_count} reps completed",
+            es: "{analysis.rep_count} repeticiones completadas",
+            fr: "{analysis.rep_count} répétitions effectuées",
+          },
+          hash: "819f72e79701f3240962b2ade67a3ed2",
         },
       },
     },
@@ -8479,6 +9124,294 @@ export default {
             fr: "Utilisez l'analyseur IA pour commencer !",
           },
           hash: "f33b236852b72c8084fb6d97a46e0c95",
+        },
+      },
+    },
+    "components/fitness/muscle-frequency-tracker.tsx": {
+      entries: {
+        "9/declaration/body/7/argument/1": {
+          content: {
+            de: "Muskelregeneration",
+            en: "Muscle Recovery",
+            es: "Recuperación muscular",
+            fr: "Récupération musculaire",
+          },
+          hash: "4ed8d59bd4fdbd00da19e4fc91df48a9",
+        },
+        "9/declaration/body/7/argument/7/1": {
+          content: {
+            de: "Regenerationsstatus:",
+            en: "Recovery Status:",
+            es: "Estado de recuperación:",
+            fr: "État de récupération :",
+          },
+          hash: "9705b36bca7bdbc968e6e6c47a5b2212",
+        },
+        "9/declaration/body/7/argument/7/3/1/3": {
+          content: {
+            de: "Heute",
+            en: "Today",
+            es: "Hoy",
+            fr: "Aujourd'hui",
+          },
+          hash: "142173f9752e18e92109623a3ee68cad",
+        },
+        "9/declaration/body/7/argument/7/3/3/3": {
+          content: {
+            de: "1 Tag",
+            en: "1 day",
+            es: "1 día",
+            fr: "1 jour",
+          },
+          hash: "ef1826660893c89de442e0d0c4c327d7",
+        },
+        "9/declaration/body/7/argument/7/3/5/3": {
+          content: {
+            de: "2 Tage",
+            en: "2 days",
+            es: "2 días",
+            fr: "2 jours",
+          },
+          hash: "4361a3c2c517250280d5c61c888b5df0",
+        },
+        "9/declaration/body/7/argument/7/3/7/3": {
+          content: {
+            de: "3+ Tage",
+            en: "3+ days",
+            es: "3+ días",
+            fr: "3+ jours",
+          },
+          hash: "2cb4e4efa6ff1f882d39043680f8a860",
+        },
+        "9/declaration/body/8/argument/1": {
+          content: {
+            de: "Muskelregeneration",
+            en: "Muscle Recovery",
+            es: "Recuperación muscular",
+            fr: "Récupération musculaire",
+          },
+          hash: "4ed8d59bd4fdbd00da19e4fc91df48a9",
+        },
+        "9/declaration/body/8/argument/7/1": {
+          content: {
+            de: "Regenerationsstatus:",
+            en: "Recovery Status:",
+            es: "Estado de recuperación:",
+            fr: "État de récupération :",
+          },
+          hash: "9705b36bca7bdbc968e6e6c47a5b2212",
+        },
+        "9/declaration/body/8/argument/7/3/1/3": {
+          content: {
+            de: "Heute",
+            en: "Today",
+            es: "Hoy",
+            fr: "Aujourd'hui",
+          },
+          hash: "142173f9752e18e92109623a3ee68cad",
+        },
+        "9/declaration/body/8/argument/7/3/3/3": {
+          content: {
+            de: "1 Tag",
+            en: "1 day",
+            es: "1 día",
+            fr: "1 jour",
+          },
+          hash: "ef1826660893c89de442e0d0c4c327d7",
+        },
+        "9/declaration/body/8/argument/7/3/5/3": {
+          content: {
+            de: "2 Tage",
+            en: "2 days",
+            es: "2 días",
+            fr: "2 jours",
+          },
+          hash: "4361a3c2c517250280d5c61c888b5df0",
+        },
+        "9/declaration/body/8/argument/7/3/7/3": {
+          content: {
+            de: "3+ Tage",
+            en: "3+ days",
+            es: "3+ días",
+            fr: "3+ jours",
+          },
+          hash: "2cb4e4efa6ff1f882d39043680f8a860",
+        },
+      },
+    },
+    "components/fitness/pro-meal-tracker.tsx": {
+      entries: {
+        "10/declaration/body/22/argument/11/1/expression/right/1/1/1/1/7/1/2": {
+          content: {
+            de: "kalorien",
+            en: "calories",
+            es: "calorías",
+            fr: "calories",
+          },
+          hash: "3ff660d3d4daef29018de3bb13f30481",
+        },
+        "10/declaration/body/22/argument/11/1/expression/right/1/1/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "b871140cd10bebb4285314531a334c4c",
+          },
+        "10/declaration/body/22/argument/11/1/expression/right/1/3/11/expression/right/1":
+          {
+            content: {
+              de: "Notizen:",
+              en: "Notes:",
+              es: "Notas:",
+              fr: "Notes :",
+            },
+            hash: "00c5d483044152af70ecb2164061f5d7",
+          },
+        "10/declaration/body/22/argument/11/1/expression/right/1/3/3/expression/right/1":
+          {
+            content: {
+              de: "Lebensmittel:",
+              en: "Food Items:",
+              es: "Alimentos:",
+              fr: "Aliments :",
+            },
+            hash: "b73c2bb21901ec54a7c00e03299c9b29",
+          },
+        "10/declaration/body/22/argument/11/1/expression/right/1/3/3/expression/right/3/1/expression/0/body/3/2":
+          {
+            content: {
+              de: "kcal",
+              en: "cal",
+              es: "cal",
+              fr: "cal",
+            },
+            hash: "ccacef079abde597bff5d86af2320a53",
+          },
+        "10/declaration/body/22/argument/11/1/expression/right/1/3/7/expression/right/1":
+          {
+            content: {
+              de: "Notizen:",
+              en: "Notes:",
+              es: "Notas:",
+              fr: "Notes :",
+            },
+            hash: "00c5d483044152af70ecb2164061f5d7",
+          },
+        "10/declaration/body/22/argument/3/1/1/3": {
+          content: {
+            de: "Heutiger Fortschritt",
+            en: "Today's Progress",
+            es: "Progreso de hoy",
+            fr: "Progrès du jour",
+          },
+          hash: "c795f95dab59a6aeb86629a759ce11b0",
+        },
+        "10/declaration/body/22/argument/3/5/1/expression/right/1/1": {
+          content: {
+            de: "💡 Profi-Tipp:",
+            en: "💡 Pro Tip:",
+            es: "💡 Consejo profesional:",
+            fr: "💡 Astuce Pro :",
+          },
+          hash: "693d246240abe1be5eac8750ae9ab147",
+        },
+        "10/declaration/body/22/argument/3/9/3/3": {
+          content: {
+            de: "/ <expression/>",
+            en: "/ <expression/>",
+            es: "/ <expression/>",
+            fr: "/ <expression/>",
+          },
+          hash: "ecbf342821c65eaced4d65cfe497f863",
+        },
+        "10/declaration/body/22/argument/7/1/1/3": {
+          content: {
+            de: "Heutige Mahlzeiten",
+            en: "Today's Meals",
+            es: "Comidas de hoy",
+            fr: "Repas d'aujourd'hui",
+          },
+          hash: "c9a97e7889b83892ea5f2ce31c5e02f5",
+        },
+        "10/declaration/body/22/argument/7/1/3": {
+          content: {
+            de: "<element:svg><element:path></element:path></element:svg> Mahlzeit hinzufügen",
+            en: "<element:svg><element:path></element:path></element:svg> Add Meal",
+            es: "<element:svg><element:path></element:path></element:svg> Añadir comida",
+            fr: "<element:svg><element:path></element:path></element:svg> Ajouter un repas",
+          },
+          hash: "2f2508681208c15a925705ee9ea80873",
+        },
+        "10/declaration/body/22/argument/7/5/1/1/expression/alternate/alternate/1/1":
+          {
+            content: {
+              de: "<element:Apple></element:Apple> Heutige Mahlzeiten ({todaysMeals.length})",
+              en: "<element:Apple></element:Apple> Today's Meals ({todaysMeals.length})",
+              es: "<element:Apple></element:Apple> Comidas de hoy ({todaysMeals.length})",
+              fr: "<element:Apple></element:Apple> Repas d'aujourd'hui ({todaysMeals.length})",
+            },
+            hash: "66ab098ec727fbb1e4a1f3b96f0f22b1",
+          },
+        "10/declaration/body/22/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/1/2":
+          {
+            content: {
+              de: "kcal",
+              en: "cal",
+              es: "cal",
+              fr: "cal",
+            },
+            hash: "ccacef079abde597bff5d86af2320a53",
+          },
+        "10/declaration/body/22/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "7744b1733b9eb3f870f4eeda7e5758b0",
+          },
+        "10/declaration/body/22/argument/7/5/1/1/expression/alternate/consequent/1/1/7/1/2":
+          {
+            content: {
+              de: "kcal",
+              en: "cal",
+              es: "cal",
+              fr: "cal",
+            },
+            hash: "ccacef079abde597bff5d86af2320a53",
+          },
+        "10/declaration/body/22/argument/7/5/1/1/expression/alternate/consequent/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "b871140cd10bebb4285314531a334c4c",
+          },
+        "10/declaration/body/22/argument/7/5/1/1/expression/consequent/3": {
+          content: {
+            de: "Heute keine Mahlzeiten erfasst",
+            en: "No meals logged today",
+            es: "No hay comidas registradas hoy",
+            fr: "Aucun repas enregistré aujourd'hui",
+          },
+          hash: "79eaa1ed6008036e23766fc821c0a7fe",
+        },
+        "10/declaration/body/22/argument/7/5/1/1/expression/consequent/5": {
+          content: {
+            de: "Genaue Nährwertdaten manuell hinzufügen",
+            en: "Add precise nutrition data manually",
+            es: "Añade datos nutricionales precisos manualmente",
+            fr: "Ajoutez manuellement des données nutritionnelles précises",
+          },
+          hash: "a26d69ad0c530ea17890609f4fa40f46",
         },
       },
     },

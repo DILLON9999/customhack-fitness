@@ -3073,6 +3073,70 @@
           "skip": false,
           "overrides": {},
           "content": "• Power output metrics"
+        },
+        "10/declaration/body/11/argument/3/3/1/1": {
+          "type": "element",
+          "hash": "e0a4ceaf87d5235d31d0a1372924a268",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Master Your Performance"
+        },
+        "10/declaration/body/11/argument/3/3/5/1/1": {
+          "type": "element",
+          "hash": "6aea332907564007426c26076ab38fd3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Your Goal"
+        },
+        "10/declaration/body/11/argument/3/3/5/1/3/1": {
+          "type": "element",
+          "hash": "3df3f2b7bdb780a6d693c74bd1f9e67f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Target></element:Target> Cut"
+        },
+        "10/declaration/body/11/argument/3/3/5/1/3/3": {
+          "type": "element",
+          "hash": "be6ebf2646a26da70ac143d11e499059",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Zap></element:Zap> Bulk"
+        },
+        "11/declaration/body/11/argument/3/3/1/1": {
+          "type": "element",
+          "hash": "e0a4ceaf87d5235d31d0a1372924a268",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Master Your Performance"
+        },
+        "11/declaration/body/11/argument/3/3/5/1/1": {
+          "type": "element",
+          "hash": "6aea332907564007426c26076ab38fd3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Your Goal"
+        },
+        "11/declaration/body/11/argument/3/3/5/1/3/1": {
+          "type": "element",
+          "hash": "3df3f2b7bdb780a6d693c74bd1f9e67f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Target></element:Target> Cut"
+        },
+        "11/declaration/body/11/argument/3/3/5/1/3/3": {
+          "type": "element",
+          "hash": "be6ebf2646a26da70ac143d11e499059",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Zap></element:Zap> Bulk"
         }
       }
     },
@@ -4749,6 +4813,466 @@
           "skip": false,
           "overrides": {},
           "content": "<element:Dumbbell></element:Dumbbell> Workout"
+        }
+      }
+    },
+    "components/fitness/form-analyzer.tsx": {
+      "scopes": {
+        "4/declaration/body/10/argument/1/3/3/expression/alternate/alternate/3/1": {
+          "type": "element",
+          "hash": "66113a56491efa77c83cdb44b6fd2198",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Upload Form Video"
+        },
+        "4/declaration/body/10/argument/1/3/3/expression/alternate/alternate/3/3": {
+          "type": "element",
+          "hash": "0e0c9d00c62b53c557630a84762dd92b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "MP4, MOV, or other video formats (max 50MB)"
+        },
+        "4/declaration/body/10/argument/1/3/3/expression/alternate/consequent/3": {
+          "type": "element",
+          "hash": "366b5caca87df73aa064e551514ecd06",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Video uploaded"
+        },
+        "4/declaration/body/10/argument/1/3/3/expression/consequent/3": {
+          "type": "element",
+          "hash": "0bffefc28da75711a7af84c337743c75",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Analyzing form..."
+        },
+        "4/declaration/body/10/argument/1/3/3/expression/consequent/5": {
+          "type": "element",
+          "hash": "351f41044ad197ad1ef2d3694753c61b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This may take 30-60 seconds"
+        },
+        "4/declaration/body/10/argument/1/9/1/expression/right/11/1/3": {
+          "type": "element",
+          "hash": "2c32f25c1fbac4ee965207e18a6afec7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Areas for Improvement"
+        },
+        "4/declaration/body/10/argument/1/9/1/expression/right/11/3/1/expression/0/body": {
+          "type": "element",
+          "hash": "b49bdbf505c21c42b42da6dbbfc91c19",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "• {weakness}"
+        },
+        "4/declaration/body/10/argument/1/9/1/expression/right/11/3/1/expression/0/body/1": {
+          "type": "element",
+          "hash": "99ccb4acb838f40b4b4d613bee966170",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "4/declaration/body/10/argument/1/9/1/expression/right/15/1": {
+          "type": "element",
+          "hash": "fce5c832797af0069ee4501e4b01af12",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Coach's Assessment"
+        },
+        "4/declaration/body/10/argument/1/9/1/expression/right/3/3": {
+          "type": "element",
+          "hash": "f09e9f676cffe1966692a355589b438b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "{analysis.rep_count} reps completed"
+        },
+        "4/declaration/body/10/argument/1/9/1/expression/right/7/1/3": {
+          "type": "element",
+          "hash": "3dcb6a201c2b7b63ff923faa2054cb2c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Strengths"
+        },
+        "4/declaration/body/10/argument/1/9/1/expression/right/7/3/1/expression/0/body": {
+          "type": "element",
+          "hash": "b49bdbf505c21c42b42da6dbbfc91c19",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "• <expression/>"
+        },
+        "4/declaration/body/10/argument/1/9/1/expression/right/7/3/1/expression/0/body/1": {
+          "type": "element",
+          "hash": "99ccb4acb838f40b4b4d613bee966170",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "4/declaration/body/12/argument/1/3/3/expression/alternate/alternate/3/1": {
+          "type": "element",
+          "hash": "66113a56491efa77c83cdb44b6fd2198",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Upload Form Video"
+        },
+        "4/declaration/body/12/argument/1/3/3/expression/alternate/alternate/3/3": {
+          "type": "element",
+          "hash": "0e0c9d00c62b53c557630a84762dd92b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "MP4, MOV, or other video formats (max 50MB)"
+        },
+        "4/declaration/body/12/argument/1/3/3/expression/alternate/consequent/3": {
+          "type": "element",
+          "hash": "366b5caca87df73aa064e551514ecd06",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Video uploaded"
+        },
+        "4/declaration/body/12/argument/1/3/3/expression/consequent/3": {
+          "type": "element",
+          "hash": "0bffefc28da75711a7af84c337743c75",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Analyzing form..."
+        },
+        "4/declaration/body/12/argument/1/3/3/expression/consequent/5": {
+          "type": "element",
+          "hash": "351f41044ad197ad1ef2d3694753c61b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This may take 30-60 seconds"
+        },
+        "4/declaration/body/12/argument/1/9/1/expression/right/11/1/3": {
+          "type": "element",
+          "hash": "2c32f25c1fbac4ee965207e18a6afec7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Areas for Improvement"
+        },
+        "4/declaration/body/12/argument/1/9/1/expression/right/11/3/1/expression/0/body/1": {
+          "type": "element",
+          "hash": "99ccb4acb838f40b4b4d613bee966170",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "4/declaration/body/12/argument/1/9/1/expression/right/3/3": {
+          "type": "element",
+          "hash": "f09e9f676cffe1966692a355589b438b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "{analysis.rep_count} reps completed"
+        },
+        "4/declaration/body/12/argument/1/9/1/expression/right/7/1/3": {
+          "type": "element",
+          "hash": "3dcb6a201c2b7b63ff923faa2054cb2c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Strengths"
+        },
+        "4/declaration/body/12/argument/1/9/1/expression/right/7/3/1/expression/0/body/1": {
+          "type": "element",
+          "hash": "99ccb4acb838f40b4b4d613bee966170",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "4/declaration/body/13/argument/1/3/3/expression/alternate/alternate/3/1": {
+          "type": "element",
+          "hash": "66113a56491efa77c83cdb44b6fd2198",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Upload Form Video"
+        },
+        "4/declaration/body/13/argument/1/3/3/expression/alternate/alternate/3/3": {
+          "type": "element",
+          "hash": "0e0c9d00c62b53c557630a84762dd92b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "MP4, MOV, or other video formats (max 50MB)"
+        },
+        "4/declaration/body/13/argument/1/3/3/expression/alternate/consequent/3": {
+          "type": "element",
+          "hash": "366b5caca87df73aa064e551514ecd06",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Video uploaded"
+        },
+        "4/declaration/body/13/argument/1/3/3/expression/consequent/3": {
+          "type": "element",
+          "hash": "0bffefc28da75711a7af84c337743c75",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Analyzing form..."
+        },
+        "4/declaration/body/13/argument/1/3/3/expression/consequent/5": {
+          "type": "element",
+          "hash": "351f41044ad197ad1ef2d3694753c61b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This may take 30-60 seconds"
+        },
+        "4/declaration/body/13/argument/1/9/1/expression/right/11/1/3": {
+          "type": "element",
+          "hash": "2c32f25c1fbac4ee965207e18a6afec7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Areas for Improvement"
+        },
+        "4/declaration/body/13/argument/1/9/1/expression/right/11/3/1/expression/0/body/1": {
+          "type": "element",
+          "hash": "99ccb4acb838f40b4b4d613bee966170",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "4/declaration/body/13/argument/1/9/1/expression/right/3/3": {
+          "type": "element",
+          "hash": "f09e9f676cffe1966692a355589b438b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "{analysis.rep_count} reps completed"
+        },
+        "4/declaration/body/13/argument/1/9/1/expression/right/7/1/3": {
+          "type": "element",
+          "hash": "3dcb6a201c2b7b63ff923faa2054cb2c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Strengths"
+        },
+        "4/declaration/body/13/argument/1/9/1/expression/right/7/3/1/expression/0/body/1": {
+          "type": "element",
+          "hash": "99ccb4acb838f40b4b4d613bee966170",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "4/declaration/body/14/argument/1/3/3/expression/alternate/alternate/3/1": {
+          "type": "element",
+          "hash": "66113a56491efa77c83cdb44b6fd2198",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Upload Form Video"
+        },
+        "4/declaration/body/14/argument/1/3/3/expression/alternate/alternate/3/3": {
+          "type": "element",
+          "hash": "0e0c9d00c62b53c557630a84762dd92b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "MP4, MOV, or other video formats (max 50MB)"
+        },
+        "4/declaration/body/14/argument/1/3/3/expression/alternate/alternate/alternate/3/1": {
+          "type": "element",
+          "hash": "66113a56491efa77c83cdb44b6fd2198",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Upload Form Video"
+        },
+        "4/declaration/body/14/argument/1/3/3/expression/alternate/alternate/alternate/3/3": {
+          "type": "element",
+          "hash": "0e0c9d00c62b53c557630a84762dd92b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "MP4, MOV, or other video formats (max 50MB)"
+        },
+        "4/declaration/body/14/argument/1/3/3/expression/alternate/alternate/consequent/3": {
+          "type": "element",
+          "hash": "366b5caca87df73aa064e551514ecd06",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Video uploaded"
+        },
+        "4/declaration/body/14/argument/1/3/3/expression/alternate/consequent/3": {
+          "type": "element",
+          "hash": "0bffefc28da75711a7af84c337743c75",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Analyzing form..."
+        },
+        "4/declaration/body/14/argument/1/3/3/expression/alternate/consequent/5": {
+          "type": "element",
+          "hash": "351f41044ad197ad1ef2d3694753c61b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This may take 30-60 seconds"
+        },
+        "4/declaration/body/14/argument/1/3/3/expression/consequent/1/expression/right/1-alt": {
+          "type": "attribute",
+          "hash": "b9859e532cba2056247471c4111a2189",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Video thumbnail"
+        },
+        "4/declaration/body/14/argument/1/3/3/expression/consequent/3": {
+          "type": "element",
+          "hash": "0bffefc28da75711a7af84c337743c75",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Analyzing form..."
+        },
+        "4/declaration/body/14/argument/1/3/3/expression/consequent/3/3": {
+          "type": "element",
+          "hash": "f1cb0588852783b9676c6b939eff52d8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Analysis Complete!"
+        },
+        "4/declaration/body/14/argument/1/3/3/expression/consequent/5": {
+          "type": "element",
+          "hash": "351f41044ad197ad1ef2d3694753c61b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This may take 30-60 seconds"
+        },
+        "4/declaration/body/14/argument/1/3/3/expression/consequent/5/3": {
+          "type": "element",
+          "hash": "d915a008e7c5e8e3a17d2c1942b2fb61",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Click to view results"
+        },
+        "4/declaration/body/14/argument/1/9/1/expression/right/11/1/3": {
+          "type": "element",
+          "hash": "2c32f25c1fbac4ee965207e18a6afec7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Areas for Improvement"
+        },
+        "4/declaration/body/14/argument/1/9/1/expression/right/11/3/1/expression/0/body/1": {
+          "type": "element",
+          "hash": "99ccb4acb838f40b4b4d613bee966170",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "4/declaration/body/14/argument/1/9/1/expression/right/3/3": {
+          "type": "element",
+          "hash": "f09e9f676cffe1966692a355589b438b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "{analysis.rep_count} reps completed"
+        },
+        "4/declaration/body/14/argument/1/9/1/expression/right/7/1/3": {
+          "type": "element",
+          "hash": "3dcb6a201c2b7b63ff923faa2054cb2c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Strengths"
+        },
+        "4/declaration/body/14/argument/1/9/1/expression/right/7/3/1/expression/0/body/1": {
+          "type": "element",
+          "hash": "99ccb4acb838f40b4b4d613bee966170",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "4/declaration/body/14/argument/5/1/expression/right/7/1/11/1/3": {
+          "type": "element",
+          "hash": "3dcb6a201c2b7b63ff923faa2054cb2c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Strengths"
+        },
+        "4/declaration/body/14/argument/5/1/expression/right/7/1/11/3/1/expression/0/body/1": {
+          "type": "element",
+          "hash": "99ccb4acb838f40b4b4d613bee966170",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "4/declaration/body/14/argument/5/1/expression/right/7/1/15/1/3": {
+          "type": "element",
+          "hash": "2c32f25c1fbac4ee965207e18a6afec7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Areas for Improvement"
+        },
+        "4/declaration/body/14/argument/5/1/expression/right/7/1/15/3/1/expression/0/body/1": {
+          "type": "element",
+          "hash": "99ccb4acb838f40b4b4d613bee966170",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "4/declaration/body/14/argument/5/1/expression/right/7/1/19": {
+          "type": "element",
+          "hash": "cbba6f29dbb27fc6d837fe14b9284664",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Analyze New Video"
+        },
+        "4/declaration/body/14/argument/5/1/expression/right/7/1/3/1": {
+          "type": "element",
+          "hash": "497a16f9bef28b682e0c39671ff1769f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Form Analysis Results"
+        },
+        "4/declaration/body/14/argument/5/1/expression/right/7/1/7/3": {
+          "type": "element",
+          "hash": "819f72e79701f3240962b2ade67a3ed2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "{analysis.rep_count} reps completed"
         }
       }
     },
@@ -7509,6 +8033,254 @@
           "skip": false,
           "overrides": {},
           "content": "Use the AI analyzer to get started!"
+        }
+      }
+    },
+    "components/fitness/muscle-frequency-tracker.tsx": {
+      "scopes": {
+        "9/declaration/body/7/argument/1": {
+          "type": "element",
+          "hash": "4ed8d59bd4fdbd00da19e4fc91df48a9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Muscle Recovery"
+        },
+        "9/declaration/body/7/argument/7/1": {
+          "type": "element",
+          "hash": "9705b36bca7bdbc968e6e6c47a5b2212",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Recovery Status:"
+        },
+        "9/declaration/body/7/argument/7/3/1/3": {
+          "type": "element",
+          "hash": "142173f9752e18e92109623a3ee68cad",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Today"
+        },
+        "9/declaration/body/7/argument/7/3/3/3": {
+          "type": "element",
+          "hash": "ef1826660893c89de442e0d0c4c327d7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "1 day"
+        },
+        "9/declaration/body/7/argument/7/3/5/3": {
+          "type": "element",
+          "hash": "4361a3c2c517250280d5c61c888b5df0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "2 days"
+        },
+        "9/declaration/body/7/argument/7/3/7/3": {
+          "type": "element",
+          "hash": "2cb4e4efa6ff1f882d39043680f8a860",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "3+ days"
+        },
+        "9/declaration/body/8/argument/1": {
+          "type": "element",
+          "hash": "4ed8d59bd4fdbd00da19e4fc91df48a9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Muscle Recovery"
+        },
+        "9/declaration/body/8/argument/7/1": {
+          "type": "element",
+          "hash": "9705b36bca7bdbc968e6e6c47a5b2212",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Recovery Status:"
+        },
+        "9/declaration/body/8/argument/7/3/1/3": {
+          "type": "element",
+          "hash": "142173f9752e18e92109623a3ee68cad",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Today"
+        },
+        "9/declaration/body/8/argument/7/3/3/3": {
+          "type": "element",
+          "hash": "ef1826660893c89de442e0d0c4c327d7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "1 day"
+        },
+        "9/declaration/body/8/argument/7/3/5/3": {
+          "type": "element",
+          "hash": "4361a3c2c517250280d5c61c888b5df0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "2 days"
+        },
+        "9/declaration/body/8/argument/7/3/7/3": {
+          "type": "element",
+          "hash": "2cb4e4efa6ff1f882d39043680f8a860",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "3+ days"
+        }
+      }
+    },
+    "components/fitness/pro-meal-tracker.tsx": {
+      "scopes": {
+        "10/declaration/body/22/argument/11/1/expression/right/1/1/1/1/7/1/2": {
+          "type": "element",
+          "hash": "3ff660d3d4daef29018de3bb13f30481",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "calories"
+        },
+        "10/declaration/body/22/argument/11/1/expression/right/1/1/1/1/7/3/expression/right": {
+          "type": "element",
+          "hash": "b871140cd10bebb4285314531a334c4c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<expression/>g protein"
+        },
+        "10/declaration/body/22/argument/11/1/expression/right/1/3/11/expression/right/1": {
+          "type": "element",
+          "hash": "00c5d483044152af70ecb2164061f5d7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Notes:"
+        },
+        "10/declaration/body/22/argument/11/1/expression/right/1/3/3/expression/right/1": {
+          "type": "element",
+          "hash": "b73c2bb21901ec54a7c00e03299c9b29",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Food Items:"
+        },
+        "10/declaration/body/22/argument/11/1/expression/right/1/3/3/expression/right/3/1/expression/0/body/3/2": {
+          "type": "element",
+          "hash": "ccacef079abde597bff5d86af2320a53",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "cal"
+        },
+        "10/declaration/body/22/argument/11/1/expression/right/1/3/7/expression/right/1": {
+          "type": "element",
+          "hash": "00c5d483044152af70ecb2164061f5d7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Notes:"
+        },
+        "10/declaration/body/22/argument/3/1/1/3": {
+          "type": "element",
+          "hash": "c795f95dab59a6aeb86629a759ce11b0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Today's Progress"
+        },
+        "10/declaration/body/22/argument/3/5/1/expression/right/1/1": {
+          "type": "element",
+          "hash": "693d246240abe1be5eac8750ae9ab147",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "💡 Pro Tip:"
+        },
+        "10/declaration/body/22/argument/3/9/3/3": {
+          "type": "element",
+          "hash": "ecbf342821c65eaced4d65cfe497f863",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "/ <expression/>"
+        },
+        "10/declaration/body/22/argument/7/1/1/3": {
+          "type": "element",
+          "hash": "c9a97e7889b83892ea5f2ce31c5e02f5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Today's Meals"
+        },
+        "10/declaration/body/22/argument/7/1/3": {
+          "type": "element",
+          "hash": "2f2508681208c15a925705ee9ea80873",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:svg><element:path></element:path></element:svg> Add Meal"
+        },
+        "10/declaration/body/22/argument/7/5/1/1/expression/alternate/alternate/1/1": {
+          "type": "element",
+          "hash": "66ab098ec727fbb1e4a1f3b96f0f22b1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Apple></element:Apple> Today's Meals ({todaysMeals.length})"
+        },
+        "10/declaration/body/22/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/1/2": {
+          "type": "element",
+          "hash": "ccacef079abde597bff5d86af2320a53",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "cal"
+        },
+        "10/declaration/body/22/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/3/expression/right": {
+          "type": "element",
+          "hash": "7744b1733b9eb3f870f4eeda7e5758b0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<expression/>g protein"
+        },
+        "10/declaration/body/22/argument/7/5/1/1/expression/alternate/consequent/1/1/7/1/2": {
+          "type": "element",
+          "hash": "ccacef079abde597bff5d86af2320a53",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "cal"
+        },
+        "10/declaration/body/22/argument/7/5/1/1/expression/alternate/consequent/1/1/7/3/expression/right": {
+          "type": "element",
+          "hash": "b871140cd10bebb4285314531a334c4c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<expression/>g protein"
+        },
+        "10/declaration/body/22/argument/7/5/1/1/expression/consequent/3": {
+          "type": "element",
+          "hash": "79eaa1ed6008036e23766fc821c0a7fe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "No meals logged today"
+        },
+        "10/declaration/body/22/argument/7/5/1/1/expression/consequent/5": {
+          "type": "element",
+          "hash": "a26d69ad0c530ea17890609f4fa40f46",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Add precise nutrition data manually"
         }
       }
     },
