@@ -156,67 +156,69 @@ export default function BeginnerDashboard() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Main Content */}
-      <div className="flex-1 p-6 max-w-7xl mx-auto space-y-6 pb-64">
+      <div className="flex-1 p-4 max-w-7xl mx-auto space-y-4">
         {/* Header */}
-        <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">
-            Build Your Fitness Habits
-          </h1>
-          <p className="text-lg text-gray-600">
-            Consistency is key! Track your workouts, maintain your streak, and build lasting habits.
-          </p>
+        <div className="relative mb-6">
+          <div className="text-center">
+            <h1 className="text-3xl font-bold text-gray-900 mb-1">
+              Build Your Fitness Habits
+            </h1>
+            <p className="text-base text-gray-600">
+              Consistency is key! Track your workouts, maintain your streak, and build lasting habits.
+            </p>
+          </div>
+          
+          {/* Goal Selection - Absolute Positioned Top Right */}
+          <div className="absolute top-0 right-0">
+            <div className="bg-white rounded-lg shadow-md p-3 border border-gray-100">
+              <h3 className="text-xs font-medium text-gray-700 mb-2 text-center">Your Goal</h3>
+              <div className="flex gap-1.5">
+                <button
+                  onClick={() => setFitnessGoal('lose_weight')}
+                  className={`px-3 py-1.5 rounded-md text-xs font-medium transition-all ${
+                    fitnessGoal === 'lose_weight'
+                      ? 'bg-red-100 text-red-700 border border-red-300'
+                      : 'bg-gray-100 text-gray-600 border border-transparent hover:bg-gray-200'
+                  }`}
+                >
+                  <Target className="w-3 h-3 inline mr-1" />
+                  Lose Weight
+                </button>
+                <button
+                  onClick={() => setFitnessGoal('gain_muscle')}
+                  className={`px-3 py-1.5 rounded-md text-xs font-medium transition-all ${
+                    fitnessGoal === 'gain_muscle'
+                      ? 'bg-green-100 text-green-700 border border-green-300'
+                      : 'bg-gray-100 text-gray-600 border border-transparent hover:bg-gray-200'
+                  }`}
+                >
+                  <Zap className="w-3 h-3 inline mr-1" />
+                  Gain Muscle
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Main Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
           {/* Left Column - Streak Display */}
-          <div>
+          <div className="lg:col-span-2">
             <StreakDisplay refreshTrigger={refreshTrigger} />
           </div>
 
-          {/* Center Column - Calendar and Goal Selection (spans 2 columns) */}
-          <div className="lg:col-span-2 space-y-6">
+          {/* Center Column - Calendar */}
+          <div className="lg:col-span-5">
             <FitnessCalendar 
               onDayClick={handleDayClick}
               refreshTrigger={refreshTrigger}
               onWorkoutComplete={handleWorkoutComplete}
               fitnessGoal={fitnessGoal}
             />
-            
-            {/* Goal Selection */}
-            <div className="flex justify-center">
-              <div className="bg-white rounded-xl shadow-lg p-4 border-2 border-gray-100">
-                <h3 className="text-sm font-medium text-gray-700 mb-3 text-center">Your Goal</h3>
-                <div className="flex gap-2">
-                  <button
-                    onClick={() => setFitnessGoal('lose_weight')}
-                    className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-                      fitnessGoal === 'lose_weight'
-                        ? 'bg-red-100 text-red-700 border-2 border-red-300'
-                        : 'bg-gray-100 text-gray-600 border-2 border-transparent hover:bg-gray-200'
-                    }`}
-                  >
-                    <Target className="w-4 h-4 inline mr-1" />
-                    Lose Weight
-                  </button>
-                  <button
-                    onClick={() => setFitnessGoal('gain_muscle')}
-                    className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-                      fitnessGoal === 'gain_muscle'
-                        ? 'bg-green-100 text-green-700 border-2 border-green-300'
-                        : 'bg-gray-100 text-gray-600 border-2 border-transparent hover:bg-gray-200'
-                    }`}
-                  >
-                    <Zap className="w-4 h-4 inline mr-1" />
-                    Gain Muscle
-                  </button>
-                </div>
-              </div>
-            </div>
           </div>
 
-          {/* Right Column - Meal Tracker */}
-          <div>
+          {/* Right Column - Meal Tracker (wider to accommodate side-by-side layout) */}
+          <div className="lg:col-span-5">
             <MealTracker 
               refreshTrigger={refreshTrigger}
               onMealAdded={handleMealAnalysisComplete}
@@ -236,42 +238,6 @@ export default function BeginnerDashboard() {
           />
         )}
       </div>
-
-      {/* Fixed Footer Tips */}
-      <footer className="fixed bottom-0 left-0 right-0 bg-gradient-to-r from-blue-50 to-green-50 border-t border-blue-200 z-10">
-        <div className="max-w-7xl mx-auto px-6 py-6">
-          <h2 className="text-xl font-bold text-gray-900 mb-4 text-center">💡 Beginner Tips</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
-            <div className="space-y-2">
-              <h3 className="font-semibold text-gray-800">Getting Started:</h3>
-              <ul className="space-y-1 text-gray-700">
-                <li>• Start with 15-20 minute workouts</li>
-                <li>• Focus on consistency over intensity</li>
-                <li>• Listen to your body and rest when needed</li>
-                <li>• Track your progress daily</li>
-              </ul>
-            </div>
-            <div className="space-y-2">
-              <h3 className="font-semibold text-gray-800">Building Habits:</h3>
-              <ul className="space-y-1 text-gray-700">
-                <li>• Set a regular workout time</li>
-                <li>• Start small and gradually increase</li>
-                <li>• Celebrate small victories</li>
-                <li>• Don't break the chain!</li>
-              </ul>
-            </div>
-            <div className="space-y-2">
-              <h3 className="font-semibold text-gray-800">Nutrition Tracking:</h3>
-              <ul className="space-y-1 text-gray-700">
-                <li>• Use AI photo analysis for easy tracking</li>
-                <li>• Estimates are better than no tracking</li>
-                <li>• Focus on building the habit first</li>
-                <li>• Take photos from above for best results</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 } 

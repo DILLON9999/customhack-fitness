@@ -21,6 +21,7 @@ export interface NutritionEntry {
 }
 
 export interface MealAnalysis {
+  meal_title: string
   food_items: Array<{
     name: string
     estimated_calories: number

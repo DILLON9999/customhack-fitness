@@ -1449,6 +1449,24 @@ export default {
           },
           hash: "bdb0451f060849dc5a09829baf94abab",
         },
+        "11/declaration/body/10/argument/3/3/1/1": {
+          content: {
+            de: "Baue deine Fitness-Gewohnheiten auf",
+            en: "Build Your Fitness Habits",
+            es: "Construye tus hábitos de fitness",
+            fr: "Construisez vos habitudes fitness",
+          },
+          hash: "017dfc1af39d462343be93d247516d1f",
+        },
+        "11/declaration/body/10/argument/3/3/1/3": {
+          content: {
+            de: "Konsequenz ist der Schlüssel! Verfolge deine Workouts, halte deine Serie aufrecht und entwickle dauerhafte Gewohnheiten.",
+            en: "Consistency is key! Track your workouts, maintain your streak, and build lasting habits.",
+            es: "¡La constancia es clave! Registra tus entrenamientos, mantén tu racha y construye hábitos duraderos.",
+            fr: "La constance est la clé ! Suivez vos entraînements, maintenez votre série et développez des habitudes durables.",
+          },
+          hash: "832179bf966e43e64a65dafb989f5e01",
+        },
         "11/declaration/body/10/argument/3/3/3": {
           content: {
             de: "Konsequenz ist der Schlüssel! Verfolge deine Workouts, halte deine Serie aufrecht und entwickle dauerhafte Gewohnheiten.",
@@ -1457,6 +1475,33 @@ export default {
             fr: "La constance est la clé ! Suivez vos entraînements, maintenez votre série et développez des habitudes durables.",
           },
           hash: "7f152fdc8daf6b26e3b09d3e67902c72",
+        },
+        "11/declaration/body/10/argument/3/3/5/1/1": {
+          content: {
+            de: "Dein Ziel",
+            en: "Your Goal",
+            es: "Tu objetivo",
+            fr: "Votre objectif",
+          },
+          hash: "6aea332907564007426c26076ab38fd3",
+        },
+        "11/declaration/body/10/argument/3/3/5/1/3/1": {
+          content: {
+            de: "<element:Target></element:Target> Gewicht verlieren",
+            en: "<element:Target></element:Target> Lose Weight",
+            es: "<element:Target></element:Target> Perder peso",
+            fr: "<element:Target></element:Target> Perdre du poids",
+          },
+          hash: "a10203ffd88ac1895284a7e902edc5f6",
+        },
+        "11/declaration/body/10/argument/3/3/5/1/3/3": {
+          content: {
+            de: "<element:Zap></element:Zap> Muskeln aufbauen",
+            en: "<element:Zap></element:Zap> Gain Muscle",
+            es: "<element:Zap></element:Zap> Ganar músculo",
+            fr: "<element:Zap></element:Zap> Prendre du muscle",
+          },
+          hash: "9d63f79611cbca86020a24114cd14d12",
         },
         "11/declaration/body/10/argument/3/3/7/1/1": {
           content: {
@@ -3354,10 +3399,10 @@ export default {
         "7/declaration/body/13/argument/11/1/expression/0/body/2/argument/5/expression/right":
           {
             content: {
-              de: "{dayData.workout.duration_minutes}m",
-              en: "{dayData.workout.duration_minutes}m",
-              es: "{dayData.workout.duration_minutes}m",
-              fr: "{dayData.workout.duration_minutes}m",
+              de: "<expression/>m",
+              en: "<expression/>m",
+              es: "<expression/>m",
+              fr: "<expression/>m",
             },
             hash: "3f09513dd684a2a0350a814ffdac727f",
           },
@@ -3414,10 +3459,10 @@ export default {
         "7/declaration/body/13/argument/11/1/expression/0/body/3/argument/5/expression/right":
           {
             content: {
-              de: "{dayData.workout.duration_minutes}m",
-              en: "{dayData.workout.duration_minutes}m",
-              es: "{dayData.workout.duration_minutes}m",
-              fr: "{dayData.workout.duration_minutes}m",
+              de: "<expression/>m",
+              en: "<expression/>m",
+              es: "<expression/>m",
+              fr: "<expression/>m",
             },
             hash: "3f09513dd684a2a0350a814ffdac727f",
           },
@@ -4027,20 +4072,20 @@ export default {
         "10/declaration/body/22/argument/7/13/1/1/expression/alternate/0/body/1/1/3":
           {
             content: {
-              de: "{meal.calories} Kalorien",
-              en: "{meal.calories} calories",
-              es: "{meal.calories} calorías",
-              fr: "{meal.calories} calories",
+              de: "<expression/> Kalorien",
+              en: "<expression/> calories",
+              es: "<expression/> calorías",
+              fr: "<expression/> calories",
             },
             hash: "37143d3c73a58e5870663e74a7a25b26",
           },
         "10/declaration/body/22/argument/7/13/1/1/expression/alternate/0/body/5/expression/right/1/expression/0/body/3/1":
           {
             content: {
-              de: "{item.estimated_calories} kal",
-              en: "{item.estimated_calories} cal",
-              es: "{item.estimated_calories} cal",
-              fr: "{item.estimated_calories} cal",
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
             },
             hash: "51da969d0d92f410653908f366f857aa",
           },
@@ -4222,10 +4267,10 @@ export default {
         "10/declaration/body/23/argument/7/13/1/1/expression/alternate/0/body/1/1/3/1":
           {
             content: {
-              de: "{meal.calories} Kalorien",
-              en: "{meal.calories} calories",
-              es: "{meal.calories} calorías",
-              fr: "{meal.calories} calories",
+              de: "<expression/> Kalorien",
+              en: "<expression/> calories",
+              es: "<expression/> calorías",
+              fr: "<expression/> calories",
             },
             hash: "09ec50ec11171d4cc92e34bf0c527d54",
           },
@@ -4239,13 +4284,33 @@ export default {
             },
             hash: "fed266ee59177d1925b81bf8d1c0f31c",
           },
+        "10/declaration/body/23/argument/7/13/1/1/expression/alternate/0/body/1/1/7/1":
+          {
+            content: {
+              de: "<expression/> Kalorien",
+              en: "<expression/> calories",
+              es: "<expression/> calorías",
+              fr: "<expression/> calories",
+            },
+            hash: "09ec50ec11171d4cc92e34bf0c527d54",
+          },
+        "10/declaration/body/23/argument/7/13/1/1/expression/alternate/0/body/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "fed266ee59177d1925b81bf8d1c0f31c",
+          },
         "10/declaration/body/23/argument/7/13/1/1/expression/alternate/0/body/5/expression/right/1/expression/0/body/3/1":
           {
             content: {
-              de: "{item.estimated_calories} kal",
-              en: "{item.estimated_calories} cal",
-              es: "{item.estimated_calories} cal",
-              fr: "{item.estimated_calories} cal",
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
             },
             hash: "51da969d0d92f410653908f366f857aa",
           },
@@ -4284,6 +4349,1830 @@ export default {
             fr: "/ <expression/>",
           },
           hash: "ecbf342821c65eaced4d65cfe497f863",
+        },
+        "11/declaration/body/23/argument/3/1/1/3": {
+          content: {
+            de: "KI-Mahlzeitenanalyse",
+            en: "AI Meal Analyzer",
+            es: "Analizador de comidas con IA",
+            fr: "Analyseur de repas IA",
+          },
+          hash: "19ce1cdc7fb9cce8ee49cbf516fbee80",
+        },
+        "11/declaration/body/23/argument/3/5/1/expression/right/1/1/3": {
+          content: {
+            de: "<element:strong>Hinweis:</element:strong> Dies ist eine KI-Schätzung, die beim Aufbau von Tracking-Gewohnheiten hilft. Die Ergebnisse sind möglicherweise nicht zu 100% genau, aber besser als gar kein Tracking!",
+            en: "<element:strong>Note:</element:strong> This is an AI estimation to help build tracking habits. Results may not be 100% accurate but are better than not tracking at all!",
+            es: "<element:strong>Nota:</element:strong> Esta es una estimación de IA para ayudar a construir hábitos de seguimiento. Los resultados pueden no ser 100% precisos, ¡pero son mejores que no hacer seguimiento en absoluto!",
+            fr: "<element:strong>Remarque :</element:strong> Il s'agit d'une estimation par IA pour aider à créer des habitudes de suivi. Les résultats peuvent ne pas être précis à 100 % mais sont préférables à l'absence de suivi !",
+          },
+          hash: "012c67623af87e00155014cab69c70a0",
+        },
+        "11/declaration/body/23/argument/3/5/1/expression/right/3/1": {
+          content: {
+            de: "📸 Tipps für bessere Analysen:",
+            en: "📸 Tips for better analysis:",
+            es: "📸 Consejos para un mejor análisis:",
+            fr: "📸 Conseils pour une meilleure analyse :",
+          },
+          hash: "705805e9bc9547c7234e80ea17ae0329",
+        },
+        "11/declaration/body/23/argument/3/5/1/expression/right/3/3/1": {
+          content: {
+            de: "• Fotos von oben für beste Sicht aufnehmen",
+            en: "• Take photos from above for best view",
+            es: "• Toma fotos desde arriba para mejor visibilidad",
+            fr: "• Prenez des photos du dessus pour une meilleure vue",
+          },
+          hash: "4c4b69d9b605fabe2e28d0cca0d8a784",
+        },
+        "11/declaration/body/23/argument/3/5/1/expression/right/3/3/3": {
+          content: {
+            de: "• Auf gute Beleuchtung achten",
+            en: "• Ensure good lighting",
+            es: "• Asegúrate de tener buena iluminación",
+            fr: "• Assurez-vous d'avoir un bon éclairage",
+          },
+          hash: "2eedb10156bcaa3f74b8e62735b962da",
+        },
+        "11/declaration/body/23/argument/3/5/1/expression/right/3/3/5": {
+          content: {
+            de: "• Die gesamte Mahlzeit/den Teller einbeziehen",
+            en: "• Include the whole plate/meal",
+            es: "• Incluye todo el plato/comida",
+            fr: "• Incluez l'assiette/le repas entier",
+          },
+          hash: "f5dc23f1e8cc4ae66bb19a9dc5567103",
+        },
+        "11/declaration/body/23/argument/3/5/1/expression/right/3/3/7": {
+          content: {
+            de: "• Unscharfe oder dunkle Fotos vermeiden",
+            en: "• Avoid blurry or dark photos",
+            es: "• Evita fotos borrosas u oscuras",
+            fr: "• Évitez les photos floues ou sombres",
+          },
+          hash: "a97a55876f94e7f9749ff8f0285080d1",
+        },
+        "11/declaration/body/23/argument/3/9/3/expression/alternate/alternate/3/1":
+          {
+            content: {
+              de: "Zum Hochladen klicken oder per Drag & Drop einfügen",
+              en: "Click to upload or drag & drop",
+              es: "Haz clic para subir o arrastra y suelta",
+              fr: "Cliquez pour télécharger ou glissez-déposez",
+            },
+            hash: "b16a7cb09d7e31763b0087773ebd618f",
+          },
+        "11/declaration/body/23/argument/3/9/3/expression/alternate/alternate/3/3":
+          {
+            content: {
+              de: "JPG, PNG oder andere Bildformate",
+              en: "JPG, PNG, or other image formats",
+              es: "JPG, PNG u otros formatos de imagen",
+              fr: "JPG, PNG ou autres formats d'image",
+            },
+            hash: "296f036b62a5637b3e7992b05da17803",
+          },
+        "11/declaration/body/23/argument/3/9/3/expression/alternate/consequent/1-alt":
+          {
+            content: {
+              de: "Mahlzeitenvorschau",
+              en: "Meal preview",
+              es: "Vista previa de la comida",
+              fr: "Aperçu du repas",
+            },
+            hash: "8d7f12ab0b2861c27ff57a1fa42c7b94",
+          },
+        "11/declaration/body/23/argument/3/9/3/expression/alternate/consequent/3":
+          {
+            content: {
+              de: "Klicken, um eine andere Mahlzeit zu analysieren",
+              en: "Click to analyze another meal",
+              es: "Haz clic para analizar otra comida",
+              fr: "Cliquez pour analyser un autre repas",
+            },
+            hash: "63d423c21cddba6e61304d593c12f211",
+          },
+        "11/declaration/body/23/argument/3/9/3/expression/consequent/3": {
+          content: {
+            de: "Deine Mahlzeit wird analysiert...",
+            en: "Analyzing your meal...",
+            es: "Analizando tu comida...",
+            fr: "Analyse de votre repas...",
+          },
+          hash: "37753fcb7dd8cf333a42716c0179d1b0",
+        },
+        "11/declaration/body/23/argument/3/9/3/expression/consequent/5": {
+          content: {
+            de: "Dies kann einige Sekunden dauern",
+            en: "This may take a few seconds",
+            es: "Esto puede tardar unos segundos",
+            fr: "Cela peut prendre quelques secondes",
+          },
+          hash: "aa4c14d089ebc9871e8879d0f9dc4464",
+        },
+        "11/declaration/body/23/argument/7/1/1/3": {
+          content: {
+            de: "Heutige Mahlzeiten",
+            en: "Today's Meals",
+            es: "Comidas de hoy",
+            fr: "Repas d'aujourd'hui",
+          },
+          hash: "c9a97e7889b83892ea5f2ce31c5e02f5",
+        },
+        "11/declaration/body/23/argument/7/13/1/1/expression/alternate/alternate/1":
+          {
+            content: {
+              de: "<element:Apple></element:Apple> Heutige Mahlzeiten ({todaysMeals.length})",
+              en: "<element:Apple></element:Apple> Today's Meals ({todaysMeals.length})",
+              es: "<element:Apple></element:Apple> Comidas de hoy ({todaysMeals.length})",
+              fr: "<element:Apple></element:Apple> Repas d'aujourd'hui ({todaysMeals.length})",
+            },
+            hash: "79a9424cdd9982dda53054cf70327316",
+          },
+        "11/declaration/body/23/argument/7/13/1/1/expression/alternate/alternate/3/1/1/expression/0/body/1/1/7/1":
+          {
+            content: {
+              de: "<expression/> Kalorien",
+              en: "<expression/> calories",
+              es: "<expression/> calorías",
+              fr: "<expression/> calories",
+            },
+            hash: "09ec50ec11171d4cc92e34bf0c527d54",
+          },
+        "11/declaration/body/23/argument/7/13/1/1/expression/alternate/alternate/3/1/1/expression/0/body/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "0d3aefe242218cbad6c3493bc6f6124a",
+          },
+        "11/declaration/body/23/argument/7/13/1/1/expression/alternate/alternate/3/1/1/expression/0/body/5/expression/right/1/expression/0/body/3":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/23/argument/7/13/1/1/expression/alternate/alternate/3/1/1/expression/0/body/5/expression/right/3/expression/right":
+          {
+            content: {
+              de: "+<expression/> weitere Einträge",
+              en: "+<expression/> more items",
+              es: "+<expression/> elementos más",
+              fr: "+<expression/> éléments supplémentaires",
+            },
+            hash: "046e26b62b00becb6fb48d9808d8ecf9",
+          },
+        "11/declaration/body/23/argument/7/13/1/1/expression/alternate/alternate/7/1":
+          {
+            content: {
+              de: "👈 Durch deine Mahlzeiten scrollen • Zum Pausieren darüber schweben",
+              en: "👈 Scroll through your meals • Hover to pause",
+              es: "👈 Desplázate por tus comidas • Pasa el cursor para pausar",
+              fr: "👈 Faites défiler vos repas • Survolez pour mettre en pause",
+            },
+            hash: "94db8a035d5afa9fda9db4a04a5e1b47",
+          },
+        "11/declaration/body/23/argument/7/13/1/1/expression/alternate/consequent/1/1/7/1":
+          {
+            content: {
+              de: "<expression/> Kalorien",
+              en: "<expression/> calories",
+              es: "<expression/> calorías",
+              fr: "<expression/> calories",
+            },
+            hash: "09ec50ec11171d4cc92e34bf0c527d54",
+          },
+        "11/declaration/body/23/argument/7/13/1/1/expression/alternate/consequent/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "b871140cd10bebb4285314531a334c4c",
+          },
+        "11/declaration/body/23/argument/7/13/1/1/expression/alternate/consequent/5/expression/right/1/expression/0/body/3/1":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/23/argument/7/13/1/1/expression/consequent/3": {
+          content: {
+            de: "Heute keine Mahlzeiten erfasst",
+            en: "No meals logged today",
+            es: "No hay comidas registradas hoy",
+            fr: "Aucun repas enregistré aujourd'hui",
+          },
+          hash: "79eaa1ed6008036e23766fc821c0a7fe",
+        },
+        "11/declaration/body/23/argument/7/13/1/1/expression/consequent/5": {
+          content: {
+            de: "Nutze die KI-Analyse, um zu beginnen!",
+            en: "Use the AI analyzer to get started!",
+            es: "¡Usa el analizador de IA para comenzar!",
+            fr: "Utilisez l'analyseur IA pour commencer !",
+          },
+          hash: "f33b236852b72c8084fb6d97a46e0c95",
+        },
+        "11/declaration/body/23/argument/7/5/1/expression/right/1/1": {
+          content: {
+            de: "💡 Tipp:",
+            en: "💡 Tip:",
+            es: "💡 Consejo:",
+            fr: "💡 Conseil :",
+          },
+          hash: "e02eef58ecd3830c7031c4c83d07456e",
+        },
+        "11/declaration/body/23/argument/7/9/3/3": {
+          content: {
+            de: "/ <expression/>",
+            en: "/ <expression/>",
+            es: "/ <expression/>",
+            fr: "/ <expression/>",
+          },
+          hash: "ecbf342821c65eaced4d65cfe497f863",
+        },
+        "11/declaration/body/26/argument/3/1/1/3": {
+          content: {
+            de: "KI-Mahlzeitenanalyse",
+            en: "AI Meal Analyzer",
+            es: "Analizador de comidas con IA",
+            fr: "Analyseur de repas IA",
+          },
+          hash: "19ce1cdc7fb9cce8ee49cbf516fbee80",
+        },
+        "11/declaration/body/26/argument/3/3/1/1/3": {
+          content: {
+            de: "KI-Mahlzeitenanalyse",
+            en: "AI Meal Analyzer",
+            es: "Analizador de comidas con IA",
+            fr: "Analyseur de repas IA",
+          },
+          hash: "19ce1cdc7fb9cce8ee49cbf516fbee80",
+        },
+        "11/declaration/body/26/argument/3/3/5/1/expression/right/1/1/3": {
+          content: {
+            de: "<element:strong>Hinweis:</element:strong> Dies ist eine KI-Schätzung, die beim Aufbau von Tracking-Gewohnheiten helfen soll. Die Ergebnisse sind möglicherweise nicht 100% genau, aber besser als gar kein Tracking!",
+            en: "<element:strong>Note:</element:strong> This is an AI estimation to help build tracking habits. Results may not be 100% accurate but are better than not tracking at all!",
+            es: "<element:strong>Nota:</element:strong> Esta es una estimación de IA para ayudar a crear hábitos de seguimiento. Los resultados pueden no ser 100% precisos, ¡pero son mejores que no hacer seguimiento en absoluto!",
+            fr: "<element:strong>Remarque :</element:strong> Il s'agit d'une estimation par IA pour aider à développer des habitudes de suivi. Les résultats peuvent ne pas être précis à 100 % mais sont préférables à l'absence totale de suivi !",
+          },
+          hash: "2c4673698e47fce9b87d3dcefd7d5b1b",
+        },
+        "11/declaration/body/26/argument/3/3/5/1/expression/right/3/1": {
+          content: {
+            de: "📸 Tipps für bessere Analysen:",
+            en: "📸 Tips for better analysis:",
+            es: "📸 Consejos para un mejor análisis:",
+            fr: "📸 Conseils pour une meilleure analyse :",
+          },
+          hash: "705805e9bc9547c7234e80ea17ae0329",
+        },
+        "11/declaration/body/26/argument/3/3/5/1/expression/right/3/3/1": {
+          content: {
+            de: "• Fotos von oben für beste Sicht aufnehmen",
+            en: "• Take photos from above for best view",
+            es: "• Toma fotos desde arriba para mejor visibilidad",
+            fr: "• Prenez des photos du dessus pour une meilleure vue",
+          },
+          hash: "4c4b69d9b605fabe2e28d0cca0d8a784",
+        },
+        "11/declaration/body/26/argument/3/3/5/1/expression/right/3/3/3": {
+          content: {
+            de: "• Auf gute Beleuchtung achten",
+            en: "• Ensure good lighting",
+            es: "• Asegúrate de tener buena iluminación",
+            fr: "• Assurez-vous d'avoir un bon éclairage",
+          },
+          hash: "2eedb10156bcaa3f74b8e62735b962da",
+        },
+        "11/declaration/body/26/argument/3/3/5/1/expression/right/3/3/5": {
+          content: {
+            de: "• Die gesamte Mahlzeit/den Teller einbeziehen",
+            en: "• Include the whole plate/meal",
+            es: "• Incluye todo el plato/comida",
+            fr: "• Incluez l'assiette/le repas entier",
+          },
+          hash: "f5dc23f1e8cc4ae66bb19a9dc5567103",
+        },
+        "11/declaration/body/26/argument/3/3/5/1/expression/right/3/3/7": {
+          content: {
+            de: "• Unscharfe oder dunkle Fotos vermeiden",
+            en: "• Avoid blurry or dark photos",
+            es: "• Evita fotos borrosas u oscuras",
+            fr: "• Évitez les photos floues ou sombres",
+          },
+          hash: "a97a55876f94e7f9749ff8f0285080d1",
+        },
+        "11/declaration/body/26/argument/3/3/9/3/expression/alternate/alternate/3/1":
+          {
+            content: {
+              de: "Zum Hochladen klicken oder per Drag & Drop ablegen",
+              en: "Click to upload or drag & drop",
+              es: "Haz clic para subir o arrastra y suelta",
+              fr: "Cliquez pour télécharger ou glissez-déposez",
+            },
+            hash: "57e07f1a158fa5093c442229d7d8b0b9",
+          },
+        "11/declaration/body/26/argument/3/3/9/3/expression/alternate/alternate/3/3":
+          {
+            content: {
+              de: "JPG, PNG oder andere Bildformate",
+              en: "JPG, PNG, or other image formats",
+              es: "JPG, PNG u otros formatos de imagen",
+              fr: "JPG, PNG ou autres formats d'image",
+            },
+            hash: "3b881d7fd71d3120c747d00b801622ad",
+          },
+        "11/declaration/body/26/argument/3/3/9/3/expression/alternate/consequent/1-alt":
+          {
+            content: {
+              de: "Mahlzeitenvorschau",
+              en: "Meal preview",
+              es: "Vista previa de la comida",
+              fr: "Aperçu du repas",
+            },
+            hash: "8d7f12ab0b2861c27ff57a1fa42c7b94",
+          },
+        "11/declaration/body/26/argument/3/3/9/3/expression/alternate/consequent/3":
+          {
+            content: {
+              de: "Klicken, um eine andere Mahlzeit zu analysieren",
+              en: "Click to analyze another meal",
+              es: "Haz clic para analizar otra comida",
+              fr: "Cliquez pour analyser un autre repas",
+            },
+            hash: "63d423c21cddba6e61304d593c12f211",
+          },
+        "11/declaration/body/26/argument/3/3/9/3/expression/consequent/3": {
+          content: {
+            de: "Deine Mahlzeit wird analysiert...",
+            en: "Analyzing your meal...",
+            es: "Analizando tu comida...",
+            fr: "Analyse de votre repas...",
+          },
+          hash: "37753fcb7dd8cf333a42716c0179d1b0",
+        },
+        "11/declaration/body/26/argument/3/3/9/3/expression/consequent/5": {
+          content: {
+            de: "Dies kann einige Sekunden dauern",
+            en: "This may take a few seconds",
+            es: "Esto puede tardar unos segundos",
+            fr: "Cela peut prendre quelques secondes",
+          },
+          hash: "aa4c14d089ebc9871e8879d0f9dc4464",
+        },
+        "11/declaration/body/26/argument/3/5/1/expression/right/1/1/3": {
+          content: {
+            de: "<element:strong>Hinweis:</element:strong> Dies ist eine KI-Schätzung, die beim Aufbau von Tracking-Gewohnheiten hilft. Die Ergebnisse sind möglicherweise nicht zu 100% genau, aber besser als gar kein Tracking!",
+            en: "<element:strong>Note:</element:strong> This is an AI estimation to help build tracking habits. Results may not be 100% accurate but are better than not tracking at all!",
+            es: "<element:strong>Nota:</element:strong> Esta es una estimación de IA para ayudar a construir hábitos de seguimiento. Los resultados pueden no ser 100% precisos, ¡pero son mejores que no hacer seguimiento en absoluto!",
+            fr: "<element:strong>Remarque :</element:strong> Il s'agit d'une estimation par IA pour aider à créer des habitudes de suivi. Les résultats peuvent ne pas être précis à 100 % mais sont préférables à l'absence de suivi !",
+          },
+          hash: "012c67623af87e00155014cab69c70a0",
+        },
+        "11/declaration/body/26/argument/3/5/1/expression/right/3/1": {
+          content: {
+            de: "📸 Tipps für bessere Analysen:",
+            en: "📸 Tips for better analysis:",
+            es: "📸 Consejos para un mejor análisis:",
+            fr: "📸 Conseils pour une meilleure analyse :",
+          },
+          hash: "705805e9bc9547c7234e80ea17ae0329",
+        },
+        "11/declaration/body/26/argument/3/5/1/expression/right/3/3/1": {
+          content: {
+            de: "• Fotos von oben für beste Sicht aufnehmen",
+            en: "• Take photos from above for best view",
+            es: "• Toma fotos desde arriba para mejor visibilidad",
+            fr: "• Prenez des photos du dessus pour une meilleure vue",
+          },
+          hash: "4c4b69d9b605fabe2e28d0cca0d8a784",
+        },
+        "11/declaration/body/26/argument/3/5/1/expression/right/3/3/3": {
+          content: {
+            de: "• Auf gute Beleuchtung achten",
+            en: "• Ensure good lighting",
+            es: "• Asegúrate de tener buena iluminación",
+            fr: "• Assurez-vous d'avoir un bon éclairage",
+          },
+          hash: "2eedb10156bcaa3f74b8e62735b962da",
+        },
+        "11/declaration/body/26/argument/3/5/1/expression/right/3/3/5": {
+          content: {
+            de: "• Die gesamte Mahlzeit/den Teller einbeziehen",
+            en: "• Include the whole plate/meal",
+            es: "• Incluye todo el plato/comida",
+            fr: "• Incluez l'assiette/le repas entier",
+          },
+          hash: "f5dc23f1e8cc4ae66bb19a9dc5567103",
+        },
+        "11/declaration/body/26/argument/3/5/1/expression/right/3/3/7": {
+          content: {
+            de: "• Unscharfe oder dunkle Fotos vermeiden",
+            en: "• Avoid blurry or dark photos",
+            es: "• Evita fotos borrosas u oscuras",
+            fr: "• Évitez les photos floues ou sombres",
+          },
+          hash: "a97a55876f94e7f9749ff8f0285080d1",
+        },
+        "11/declaration/body/26/argument/3/7/1/1/3": {
+          content: {
+            de: "Heutiger Fortschritt",
+            en: "Today's Progress",
+            es: "Progreso de hoy",
+            fr: "Progrès du jour",
+          },
+          hash: "c795f95dab59a6aeb86629a759ce11b0",
+        },
+        "11/declaration/body/26/argument/3/7/5/1/expression/right/1/1": {
+          content: {
+            de: "💡 Tipp:",
+            en: "💡 Tip:",
+            es: "💡 Consejo:",
+            fr: "💡 Conseil :",
+          },
+          hash: "e02eef58ecd3830c7031c4c83d07456e",
+        },
+        "11/declaration/body/26/argument/3/7/9/3/3": {
+          content: {
+            de: "/ <expression/>",
+            en: "/ <expression/>",
+            es: "/ <expression/>",
+            fr: "/ <expression/>",
+          },
+          hash: "5da39407cbbf9700ca13dd1abf51ccf0",
+        },
+        "11/declaration/body/26/argument/3/9/3/expression/alternate/alternate/3/1":
+          {
+            content: {
+              de: "Zum Hochladen klicken oder per Drag & Drop einfügen",
+              en: "Click to upload or drag & drop",
+              es: "Haz clic para subir o arrastra y suelta",
+              fr: "Cliquez pour télécharger ou glissez-déposez",
+            },
+            hash: "b16a7cb09d7e31763b0087773ebd618f",
+          },
+        "11/declaration/body/26/argument/3/9/3/expression/alternate/alternate/3/3":
+          {
+            content: {
+              de: "JPG, PNG oder andere Bildformate",
+              en: "JPG, PNG, or other image formats",
+              es: "JPG, PNG u otros formatos de imagen",
+              fr: "JPG, PNG ou autres formats d'image",
+            },
+            hash: "296f036b62a5637b3e7992b05da17803",
+          },
+        "11/declaration/body/26/argument/3/9/3/expression/alternate/consequent/1-alt":
+          {
+            content: {
+              de: "Mahlzeitenvorschau",
+              en: "Meal preview",
+              es: "Vista previa de la comida",
+              fr: "Aperçu du repas",
+            },
+            hash: "8d7f12ab0b2861c27ff57a1fa42c7b94",
+          },
+        "11/declaration/body/26/argument/3/9/3/expression/alternate/consequent/3":
+          {
+            content: {
+              de: "Klicken, um eine andere Mahlzeit zu analysieren",
+              en: "Click to analyze another meal",
+              es: "Haz clic para analizar otra comida",
+              fr: "Cliquez pour analyser un autre repas",
+            },
+            hash: "63d423c21cddba6e61304d593c12f211",
+          },
+        "11/declaration/body/26/argument/3/9/3/expression/consequent/3": {
+          content: {
+            de: "Deine Mahlzeit wird analysiert...",
+            en: "Analyzing your meal...",
+            es: "Analizando tu comida...",
+            fr: "Analyse de votre repas...",
+          },
+          hash: "37753fcb7dd8cf333a42716c0179d1b0",
+        },
+        "11/declaration/body/26/argument/3/9/3/expression/consequent/5": {
+          content: {
+            de: "Dies kann einige Sekunden dauern",
+            en: "This may take a few seconds",
+            es: "Esto puede tardar unos segundos",
+            fr: "Cela peut prendre quelques secondes",
+          },
+          hash: "aa4c14d089ebc9871e8879d0f9dc4464",
+        },
+        "11/declaration/body/26/argument/7/1/1/3": {
+          content: {
+            de: "Heutige Mahlzeiten",
+            en: "Today's Meals",
+            es: "Comidas de hoy",
+            fr: "Repas d'aujourd'hui",
+          },
+          hash: "c9a97e7889b83892ea5f2ce31c5e02f5",
+        },
+        "11/declaration/body/26/argument/7/1/3": {
+          content: {
+            de: "Heutige Mahlzeiten",
+            en: "Today's Meals",
+            es: "Comidas de hoy",
+            fr: "Repas d'aujourd'hui",
+          },
+          hash: "c9a97e7889b83892ea5f2ce31c5e02f5",
+        },
+        "11/declaration/body/26/argument/7/13/1/1/expression/alternate/alternate/1/1":
+          {
+            content: {
+              de: "<element:Apple></element:Apple> Heutige Mahlzeiten ({todaysMeals.length})",
+              en: "<element:Apple></element:Apple> Today's Meals ({todaysMeals.length})",
+              es: "<element:Apple></element:Apple> Comidas de hoy ({todaysMeals.length})",
+              fr: "<element:Apple></element:Apple> Repas d'aujourd'hui ({todaysMeals.length})",
+            },
+            hash: "66ab098ec727fbb1e4a1f3b96f0f22b1",
+          },
+        "11/declaration/body/26/argument/7/13/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/1":
+          {
+            content: {
+              de: "<expression/> Kalorien",
+              en: "<expression/> calories",
+              es: "<expression/> calorías",
+              fr: "<expression/> calories",
+            },
+            hash: "09ec50ec11171d4cc92e34bf0c527d54",
+          },
+        "11/declaration/body/26/argument/7/13/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "7744b1733b9eb3f870f4eeda7e5758b0",
+          },
+        "11/declaration/body/26/argument/7/13/1/1/expression/alternate/alternate/3/1/expression/0/body/5/expression/right/1/expression/0/body/3":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/26/argument/7/13/1/1/expression/alternate/alternate/3/1/expression/0/body/5/expression/right/3/expression/right":
+          {
+            content: {
+              de: "+<expression/> weitere Artikel",
+              en: "+<expression/> more items",
+              es: "+<expression/> elementos más",
+              fr: "+<expression/> éléments supplémentaires",
+            },
+            hash: "05e02e6d2d9d10cf033842e9941c9e44",
+          },
+        "11/declaration/body/26/argument/7/13/1/1/expression/alternate/consequent/1/1/7/1":
+          {
+            content: {
+              de: "<expression/> Kalorien",
+              en: "<expression/> calories",
+              es: "<expression/> calorías",
+              fr: "<expression/> calories",
+            },
+            hash: "09ec50ec11171d4cc92e34bf0c527d54",
+          },
+        "11/declaration/body/26/argument/7/13/1/1/expression/alternate/consequent/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "b871140cd10bebb4285314531a334c4c",
+          },
+        "11/declaration/body/26/argument/7/13/1/1/expression/alternate/consequent/5/expression/right/1/expression/0/body/3/1":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/26/argument/7/13/1/1/expression/consequent/3": {
+          content: {
+            de: "Heute keine Mahlzeiten erfasst",
+            en: "No meals logged today",
+            es: "No hay comidas registradas hoy",
+            fr: "Aucun repas enregistré aujourd'hui",
+          },
+          hash: "79eaa1ed6008036e23766fc821c0a7fe",
+        },
+        "11/declaration/body/26/argument/7/13/1/1/expression/consequent/5": {
+          content: {
+            de: "Nutze die KI-Analyse, um zu beginnen!",
+            en: "Use the AI analyzer to get started!",
+            es: "¡Usa el analizador de IA para comenzar!",
+            fr: "Utilisez l'analyseur IA pour commencer !",
+          },
+          hash: "f33b236852b72c8084fb6d97a46e0c95",
+        },
+        "11/declaration/body/26/argument/7/3/1/1/expression/alternate/alternate/1/1":
+          {
+            content: {
+              de: "<element:Apple></element:Apple> Heutige Mahlzeiten ({todaysMeals.length})",
+              en: "<element:Apple></element:Apple> Today's Meals ({todaysMeals.length})",
+              es: "<element:Apple></element:Apple> Comidas de hoy ({todaysMeals.length})",
+              fr: "<element:Apple></element:Apple> Repas d'aujourd'hui ({todaysMeals.length})",
+            },
+            hash: "66ab098ec727fbb1e4a1f3b96f0f22b1",
+          },
+        "11/declaration/body/26/argument/7/3/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/1":
+          {
+            content: {
+              de: "<expression/> Kalorien",
+              en: "<expression/> calories",
+              es: "<expression/> calorías",
+              fr: "<expression/> calories",
+            },
+            hash: "09ec50ec11171d4cc92e34bf0c527d54",
+          },
+        "11/declaration/body/26/argument/7/3/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "7744b1733b9eb3f870f4eeda7e5758b0",
+          },
+        "11/declaration/body/26/argument/7/3/1/1/expression/alternate/alternate/3/1/expression/0/body/5/expression/right/1/expression/0/body/3":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/26/argument/7/3/1/1/expression/alternate/alternate/3/1/expression/0/body/5/expression/right/3/expression/right":
+          {
+            content: {
+              de: "+<expression/> weitere Artikel",
+              en: "+<expression/> more items",
+              es: "+<expression/> elementos más",
+              fr: "+<expression/> éléments supplémentaires",
+            },
+            hash: "05e02e6d2d9d10cf033842e9941c9e44",
+          },
+        "11/declaration/body/26/argument/7/3/1/1/expression/alternate/consequent/1/1/7/1":
+          {
+            content: {
+              de: "<expression/> Kalorien",
+              en: "<expression/> calories",
+              es: "<expression/> calorías",
+              fr: "<expression/> calories",
+            },
+            hash: "09ec50ec11171d4cc92e34bf0c527d54",
+          },
+        "11/declaration/body/26/argument/7/3/1/1/expression/alternate/consequent/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "b871140cd10bebb4285314531a334c4c",
+          },
+        "11/declaration/body/26/argument/7/3/1/1/expression/alternate/consequent/5/expression/right/1/expression/0/body/3/1":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/26/argument/7/3/1/1/expression/consequent/3": {
+          content: {
+            de: "Heute keine Mahlzeiten erfasst",
+            en: "No meals logged today",
+            es: "No hay comidas registradas hoy",
+            fr: "Aucun repas enregistré aujourd'hui",
+          },
+          hash: "79eaa1ed6008036e23766fc821c0a7fe",
+        },
+        "11/declaration/body/26/argument/7/3/1/1/expression/consequent/5": {
+          content: {
+            de: "Nutze die KI-Analyse, um zu beginnen!",
+            en: "Use the AI analyzer to get started!",
+            es: "¡Usa el analizador de IA para comenzar!",
+            fr: "Utilisez l'analyseur IA pour commencer !",
+          },
+          hash: "f33b236852b72c8084fb6d97a46e0c95",
+        },
+        "11/declaration/body/26/argument/7/5/1/1/expression/alternate/alternate/1/1":
+          {
+            content: {
+              de: "<element:Apple></element:Apple> Heutige Mahlzeiten ({todaysMeals.length})",
+              en: "<element:Apple></element:Apple> Today's Meals ({todaysMeals.length})",
+              es: "<element:Apple></element:Apple> Comidas de hoy ({todaysMeals.length})",
+              fr: "<element:Apple></element:Apple> Repas d'aujourd'hui ({todaysMeals.length})",
+            },
+            hash: "66ab098ec727fbb1e4a1f3b96f0f22b1",
+          },
+        "11/declaration/body/26/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/1":
+          {
+            content: {
+              de: "<expression/> Kalorien",
+              en: "<expression/> calories",
+              es: "<expression/> calorías",
+              fr: "<expression/> calories",
+            },
+            hash: "09ec50ec11171d4cc92e34bf0c527d54",
+          },
+        "11/declaration/body/26/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "7744b1733b9eb3f870f4eeda7e5758b0",
+          },
+        "11/declaration/body/26/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/5/expression/right/1/expression/0/body/3":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/26/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/5/expression/right/3/expression/right":
+          {
+            content: {
+              de: "+<expression/> weitere Artikel",
+              en: "+<expression/> more items",
+              es: "+<expression/> elementos más",
+              fr: "+<expression/> éléments supplémentaires",
+            },
+            hash: "05e02e6d2d9d10cf033842e9941c9e44",
+          },
+        "11/declaration/body/26/argument/7/5/1/1/expression/alternate/consequent/1/1/7/1":
+          {
+            content: {
+              de: "<expression/> Kalorien",
+              en: "<expression/> calories",
+              es: "<expression/> calorías",
+              fr: "<expression/> calories",
+            },
+            hash: "09ec50ec11171d4cc92e34bf0c527d54",
+          },
+        "11/declaration/body/26/argument/7/5/1/1/expression/alternate/consequent/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "b871140cd10bebb4285314531a334c4c",
+          },
+        "11/declaration/body/26/argument/7/5/1/1/expression/alternate/consequent/5/expression/right/1/expression/0/body/3":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/26/argument/7/5/1/1/expression/alternate/consequent/5/expression/right/1/expression/0/body/3/1":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/26/argument/7/5/1/1/expression/alternate/consequent/5/expression/right/3/expression/right":
+          {
+            content: {
+              de: "+<expression/> weitere Einträge",
+              en: "+<expression/> more items",
+              es: "+<expression/> más elementos",
+              fr: "+<expression/> éléments supplémentaires",
+            },
+            hash: "10cdefa8b01fbc12902dd88d0cff5273",
+          },
+        "11/declaration/body/26/argument/7/5/1/1/expression/consequent/3": {
+          content: {
+            de: "Heute keine Mahlzeiten erfasst",
+            en: "No meals logged today",
+            es: "No hay comidas registradas hoy",
+            fr: "Aucun repas enregistré aujourd'hui",
+          },
+          hash: "79eaa1ed6008036e23766fc821c0a7fe",
+        },
+        "11/declaration/body/26/argument/7/5/1/1/expression/consequent/5": {
+          content: {
+            de: "Nutze die KI-Analyse, um zu beginnen!",
+            en: "Use the AI analyzer to get started!",
+            es: "¡Usa el analizador de IA para comenzar!",
+            fr: "Utilisez l'analyseur IA pour commencer !",
+          },
+          hash: "f33b236852b72c8084fb6d97a46e0c95",
+        },
+        "11/declaration/body/26/argument/7/5/1/expression/right/1/1": {
+          content: {
+            de: "💡 Tipp:",
+            en: "💡 Tip:",
+            es: "💡 Consejo:",
+            fr: "💡 Conseil :",
+          },
+          hash: "e02eef58ecd3830c7031c4c83d07456e",
+        },
+        "11/declaration/body/26/argument/7/9/3/3": {
+          content: {
+            de: "/ <expression/>",
+            en: "/ <expression/>",
+            es: "/ <expression/>",
+            fr: "/ <expression/>",
+          },
+          hash: "ecbf342821c65eaced4d65cfe497f863",
+        },
+        "11/declaration/body/28/argument/3/3/1/1/3": {
+          content: {
+            de: "KI-Mahlzeitenanalyse",
+            en: "AI Meal Analyzer",
+            es: "Analizador de comidas con IA",
+            fr: "Analyseur de repas IA",
+          },
+          hash: "19ce1cdc7fb9cce8ee49cbf516fbee80",
+        },
+        "11/declaration/body/28/argument/3/3/5/1/expression/right/1/1/3": {
+          content: {
+            de: "<element:strong>Hinweis:</element:strong> Dies ist eine KI-Schätzung, die beim Aufbau von Tracking-Gewohnheiten helfen soll. Die Ergebnisse sind möglicherweise nicht 100% genau, aber besser als gar kein Tracking!",
+            en: "<element:strong>Note:</element:strong> This is an AI estimation to help build tracking habits. Results may not be 100% accurate but are better than not tracking at all!",
+            es: "<element:strong>Nota:</element:strong> Esta es una estimación de IA para ayudar a crear hábitos de seguimiento. Los resultados pueden no ser 100% precisos, ¡pero son mejores que no hacer seguimiento en absoluto!",
+            fr: "<element:strong>Remarque :</element:strong> Il s'agit d'une estimation par IA pour aider à développer des habitudes de suivi. Les résultats peuvent ne pas être précis à 100 % mais sont préférables à l'absence totale de suivi !",
+          },
+          hash: "2c4673698e47fce9b87d3dcefd7d5b1b",
+        },
+        "11/declaration/body/28/argument/3/3/5/1/expression/right/3/1": {
+          content: {
+            de: "📸 Tipps für bessere Analysen:",
+            en: "📸 Tips for better analysis:",
+            es: "📸 Consejos para un mejor análisis:",
+            fr: "📸 Conseils pour une meilleure analyse :",
+          },
+          hash: "705805e9bc9547c7234e80ea17ae0329",
+        },
+        "11/declaration/body/28/argument/3/3/5/1/expression/right/3/3/1": {
+          content: {
+            de: "• Fotos von oben für beste Sicht aufnehmen",
+            en: "• Take photos from above for best view",
+            es: "• Toma fotos desde arriba para mejor visibilidad",
+            fr: "• Prenez des photos du dessus pour une meilleure vue",
+          },
+          hash: "4c4b69d9b605fabe2e28d0cca0d8a784",
+        },
+        "11/declaration/body/28/argument/3/3/5/1/expression/right/3/3/3": {
+          content: {
+            de: "• Auf gute Beleuchtung achten",
+            en: "• Ensure good lighting",
+            es: "• Asegúrate de tener buena iluminación",
+            fr: "• Assurez-vous d'avoir un bon éclairage",
+          },
+          hash: "2eedb10156bcaa3f74b8e62735b962da",
+        },
+        "11/declaration/body/28/argument/3/3/5/1/expression/right/3/3/5": {
+          content: {
+            de: "• Die gesamte Mahlzeit/den Teller einbeziehen",
+            en: "• Include the whole plate/meal",
+            es: "• Incluye todo el plato/comida",
+            fr: "• Incluez l'assiette/le repas entier",
+          },
+          hash: "f5dc23f1e8cc4ae66bb19a9dc5567103",
+        },
+        "11/declaration/body/28/argument/3/3/5/1/expression/right/3/3/7": {
+          content: {
+            de: "• Unscharfe oder dunkle Fotos vermeiden",
+            en: "• Avoid blurry or dark photos",
+            es: "• Evita fotos borrosas u oscuras",
+            fr: "• Évitez les photos floues ou sombres",
+          },
+          hash: "a97a55876f94e7f9749ff8f0285080d1",
+        },
+        "11/declaration/body/28/argument/3/3/9/3/expression/alternate/alternate/3/1":
+          {
+            content: {
+              de: "Zum Hochladen klicken oder per Drag & Drop ablegen",
+              en: "Click to upload or drag & drop",
+              es: "Haz clic para subir o arrastra y suelta",
+              fr: "Cliquez pour télécharger ou glissez-déposez",
+            },
+            hash: "57e07f1a158fa5093c442229d7d8b0b9",
+          },
+        "11/declaration/body/28/argument/3/3/9/3/expression/alternate/alternate/3/3":
+          {
+            content: {
+              de: "JPG, PNG oder andere Bildformate",
+              en: "JPG, PNG, or other image formats",
+              es: "JPG, PNG u otros formatos de imagen",
+              fr: "JPG, PNG ou autres formats d'image",
+            },
+            hash: "3b881d7fd71d3120c747d00b801622ad",
+          },
+        "11/declaration/body/28/argument/3/3/9/3/expression/alternate/consequent/1-alt":
+          {
+            content: {
+              de: "Mahlzeitenvorschau",
+              en: "Meal preview",
+              es: "Vista previa de la comida",
+              fr: "Aperçu du repas",
+            },
+            hash: "8d7f12ab0b2861c27ff57a1fa42c7b94",
+          },
+        "11/declaration/body/28/argument/3/3/9/3/expression/alternate/consequent/3":
+          {
+            content: {
+              de: "Klicken, um eine andere Mahlzeit zu analysieren",
+              en: "Click to analyze another meal",
+              es: "Haz clic para analizar otra comida",
+              fr: "Cliquez pour analyser un autre repas",
+            },
+            hash: "63d423c21cddba6e61304d593c12f211",
+          },
+        "11/declaration/body/28/argument/3/3/9/3/expression/consequent/3": {
+          content: {
+            de: "Deine Mahlzeit wird analysiert...",
+            en: "Analyzing your meal...",
+            es: "Analizando tu comida...",
+            fr: "Analyse de votre repas...",
+          },
+          hash: "37753fcb7dd8cf333a42716c0179d1b0",
+        },
+        "11/declaration/body/28/argument/3/3/9/3/expression/consequent/5": {
+          content: {
+            de: "Dies kann einige Sekunden dauern",
+            en: "This may take a few seconds",
+            es: "Esto puede tardar unos segundos",
+            fr: "Cela peut prendre quelques secondes",
+          },
+          hash: "aa4c14d089ebc9871e8879d0f9dc4464",
+        },
+        "11/declaration/body/28/argument/3/7/1/1/3": {
+          content: {
+            de: "Heutiger Fortschritt",
+            en: "Today's Progress",
+            es: "Progreso de hoy",
+            fr: "Progrès du jour",
+          },
+          hash: "c795f95dab59a6aeb86629a759ce11b0",
+        },
+        "11/declaration/body/28/argument/3/7/5/1/expression/right/1/1": {
+          content: {
+            de: "💡 Tipp:",
+            en: "💡 Tip:",
+            es: "💡 Consejo:",
+            fr: "💡 Conseil :",
+          },
+          hash: "e02eef58ecd3830c7031c4c83d07456e",
+        },
+        "11/declaration/body/28/argument/3/7/9/3/3": {
+          content: {
+            de: "/ <expression/>",
+            en: "/ <expression/>",
+            es: "/ <expression/>",
+            fr: "/ <expression/>",
+          },
+          hash: "5da39407cbbf9700ca13dd1abf51ccf0",
+        },
+        "11/declaration/body/28/argument/7/1/3": {
+          content: {
+            de: "Heutige Mahlzeiten",
+            en: "Today's Meals",
+            es: "Comidas de hoy",
+            fr: "Repas d'aujourd'hui",
+          },
+          hash: "c9a97e7889b83892ea5f2ce31c5e02f5",
+        },
+        "11/declaration/body/28/argument/7/5/1/1/expression/alternate/alternate/1/1":
+          {
+            content: {
+              de: "<element:Apple></element:Apple> Heutige Mahlzeiten ({todaysMeals.length})",
+              en: "<element:Apple></element:Apple> Today's Meals ({todaysMeals.length})",
+              es: "<element:Apple></element:Apple> Comidas de hoy ({todaysMeals.length})",
+              fr: "<element:Apple></element:Apple> Repas d'aujourd'hui ({todaysMeals.length})",
+            },
+            hash: "66ab098ec727fbb1e4a1f3b96f0f22b1",
+          },
+        "11/declaration/body/28/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/1":
+          {
+            content: {
+              de: "<expression/> Kalorien",
+              en: "<expression/> calories",
+              es: "<expression/> calorías",
+              fr: "<expression/> calories",
+            },
+            hash: "09ec50ec11171d4cc92e34bf0c527d54",
+          },
+        "11/declaration/body/28/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "7744b1733b9eb3f870f4eeda7e5758b0",
+          },
+        "11/declaration/body/28/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/5/expression/right/1/expression/0/body/3":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/28/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/5/expression/right/3/expression/right":
+          {
+            content: {
+              de: "+<expression/> weitere Artikel",
+              en: "+<expression/> more items",
+              es: "+<expression/> elementos más",
+              fr: "+<expression/> éléments supplémentaires",
+            },
+            hash: "05e02e6d2d9d10cf033842e9941c9e44",
+          },
+        "11/declaration/body/28/argument/7/5/1/1/expression/alternate/consequent/1/1/7/1":
+          {
+            content: {
+              de: "<expression/> Kalorien",
+              en: "<expression/> calories",
+              es: "<expression/> calorías",
+              fr: "<expression/> calories",
+            },
+            hash: "09ec50ec11171d4cc92e34bf0c527d54",
+          },
+        "11/declaration/body/28/argument/7/5/1/1/expression/alternate/consequent/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "b871140cd10bebb4285314531a334c4c",
+          },
+        "11/declaration/body/28/argument/7/5/1/1/expression/alternate/consequent/5/expression/right/1/expression/0/body/3":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/28/argument/7/5/1/1/expression/alternate/consequent/5/expression/right/1/expression/0/body/3/1":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/28/argument/7/5/1/1/expression/alternate/consequent/5/expression/right/3/expression/right":
+          {
+            content: {
+              de: "+<expression/> weitere Einträge",
+              en: "+<expression/> more items",
+              es: "+<expression/> más elementos",
+              fr: "+<expression/> éléments supplémentaires",
+            },
+            hash: "10cdefa8b01fbc12902dd88d0cff5273",
+          },
+        "11/declaration/body/28/argument/7/5/1/1/expression/consequent/3": {
+          content: {
+            de: "Heute keine Mahlzeiten erfasst",
+            en: "No meals logged today",
+            es: "No hay comidas registradas hoy",
+            fr: "Aucun repas enregistré aujourd'hui",
+          },
+          hash: "79eaa1ed6008036e23766fc821c0a7fe",
+        },
+        "11/declaration/body/28/argument/7/5/1/1/expression/consequent/5": {
+          content: {
+            de: "Nutze die KI-Analyse, um zu beginnen!",
+            en: "Use the AI analyzer to get started!",
+            es: "¡Usa el analizador de IA para comenzar!",
+            fr: "Utilisez l'analyseur IA pour commencer !",
+          },
+          hash: "f33b236852b72c8084fb6d97a46e0c95",
+        },
+        "11/declaration/body/29/argument/11/1/expression/right/1/1/11/expression/right/1":
+          {
+            content: {
+              de: "Lebensmittel",
+              en: "Food Items",
+              es: "Alimentos",
+              fr: "Aliments",
+            },
+            hash: "b71902b76bd540611dc90fa3321f0601",
+          },
+        "11/declaration/body/29/argument/11/1/expression/right/1/1/11/expression/right/3/1/expression/0/body/3":
+          {
+            content: {
+              de: "<expression/> kalorien",
+              en: "<expression/> calssss",
+              es: "<expression/> calorías",
+              fr: "<expression/> calories",
+            },
+            hash: "5353ff085321e390c5b3eceb7fe61477",
+          },
+        "11/declaration/body/29/argument/11/1/expression/right/1/1/15/expression/right/1":
+          {
+            content: {
+              de: "Analysenotizen",
+              en: "Analysis Notes",
+              es: "Notas de análisis",
+              fr: "Notes d'analyse",
+            },
+            hash: "c5e8da3df4dde51c6c455c2e4794f69c",
+          },
+        "11/declaration/body/29/argument/11/1/expression/right/1/1/19/expression/right/1":
+          {
+            content: {
+              de: "Notizen",
+              en: "Notes",
+              es: "Notas",
+              fr: "Notes",
+            },
+            hash: "93c7ef9bc767f51fbe360afcf6b1fecb",
+          },
+        "11/declaration/body/29/argument/11/1/expression/right/1/1/23/1": {
+          content: {
+            de: "Schließen",
+            en: "Close",
+            es: "Cerrar",
+            fr: "Fermer",
+          },
+          hash: "a3ca1ea6dee147739081cf664c41ff16",
+        },
+        "11/declaration/body/29/argument/11/1/expression/right/1/1/23/3": {
+          content: {
+            de: "Mahlzeit löschen",
+            en: "Delete Meal",
+            es: "Eliminar comida",
+            fr: "Supprimer le repas",
+          },
+          hash: "2e9c92811e9b2488a01412e1ddaba16c",
+        },
+        "11/declaration/body/29/argument/11/1/expression/right/1/1/7/1": {
+          content: {
+            de: "Nährwertübersicht",
+            en: "Nutrition Summary",
+            es: "Resumen nutricional",
+            fr: "Résumé nutritionnel",
+          },
+          hash: "be0a5f93ebd876bd36a772741c503285",
+        },
+        "11/declaration/body/29/argument/11/1/expression/right/1/1/7/3/1/3": {
+          content: {
+            de: "kalorien",
+            en: "calories",
+            es: "calorías",
+            fr: "calories",
+          },
+          hash: "3ff660d3d4daef29018de3bb13f30481",
+        },
+        "11/declaration/body/29/argument/11/1/expression/right/1/1/7/3/3/expression/right/3":
+          {
+            content: {
+              de: "g protein",
+              en: "g protein",
+              es: "g proteína",
+              fr: "g de protéines",
+            },
+            hash: "61f1e751ee5df38fb8ee64926aac0da7",
+          },
+        "11/declaration/body/29/argument/3/3/1/1/3": {
+          content: {
+            de: "KI-Mahlzeitenanalyse",
+            en: "AI Meal Analyzer",
+            es: "Analizador de comidas con IA",
+            fr: "Analyseur de repas IA",
+          },
+          hash: "19ce1cdc7fb9cce8ee49cbf516fbee80",
+        },
+        "11/declaration/body/29/argument/3/3/5/1/expression/right/1/1/3": {
+          content: {
+            de: "<element:strong>Hinweis:</element:strong> Dies ist eine KI-Schätzung, die beim Aufbau von Tracking-Gewohnheiten helfen soll. Die Ergebnisse sind möglicherweise nicht 100% genau, aber besser als gar kein Tracking!",
+            en: "<element:strong>Note:</element:strong> This is an AI estimation to help build tracking habits. Results may not be 100% accurate but are better than not tracking at all!",
+            es: "<element:strong>Nota:</element:strong> Esta es una estimación de IA para ayudar a crear hábitos de seguimiento. Los resultados pueden no ser 100% precisos, ¡pero son mejores que no hacer seguimiento en absoluto!",
+            fr: "<element:strong>Remarque :</element:strong> Il s'agit d'une estimation par IA pour aider à développer des habitudes de suivi. Les résultats peuvent ne pas être précis à 100 % mais sont préférables à l'absence totale de suivi !",
+          },
+          hash: "2c4673698e47fce9b87d3dcefd7d5b1b",
+        },
+        "11/declaration/body/29/argument/3/3/5/1/expression/right/3/1": {
+          content: {
+            de: "📸 Tipps für bessere Analysen:",
+            en: "📸 Tips for better analysis:",
+            es: "📸 Consejos para un mejor análisis:",
+            fr: "📸 Conseils pour une meilleure analyse :",
+          },
+          hash: "705805e9bc9547c7234e80ea17ae0329",
+        },
+        "11/declaration/body/29/argument/3/3/5/1/expression/right/3/3/1": {
+          content: {
+            de: "• Fotos von oben für beste Sicht aufnehmen",
+            en: "• Take photos from above for best view",
+            es: "• Toma fotos desde arriba para mejor visibilidad",
+            fr: "• Prenez des photos du dessus pour une meilleure vue",
+          },
+          hash: "4c4b69d9b605fabe2e28d0cca0d8a784",
+        },
+        "11/declaration/body/29/argument/3/3/5/1/expression/right/3/3/3": {
+          content: {
+            de: "• Auf gute Beleuchtung achten",
+            en: "• Ensure good lighting",
+            es: "• Asegúrate de tener buena iluminación",
+            fr: "• Assurez-vous d'avoir un bon éclairage",
+          },
+          hash: "2eedb10156bcaa3f74b8e62735b962da",
+        },
+        "11/declaration/body/29/argument/3/3/5/1/expression/right/3/3/5": {
+          content: {
+            de: "• Die gesamte Mahlzeit/den Teller einbeziehen",
+            en: "• Include the whole plate/meal",
+            es: "• Incluye todo el plato/comida",
+            fr: "• Incluez l'assiette/le repas entier",
+          },
+          hash: "f5dc23f1e8cc4ae66bb19a9dc5567103",
+        },
+        "11/declaration/body/29/argument/3/3/5/1/expression/right/3/3/7": {
+          content: {
+            de: "• Unscharfe oder dunkle Fotos vermeiden",
+            en: "• Avoid blurry or dark photos",
+            es: "• Evita fotos borrosas u oscuras",
+            fr: "• Évitez les photos floues ou sombres",
+          },
+          hash: "a97a55876f94e7f9749ff8f0285080d1",
+        },
+        "11/declaration/body/29/argument/3/3/9/3/expression/alternate/alternate/3/1":
+          {
+            content: {
+              de: "Zum Hochladen klicken oder per Drag & Drop ablegen",
+              en: "Click to upload or drag & drop",
+              es: "Haz clic para subir o arrastra y suelta",
+              fr: "Cliquez pour télécharger ou glissez-déposez",
+            },
+            hash: "57e07f1a158fa5093c442229d7d8b0b9",
+          },
+        "11/declaration/body/29/argument/3/3/9/3/expression/alternate/alternate/3/3":
+          {
+            content: {
+              de: "JPG, PNG oder andere Bildformate",
+              en: "JPG, PNG, or other image formats",
+              es: "JPG, PNG u otros formatos de imagen",
+              fr: "JPG, PNG ou autres formats d'image",
+            },
+            hash: "3b881d7fd71d3120c747d00b801622ad",
+          },
+        "11/declaration/body/29/argument/3/3/9/3/expression/alternate/consequent/1-alt":
+          {
+            content: {
+              de: "Mahlzeitenvorschau",
+              en: "Meal preview",
+              es: "Vista previa de la comida",
+              fr: "Aperçu du repas",
+            },
+            hash: "8d7f12ab0b2861c27ff57a1fa42c7b94",
+          },
+        "11/declaration/body/29/argument/3/3/9/3/expression/alternate/consequent/3":
+          {
+            content: {
+              de: "Klicken, um eine andere Mahlzeit zu analysieren",
+              en: "Click to analyze another meal",
+              es: "Haz clic para analizar otra comida",
+              fr: "Cliquez pour analyser un autre repas",
+            },
+            hash: "63d423c21cddba6e61304d593c12f211",
+          },
+        "11/declaration/body/29/argument/3/3/9/3/expression/consequent/3": {
+          content: {
+            de: "Deine Mahlzeit wird analysiert...",
+            en: "Analyzing your meal...",
+            es: "Analizando tu comida...",
+            fr: "Analyse de votre repas...",
+          },
+          hash: "37753fcb7dd8cf333a42716c0179d1b0",
+        },
+        "11/declaration/body/29/argument/3/3/9/3/expression/consequent/5": {
+          content: {
+            de: "Dies kann einige Sekunden dauern",
+            en: "This may take a few seconds",
+            es: "Esto puede tardar unos segundos",
+            fr: "Cela peut prendre quelques secondes",
+          },
+          hash: "aa4c14d089ebc9871e8879d0f9dc4464",
+        },
+        "11/declaration/body/29/argument/3/7/1/1/3": {
+          content: {
+            de: "Heutiger Fortschritt",
+            en: "Today's Progress",
+            es: "Progreso de hoy",
+            fr: "Progrès du jour",
+          },
+          hash: "c795f95dab59a6aeb86629a759ce11b0",
+        },
+        "11/declaration/body/29/argument/3/7/5/1/expression/right/1/1": {
+          content: {
+            de: "💡 Tipp:",
+            en: "💡 Tip:",
+            es: "💡 Consejo:",
+            fr: "💡 Conseil :",
+          },
+          hash: "e02eef58ecd3830c7031c4c83d07456e",
+        },
+        "11/declaration/body/29/argument/3/7/9/3/3": {
+          content: {
+            de: "/ <expression/>",
+            en: "/ <expression/>",
+            es: "/ <expression/>",
+            fr: "/ <expression/>",
+          },
+          hash: "5da39407cbbf9700ca13dd1abf51ccf0",
+        },
+        "11/declaration/body/29/argument/7/1/3": {
+          content: {
+            de: "Heutige Mahlzeiten",
+            en: "Today's Meals",
+            es: "Comidas de hoy",
+            fr: "Repas d'aujourd'hui",
+          },
+          hash: "c9a97e7889b83892ea5f2ce31c5e02f5",
+        },
+        "11/declaration/body/29/argument/7/5/1/1/expression/alternate/alternate/1/1":
+          {
+            content: {
+              de: "<element:Apple></element:Apple> Heutige Mahlzeiten ({todaysMeals.length})",
+              en: "<element:Apple></element:Apple> Today's Meals ({todaysMeals.length})",
+              es: "<element:Apple></element:Apple> Comidas de hoy ({todaysMeals.length})",
+              fr: "<element:Apple></element:Apple> Repas d'aujourd'hui ({todaysMeals.length})",
+            },
+            hash: "66ab098ec727fbb1e4a1f3b96f0f22b1",
+          },
+        "11/declaration/body/29/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/1":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/29/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g",
+              en: "<expression/>g",
+              es: "<expression/>g",
+              fr: "<expression/>g",
+            },
+            hash: "837c55c6a10cb97e07c0aefed1d16efa",
+          },
+        "11/declaration/body/29/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/5/expression/right/3/expression/right":
+          {
+            content: {
+              de: "+<expression/> mehr",
+              en: "+<expression/> more",
+              es: "+<expression/> más",
+              fr: "+<expression/> de plus",
+            },
+            hash: "2401d3c2d5ed9d557cc1cff23d01a4e9",
+          },
+        "11/declaration/body/29/argument/7/5/1/1/expression/alternate/consequent/1/1/7/1":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/29/argument/7/5/1/1/expression/alternate/consequent/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "b871140cd10bebb4285314531a334c4c",
+          },
+        "11/declaration/body/29/argument/7/5/1/1/expression/alternate/consequent/5/expression/right/1/expression/0/body/3":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/29/argument/7/5/1/1/expression/alternate/consequent/5/expression/right/3/expression/right":
+          {
+            content: {
+              de: "+<expression/> weitere Einträge",
+              en: "+<expression/> more items",
+              es: "+<expression/> más elementos",
+              fr: "+<expression/> éléments supplémentaires",
+            },
+            hash: "10cdefa8b01fbc12902dd88d0cff5273",
+          },
+        "11/declaration/body/29/argument/7/5/1/1/expression/consequent/3": {
+          content: {
+            de: "Heute keine Mahlzeiten erfasst",
+            en: "No meals logged today",
+            es: "No hay comidas registradas hoy",
+            fr: "Aucun repas enregistré aujourd'hui",
+          },
+          hash: "79eaa1ed6008036e23766fc821c0a7fe",
+        },
+        "11/declaration/body/29/argument/7/5/1/1/expression/consequent/5": {
+          content: {
+            de: "Nutze die KI-Analyse, um zu beginnen!",
+            en: "Use the AI analyzer to get started!",
+            es: "¡Usa el analizador de IA para comenzar!",
+            fr: "Utilisez l'analyseur IA pour commencer !",
+          },
+          hash: "f33b236852b72c8084fb6d97a46e0c95",
+        },
+        "11/declaration/body/30/argument/11/1/expression/right/1/1/1/1/7/1": {
+          content: {
+            de: "<expression/> Kalorien",
+            en: "<expression/> calories",
+            es: "<expression/> calorías",
+            fr: "<expression/> calories",
+          },
+          hash: "09ec50ec11171d4cc92e34bf0c527d54",
+        },
+        "11/declaration/body/30/argument/11/1/expression/right/1/1/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "dd54859faede47e39af10a48a6ff8283",
+          },
+        "11/declaration/body/30/argument/11/1/expression/right/1/3/11/expression/right/1":
+          {
+            content: {
+              de: "Notizen:",
+              en: "Notes:",
+              es: "Notas:",
+              fr: "Notes :",
+            },
+            hash: "00c5d483044152af70ecb2164061f5d7",
+          },
+        "11/declaration/body/30/argument/11/1/expression/right/1/3/15/1": {
+          content: {
+            de: "<element:Trash2></element:Trash2> Mahlzeit löschen",
+            en: "<element:Trash2></element:Trash2> Delete Meal",
+            es: "<element:Trash2></element:Trash2> Eliminar comida",
+            fr: "<element:Trash2></element:Trash2> Supprimer le repas",
+          },
+          hash: "73520178e9084a0fe9e7c3ad1d413bb2",
+        },
+        "11/declaration/body/30/argument/11/1/expression/right/1/3/3/expression/right/1":
+          {
+            content: {
+              de: "Lebensmittel:",
+              en: "Food Items:",
+              es: "Alimentos:",
+              fr: "Aliments :",
+            },
+            hash: "b73c2bb21901ec54a7c00e03299c9b29",
+          },
+        "11/declaration/body/30/argument/11/1/expression/right/1/3/3/expression/right/3/1/expression/0/body/3":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/30/argument/11/1/expression/right/1/3/3/expression/right/3/1/expression/0/body/3/2":
+          {
+            content: {
+              de: "kcal",
+              en: "cal",
+              es: "cal",
+              fr: "cal",
+            },
+            hash: "ccacef079abde597bff5d86af2320a53",
+          },
+        "11/declaration/body/30/argument/11/1/expression/right/1/3/7/expression/right/1":
+          {
+            content: {
+              de: "Analysenotizen:",
+              en: "Analysis Notes:",
+              es: "Notas de análisis:",
+              fr: "Notes d'analyse :",
+            },
+            hash: "5123293f294057db33e00c9e8f946f59",
+          },
+        "11/declaration/body/30/argument/3/3/1/1/3": {
+          content: {
+            de: "KI-Mahlzeitenanalyse",
+            en: "AI Meal Analyzer",
+            es: "Analizador de comidas con IA",
+            fr: "Analyseur de repas IA",
+          },
+          hash: "19ce1cdc7fb9cce8ee49cbf516fbee80",
+        },
+        "11/declaration/body/30/argument/3/3/5/1/expression/right/1/1/3": {
+          content: {
+            de: "<element:strong>Hinweis:</element:strong> Dies ist eine KI-Schätzung, die beim Aufbau von Tracking-Gewohnheiten helfen soll. Die Ergebnisse sind möglicherweise nicht 100% genau, aber besser als gar kein Tracking!",
+            en: "<element:strong>Note:</element:strong> This is an AI estimation to help build tracking habits. Results may not be 100% accurate but are better than not tracking at all!",
+            es: "<element:strong>Nota:</element:strong> Esta es una estimación de IA para ayudar a crear hábitos de seguimiento. Los resultados pueden no ser 100% precisos, ¡pero son mejores que no hacer seguimiento en absoluto!",
+            fr: "<element:strong>Remarque :</element:strong> Il s'agit d'une estimation par IA pour aider à développer des habitudes de suivi. Les résultats peuvent ne pas être précis à 100 % mais sont préférables à l'absence totale de suivi !",
+          },
+          hash: "2c4673698e47fce9b87d3dcefd7d5b1b",
+        },
+        "11/declaration/body/30/argument/3/3/5/1/expression/right/3/1": {
+          content: {
+            de: "📸 Tipps für bessere Analysen:",
+            en: "📸 Tips for better analysis:",
+            es: "📸 Consejos para un mejor análisis:",
+            fr: "📸 Conseils pour une meilleure analyse :",
+          },
+          hash: "705805e9bc9547c7234e80ea17ae0329",
+        },
+        "11/declaration/body/30/argument/3/3/5/1/expression/right/3/3/1": {
+          content: {
+            de: "• Fotos von oben für beste Sicht aufnehmen",
+            en: "• Take photos from above for best view",
+            es: "• Toma fotos desde arriba para mejor visibilidad",
+            fr: "• Prenez des photos du dessus pour une meilleure vue",
+          },
+          hash: "4c4b69d9b605fabe2e28d0cca0d8a784",
+        },
+        "11/declaration/body/30/argument/3/3/5/1/expression/right/3/3/3": {
+          content: {
+            de: "• Auf gute Beleuchtung achten",
+            en: "• Ensure good lighting",
+            es: "• Asegúrate de tener buena iluminación",
+            fr: "• Assurez-vous d'avoir un bon éclairage",
+          },
+          hash: "2eedb10156bcaa3f74b8e62735b962da",
+        },
+        "11/declaration/body/30/argument/3/3/5/1/expression/right/3/3/5": {
+          content: {
+            de: "• Die gesamte Mahlzeit/den Teller einbeziehen",
+            en: "• Include the whole plate/meal",
+            es: "• Incluye todo el plato/comida",
+            fr: "• Incluez l'assiette/le repas entier",
+          },
+          hash: "f5dc23f1e8cc4ae66bb19a9dc5567103",
+        },
+        "11/declaration/body/30/argument/3/3/5/1/expression/right/3/3/7": {
+          content: {
+            de: "• Unscharfe oder dunkle Fotos vermeiden",
+            en: "• Avoid blurry or dark photos",
+            es: "• Evita fotos borrosas u oscuras",
+            fr: "• Évitez les photos floues ou sombres",
+          },
+          hash: "a97a55876f94e7f9749ff8f0285080d1",
+        },
+        "11/declaration/body/30/argument/3/3/9/3/expression/alternate/alternate/3/1":
+          {
+            content: {
+              de: "Zum Hochladen klicken oder per Drag & Drop ablegen",
+              en: "Click to upload or drag & drop",
+              es: "Haz clic para subir o arrastra y suelta",
+              fr: "Cliquez pour télécharger ou glissez-déposez",
+            },
+            hash: "57e07f1a158fa5093c442229d7d8b0b9",
+          },
+        "11/declaration/body/30/argument/3/3/9/3/expression/alternate/alternate/3/3":
+          {
+            content: {
+              de: "JPG, PNG oder andere Bildformate",
+              en: "JPG, PNG, or other image formats",
+              es: "JPG, PNG u otros formatos de imagen",
+              fr: "JPG, PNG ou autres formats d'image",
+            },
+            hash: "3b881d7fd71d3120c747d00b801622ad",
+          },
+        "11/declaration/body/30/argument/3/3/9/3/expression/alternate/consequent/1-alt":
+          {
+            content: {
+              de: "Mahlzeitenvorschau",
+              en: "Meal preview",
+              es: "Vista previa de la comida",
+              fr: "Aperçu du repas",
+            },
+            hash: "8d7f12ab0b2861c27ff57a1fa42c7b94",
+          },
+        "11/declaration/body/30/argument/3/3/9/3/expression/alternate/consequent/3":
+          {
+            content: {
+              de: "Klicken, um eine andere Mahlzeit zu analysieren",
+              en: "Click to analyze another meal",
+              es: "Haz clic para analizar otra comida",
+              fr: "Cliquez pour analyser un autre repas",
+            },
+            hash: "63d423c21cddba6e61304d593c12f211",
+          },
+        "11/declaration/body/30/argument/3/3/9/3/expression/consequent/3": {
+          content: {
+            de: "Deine Mahlzeit wird analysiert...",
+            en: "Analyzing your meal...",
+            es: "Analizando tu comida...",
+            fr: "Analyse de votre repas...",
+          },
+          hash: "37753fcb7dd8cf333a42716c0179d1b0",
+        },
+        "11/declaration/body/30/argument/3/3/9/3/expression/consequent/5": {
+          content: {
+            de: "Dies kann einige Sekunden dauern",
+            en: "This may take a few seconds",
+            es: "Esto puede tardar unos segundos",
+            fr: "Cela peut prendre quelques secondes",
+          },
+          hash: "aa4c14d089ebc9871e8879d0f9dc4464",
+        },
+        "11/declaration/body/30/argument/3/7/1/1/3": {
+          content: {
+            de: "Heutiger Fortschritt",
+            en: "Today's Progress",
+            es: "Progreso de hoy",
+            fr: "Progrès du jour",
+          },
+          hash: "c795f95dab59a6aeb86629a759ce11b0",
+        },
+        "11/declaration/body/30/argument/3/7/5/1/expression/right/1/1": {
+          content: {
+            de: "💡 Tipp:",
+            en: "💡 Tip:",
+            es: "💡 Consejo:",
+            fr: "💡 Conseil :",
+          },
+          hash: "e02eef58ecd3830c7031c4c83d07456e",
+        },
+        "11/declaration/body/30/argument/3/7/9/3/3": {
+          content: {
+            de: "/ <expression/>",
+            en: "/ <expression/>",
+            es: "/ <expression/>",
+            fr: "/ <expression/>",
+          },
+          hash: "5da39407cbbf9700ca13dd1abf51ccf0",
+        },
+        "11/declaration/body/30/argument/7/1/3": {
+          content: {
+            de: "Heutige Mahlzeiten",
+            en: "Today's Meals",
+            es: "Comidas de hoy",
+            fr: "Repas d'aujourd'hui",
+          },
+          hash: "c9a97e7889b83892ea5f2ce31c5e02f5",
+        },
+        "11/declaration/body/30/argument/7/5/1/1/expression/alternate/alternate/1/1":
+          {
+            content: {
+              de: "<element:Apple></element:Apple> Heutige Mahlzeiten ({todaysMeals.length})",
+              en: "<element:Apple></element:Apple> Today's Meals ({todaysMeals.length})",
+              es: "<element:Apple></element:Apple> Comidas de hoy ({todaysMeals.length})",
+              fr: "<element:Apple></element:Apple> Repas d'aujourd'hui ({todaysMeals.length})",
+            },
+            hash: "66ab098ec727fbb1e4a1f3b96f0f22b1",
+          },
+        "11/declaration/body/30/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/1":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/30/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "79357613fe200ae9cf8fe9957dbab9f3",
+          },
+        "11/declaration/body/30/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/5/expression/right/1/expression/0/body/3":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/30/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/5/expression/right/3/expression/right":
+          {
+            content: {
+              de: "+<expression/> weitere Artikel",
+              en: "+<expression/> more items",
+              es: "+<expression/> elementos más",
+              fr: "+<expression/> éléments supplémentaires",
+            },
+            hash: "05e02e6d2d9d10cf033842e9941c9e44",
+          },
+        "11/declaration/body/30/argument/7/5/1/1/expression/alternate/consequent/1/1/7/1":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/30/argument/7/5/1/1/expression/alternate/consequent/1/1/7/3/expression/right":
+          {
+            content: {
+              de: "<expression/>g Protein",
+              en: "<expression/>g protein",
+              es: "<expression/>g de proteína",
+              fr: "<expression/>g de protéines",
+            },
+            hash: "7744b1733b9eb3f870f4eeda7e5758b0",
+          },
+        "11/declaration/body/30/argument/7/5/1/1/expression/alternate/consequent/5/expression/right/1/expression/0/body/3/1":
+          {
+            content: {
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
+            },
+            hash: "51da969d0d92f410653908f366f857aa",
+          },
+        "11/declaration/body/30/argument/7/5/1/1/expression/consequent/3": {
+          content: {
+            de: "Heute keine Mahlzeiten erfasst",
+            en: "No meals logged today",
+            es: "No hay comidas registradas hoy",
+            fr: "Aucun repas enregistré aujourd'hui",
+          },
+          hash: "79eaa1ed6008036e23766fc821c0a7fe",
+        },
+        "11/declaration/body/30/argument/7/5/1/1/expression/consequent/5": {
+          content: {
+            de: "Nutze die KI-Analyse, um zu beginnen!",
+            en: "Use the AI analyzer to get started!",
+            es: "¡Usa el analizador de IA para comenzar!",
+            fr: "Utilisez l'analyseur IA pour commencer !",
+          },
+          hash: "f33b236852b72c8084fb6d97a46e0c95",
         },
       },
     },
@@ -4388,7 +6277,52 @@ export default {
           },
           hash: "57a5efad5bd4c7aeaaa6836fea6ca519",
         },
+        "8/declaration/body/12/argument/3/11/3/1/3": {
+          content: {
+            de: "Aktuell",
+            en: "Current",
+            es: "Actual",
+            fr: "Actuel",
+          },
+          hash: "27f172f76ac28e72cb062f80002b0ad5",
+        },
+        "8/declaration/body/12/argument/3/11/5": {
+          content: {
+            de: '"<function:getMotivationalQuote/>"',
+            en: '"<function:getMotivationalQuote/>"',
+            es: '"<function:getMotivationalQuote/>"',
+            fr: '"<function:getMotivationalQuote/>"',
+          },
+          hash: "ef648ced4e5c013a3da8d07bb6f344ae",
+        },
         "8/declaration/body/12/argument/3/11/7": {
+          content: {
+            de: '"<function:getMotivationalQuote/>"',
+            en: '"<function:getMotivationalQuote/>"',
+            es: '"<function:getMotivationalQuote/>"',
+            fr: '"<function:getMotivationalQuote/>"',
+          },
+          hash: "ef648ced4e5c013a3da8d07bb6f344ae",
+        },
+        "8/declaration/body/12/argument/3/11/7/1/3": {
+          content: {
+            de: "Beste",
+            en: "Best",
+            es: "Mejor",
+            fr: "Meilleur",
+          },
+          hash: "e6e2f08ef83db1b003a7b3c13fdded08",
+        },
+        "8/declaration/body/12/argument/3/11/7/5": {
+          content: {
+            de: "Persönlicher Rekord",
+            en: "Personal Record",
+            es: "Récord personal",
+            fr: "Record personnel",
+          },
+          hash: "2dac61cf9976091db4afdc8294a3d0f5",
+        },
+        "8/declaration/body/12/argument/3/15/1": {
           content: {
             de: '"<function:getMotivationalQuote/>"',
             en: '"<function:getMotivationalQuote/>"',
@@ -4467,20 +6401,20 @@ export default {
         "9/declaration/body/12/argument/11/1/1/expression/alternate/0/body/1/1/3":
           {
             content: {
-              de: "{meal.calories} Kalorien",
-              en: "{meal.calories} calories",
-              es: "{meal.calories} calorías",
-              fr: "{meal.calories} calories",
+              de: "<expression/> Kalorien",
+              en: "<expression/> calories",
+              es: "<expression/> calorías",
+              fr: "<expression/> calories",
             },
             hash: "4b23c07910a0b96ae27609ea68cdbb1a",
           },
         "9/declaration/body/12/argument/11/1/1/expression/alternate/0/body/5/expression/right/1/expression/0/body/3/1":
           {
             content: {
-              de: "{item.estimated_calories} kal",
-              en: "{item.estimated_calories} cal",
-              es: "{item.estimated_calories} cal",
-              fr: "{item.estimated_calories} cal",
+              de: "<expression/> kal",
+              en: "<expression/> cal",
+              es: "<expression/> cal",
+              fr: "<expression/> cal",
             },
             hash: "51da969d0d92f410653908f366f857aa",
           },

@@ -198,7 +198,7 @@ export default function TodaysMeals({ refreshTrigger, onMealAdded }: TodaysMeals
                       )}
                     </div>
                     <div className="text-lg font-semibold text-gray-900 mb-1">
-                      {meal.calories} calories
+                      {meal.calories} <span>calories</span>
                     </div>
                   </div>
                   
@@ -217,7 +217,7 @@ export default function TodaysMeals({ refreshTrigger, onMealAdded }: TodaysMeals
                       <div key={index} className="flex items-center justify-between text-sm">
                         <span className="text-gray-700">{item.name}</span>
                         <div className="flex items-center gap-2">
-                          <span className="font-medium">{item.estimated_calories} cal</span>
+                          <span className="font-medium">{item.estimated_calories} <span>cal</span></span>
                         </div>
                       </div>
                     ))}

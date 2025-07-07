@@ -88,8 +88,8 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
         .gte('date', startDate)
         .lte('date', endDate);
 
-      // Fetch nutrition for the month
-      const { data: nutrition } = await supabase
+      // Fetch all nutrition entries for the month
+      const { data: nutritionEntries } = await supabase
         .from('nutrition_entries')
         .select('*')
         .eq('user_id', user.id)
@@ -102,14 +102,47 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
       days.forEach(day => {
         const dateStr = format(day, 'yyyy-MM-dd');
         const workout = workouts?.find(w => w.date === dateStr);
-        const nutritionEntry = nutrition?.find(n => n.date === dateStr);
+        
+        // Aggregate all nutrition entries for this day
+        const dayNutritionEntries = nutritionEntries?.filter(n => n.date === dateStr) || [];
+        
+        let aggregatedNutrition: NutritionEntry | undefined;
+        if (dayNutritionEntries.length > 0) {
+          // Sum all calories and protein for the day
+          const totalCalories = dayNutritionEntries.reduce((sum, entry) => sum + entry.calories, 0);
+          const totalProtein = dayNutritionEntries.reduce((sum, entry) => {
+            if (entry.protein) return sum + entry.protein;
+            // Try to get protein from meal analysis in notes
+            try {
+              if (entry.notes && entry.notes.startsWith('{')) {
+                const analysis = JSON.parse(entry.notes);
+                return sum + (analysis.total_protein || 0);
+              }
+            } catch (e) {
+              // Ignore parsing errors
+            }
+            return sum;
+          }, 0);
+          
+          // Create aggregated nutrition entry
+          aggregatedNutrition = {
+            id: dayNutritionEntries[0].id, // Use first entry's ID
+            user_id: user.id,
+            date: dateStr,
+            calories: totalCalories,
+            protein: totalProtein > 0 ? totalProtein : null,
+            notes: `${dayNutritionEntries.length} meal${dayNutritionEntries.length > 1 ? 's' : ''} logged`,
+            created_at: dayNutritionEntries[0].created_at,
+            updated_at: dayNutritionEntries[0].updated_at
+          };
+        }
         
         dataMap.set(dateStr, {
           date: dateStr,
           workout,
-          nutrition: nutritionEntry,
+          nutrition: aggregatedNutrition,
           hasWorkout: !!workout,
-          hasNutrition: !!nutritionEntry,
+          hasNutrition: !!aggregatedNutrition,
         });
       });
 
@@ -154,7 +187,7 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
     const isTodayDate = isToday(day);
     const isPastDate = day < new Date(new Date().setHours(0, 0, 0, 0));
     
-    let classes = "relative h-16 w-full p-1 cursor-pointer transition-all duration-200 hover:scale-105 rounded-lg border-2 ";
+    let classes = "relative h-12 w-full p-0.5 cursor-pointer transition-all duration-200 hover:scale-105 rounded-md border ";
     
     if (!isCurrentMonth) {
       classes += "text-gray-300 bg-gray-50 border-gray-100 ";
@@ -254,12 +287,12 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
 
   if (loading) {
     return (
-      <div className="bg-white rounded-xl shadow-lg p-6 border-2 border-gray-100">
+      <div className="bg-white rounded-lg shadow-md p-4 border border-gray-100">
         <div className="animate-pulse">
-          <div className="h-8 bg-gray-200 rounded mb-4"></div>
-          <div className="grid grid-cols-7 gap-2">
+          <div className="h-6 bg-gray-200 rounded mb-3"></div>
+          <div className="grid grid-cols-7 gap-1.5">
             {Array.from({ length: 35 }).map((_, i) => (
-              <div key={i} className="h-16 bg-gray-200 rounded"></div>
+              <div key={i} className="h-12 bg-gray-200 rounded"></div>
             ))}
           </div>
         </div>
@@ -268,56 +301,56 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
   }
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6 border-2 border-gray-100">
+    <div className="bg-white rounded-lg shadow-md p-4 border border-gray-100">
       {/* Header with Timer */}
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center justify-between mb-4">
         <button
           onClick={() => navigateMonth('prev')}
-          className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+          className="p-1.5 hover:bg-gray-100 rounded-md transition-colors"
         >
-          <ChevronLeft className="w-5 h-5" />
+          <ChevronLeft className="w-4 h-4" />
         </button>
         
-        <div className="flex items-center gap-4">
-          <h2 className="text-2xl font-bold text-gray-900">
+        <div className="flex items-center gap-3">
+          <h2 className="text-lg font-bold text-gray-900">
             {format(currentDate, 'MMMM yyyy')}
           </h2>
           
           {/* Compact Timer */}
-          <div className="flex items-center gap-2 bg-green-50 px-3 py-1 rounded-lg border border-green-200">
-            <Timer className="w-4 h-4 text-green-600" />
-            <span className="text-sm font-mono font-medium text-green-700">
+          <div className="flex items-center gap-1.5 bg-green-50 px-2 py-1 rounded-md border border-green-200">
+            <Timer className="w-3 h-3 text-green-600" />
+            <span className="text-xs font-mono font-medium text-green-700">
               {formatTime(seconds)}
             </span>
-            <div className="flex gap-1">
+            <div className="flex gap-0.5">
               {!isRunning ? (
                 <button
                   onClick={handleStart}
-                  className="p-1 hover:bg-green-100 rounded transition-colors"
+                  className="p-0.5 hover:bg-green-100 rounded transition-colors"
                 >
-                  <Play className="w-3 h-3 text-green-600" />
+                  <Play className="w-2.5 h-2.5 text-green-600" />
                 </button>
               ) : isPaused ? (
                 <button
                   onClick={handleResume}
-                  className="p-1 hover:bg-green-100 rounded transition-colors"
+                  className="p-0.5 hover:bg-green-100 rounded transition-colors"
                 >
-                  <Play className="w-3 h-3 text-green-600" />
+                  <Play className="w-2.5 h-2.5 text-green-600" />
                 </button>
               ) : (
                 <button
                   onClick={handlePause}
-                  className="p-1 hover:bg-green-100 rounded transition-colors"
+                  className="p-0.5 hover:bg-green-100 rounded transition-colors"
                 >
-                  <Pause className="w-3 h-3 text-green-600" />
+                  <Pause className="w-2.5 h-2.5 text-green-600" />
                 </button>
               )}
               {isRunning && (
                 <button
                   onClick={handleStop}
-                  className="p-1 hover:bg-red-100 rounded transition-colors"
+                  className="p-0.5 hover:bg-red-100 rounded transition-colors"
                 >
-                  <Square className="w-3 h-3 text-red-600" />
+                  <Square className="w-2.5 h-2.5 text-red-600" />
                 </button>
               )}
             </div>
@@ -326,51 +359,51 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
         
         <button
           onClick={() => navigateMonth('next')}
-          className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+          className="p-1.5 hover:bg-gray-100 rounded-md transition-colors"
         >
-          <ChevronRight className="w-5 h-5" />
+          <ChevronRight className="w-4 h-4" />
         </button>
       </div>
 
       {/* Mode Toggle */}
-      <div className="flex items-center justify-center mb-6">
-        <div className="bg-gray-100 rounded-lg p-1 flex">
+      <div className="flex items-center justify-center mb-4">
+        <div className="bg-gray-100 rounded-md p-0.5 flex">
           <button
             onClick={() => setMode('workout')}
-            className={`px-4 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2 ${
+            className={`px-3 py-1.5 rounded-sm text-xs font-medium transition-colors flex items-center gap-1.5 ${
               mode === 'workout' 
                 ? 'bg-white text-gray-900 shadow-sm' 
                 : 'text-gray-600 hover:text-gray-900'
             }`}
           >
-            <Dumbbell className="w-4 h-4" />
+            <Dumbbell className="w-3 h-3" />
             Workout
           </button>
           <button
             onClick={() => setMode('nutrition')}
-            className={`px-4 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2 ${
+            className={`px-3 py-1.5 rounded-sm text-xs font-medium transition-colors flex items-center gap-1.5 ${
               mode === 'nutrition' 
                 ? 'bg-white text-gray-900 shadow-sm' 
                 : 'text-gray-600 hover:text-gray-900'
             }`}
           >
-            <Apple className="w-4 h-4" />
+            <Apple className="w-3 h-3" />
             {getNutritionLabel()}
           </button>
         </div>
       </div>
 
       {/* Days of week */}
-      <div className="grid grid-cols-7 gap-2 mb-2">
+      <div className="grid grid-cols-7 gap-1.5 mb-1.5">
         {['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].map(day => (
-          <div key={day} className="text-center text-sm font-medium text-gray-500 py-2">
+          <div key={day} className="text-center text-xs font-medium text-gray-500 py-1.5">
             {day}
           </div>
         ))}
       </div>
 
       {/* Calendar grid */}
-      <div className="grid grid-cols-7 gap-2">
+      <div className="grid grid-cols-7 gap-1.5">
         {days.map(day => {
           const dateStr = format(day, 'yyyy-MM-dd');
           const dayData = monthData.get(dateStr);
@@ -384,7 +417,7 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
               onClick={() => handleDayClick(day)}
             >
               <div className="flex flex-col items-center justify-center h-full">
-                <div className="text-sm font-medium mb-1">
+                <div className="text-xs font-medium mb-0.5">
                   {format(day, 'd')}
                 </div>
                 
@@ -393,11 +426,11 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
                     // Workout mode - show green/red dots
                     <>
                       {dayData?.hasWorkout ? (
-                        <div className="w-3 h-3 bg-green-500 rounded-full" title="Workout completed" />
+                        <div className="w-2 h-2 bg-green-500 rounded-full" title="Workout completed" />
                       ) : isPastDate && isCurrentMonth ? (
-                        <div className="w-3 h-3 bg-red-400 rounded-full" title="Missed workout" />
+                        <div className="w-2 h-2 bg-red-400 rounded-full" title="Missed workout" />
                       ) : isCurrentMonth ? (
-                        <div className="w-2 h-2 bg-gray-300 rounded-full opacity-50" />
+                        <div className="w-1.5 h-1.5 bg-gray-300 rounded-full opacity-50" />
                       ) : null}
                     </>
                   ) : (
@@ -405,15 +438,15 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
                     <>
                       {dayData?.hasNutrition && isCurrentMonth ? (
                         <div className="text-center">
-                          <div className="text-xs font-bold leading-tight">
+                          <div className="text-xs font-bold leading-none">
                             {getNutritionValue(dayData)}
                           </div>
-                          <div className="text-xs text-gray-600 leading-tight">
+                          <div className="text-xs text-gray-600 leading-none">
                             /{getNutritionGoal()}
                           </div>
                         </div>
                       ) : isCurrentMonth ? (
-                        <div className="w-2 h-2 bg-gray-300 rounded-full opacity-50" />
+                        <div className="w-1.5 h-1.5 bg-gray-300 rounded-full opacity-50" />
                       ) : null}
                     </>
                   )}
@@ -425,32 +458,32 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
       </div>
 
       {/* Legend */}
-      <div className="mt-4 flex items-center justify-center gap-4 text-xs text-gray-600">
+      <div className="mt-3 flex items-center justify-center gap-3 text-xs text-gray-600">
         {mode === 'workout' ? (
           <>
             <div className="flex items-center gap-1">
-              <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+              <div className="w-2 h-2 bg-green-500 rounded-full"></div>
               <span>Workout Done</span>
             </div>
             <div className="flex items-center gap-1">
-              <div className="w-3 h-3 bg-red-400 rounded-full"></div>
+              <div className="w-2 h-2 bg-red-400 rounded-full"></div>
               <span>Missed Day</span>
             </div>
           </>
         ) : (
           <>
             <div className="flex items-center gap-1">
-              <div className="w-2 h-2 bg-green-400 rounded-full"></div>
+              <div className="w-1.5 h-1.5 bg-green-400 rounded-full"></div>
               <span>{fitnessGoal === 'gain_muscle' ? 'Hit Goal' : 'Under Goal'}</span>
             </div>
             <div className="flex items-center gap-1">
-              <div className="w-2 h-2 bg-red-400 rounded-full"></div>
+              <div className="w-1.5 h-1.5 bg-red-400 rounded-full"></div>
               <span>{fitnessGoal === 'gain_muscle' ? 'Need More' : 'Over Goal'}</span>
             </div>
           </>
         )}
         <div className="flex items-center gap-1">
-          <div className="w-2 h-2 bg-blue-300 rounded-full"></div>
+          <div className="w-1.5 h-1.5 bg-blue-300 rounded-full"></div>
           <span>Today</span>
         </div>
       </div>
