@@ -3452,6 +3452,202 @@
         }
       }
     },
+    "components/fitness/manual-meal-entry-modal.tsx": {
+      "scopes": {
+        "6/declaration/body/13/argument/1/3/1/1": {
+          "type": "element",
+          "hash": "15270ce23f5b8863bcb4587465269e24",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Add Manual Meal Entry"
+        },
+        "6/declaration/body/13/argument/1/7/11/1/1": {
+          "type": "element",
+          "hash": "719ef850a8c844b3cd475c95298d25c7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Food Items (Optional)"
+        },
+        "6/declaration/body/13/argument/1/7/11/1/3": {
+          "type": "element",
+          "hash": "74dd94739fefdbf61250dcb685af0ef8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Plus></element:Plus> Add Item"
+        },
+        "6/declaration/body/13/argument/1/7/11/3/1/expression/0/body/1/1-placeholder": {
+          "type": "attribute",
+          "hash": "26080d827a4eff5a54ef1aa835ca786a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Food item name"
+        },
+        "6/declaration/body/13/argument/1/7/11/3/1/expression/0/body/3/1-placeholder": {
+          "type": "attribute",
+          "hash": "0138385868486ce98a4f8e653d5af7cc",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Calories"
+        },
+        "6/declaration/body/13/argument/1/7/11/3/1/expression/0/body/5/1/1": {
+          "type": "element",
+          "hash": "97359f18d6648e0980854c5e68bb0969",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Low"
+        },
+        "6/declaration/body/13/argument/1/7/11/3/1/expression/0/body/5/1/3": {
+          "type": "element",
+          "hash": "43983f2178fb28aacaef6c5f41282c4a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Medium"
+        },
+        "6/declaration/body/13/argument/1/7/11/3/1/expression/0/body/5/1/5": {
+          "type": "element",
+          "hash": "dabe777f3b670e9407e46c186197d188",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "High"
+        },
+        "6/declaration/body/13/argument/1/7/15/1": {
+          "type": "element",
+          "hash": "865d9eae7ccfa90c6174c5fc22acac01",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Notes (Optional)"
+        },
+        "6/declaration/body/13/argument/1/7/15/3-placeholder": {
+          "type": "attribute",
+          "hash": "ed5049a08e2484841fc6fe2d77533cfe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Any additional notes about this meal..."
+        },
+        "6/declaration/body/13/argument/1/7/19/1": {
+          "type": "element",
+          "hash": "07296eb8d91ad98e1b60cd7ab0def914",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Cancel"
+        },
+        "6/declaration/body/13/argument/1/7/19/3": {
+          "type": "element",
+          "hash": "b3448344ceda8c4114503a877acd5e1f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Save Meal"
+        },
+        "6/declaration/body/13/argument/1/7/3/1/1": {
+          "type": "element",
+          "hash": "d2a34d0d23abc9a5a6fb4e59318a32df",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Meal Title *"
+        },
+        "6/declaration/body/13/argument/1/7/3/1/3-placeholder": {
+          "type": "attribute",
+          "hash": "8f7c4dd0c65d3cb9ea3a316e6ab71911",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "e.g., Chicken Caesar Salad"
+        },
+        "6/declaration/body/13/argument/1/7/3/3/1": {
+          "type": "element",
+          "hash": "bb06ce52913465d4159f5ca8016448a4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Meal Type"
+        },
+        "6/declaration/body/13/argument/1/7/3/3/3/1": {
+          "type": "element",
+          "hash": "fa373e47f55ff081982844a853be3a88",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select type"
+        },
+        "6/declaration/body/13/argument/1/7/3/3/3/3": {
+          "type": "element",
+          "hash": "cc8f07be4ca9cf4532a19fe55d7604cd",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Breakfast"
+        },
+        "6/declaration/body/13/argument/1/7/3/3/3/5": {
+          "type": "element",
+          "hash": "a410a370ec7c0482e2a0136032939101",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Lunch"
+        },
+        "6/declaration/body/13/argument/1/7/3/3/3/7": {
+          "type": "element",
+          "hash": "d8cb61eb306b4e4949eb36d021a46d02",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Dinner"
+        },
+        "6/declaration/body/13/argument/1/7/3/3/3/9": {
+          "type": "element",
+          "hash": "3587d7632ba17db8b69a3f3f4d6acc92",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Snack"
+        },
+        "6/declaration/body/13/argument/1/7/7/1/1": {
+          "type": "element",
+          "hash": "f723da75b8b606492a32d39c8f386e07",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Total Calories *"
+        },
+        "6/declaration/body/13/argument/1/7/7/1/3-placeholder": {
+          "type": "attribute",
+          "hash": "a24caa2908796785d8cb7a7c0033a349",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "500"
+        },
+        "6/declaration/body/13/argument/1/7/7/3/1": {
+          "type": "element",
+          "hash": "729fbb356d71d14e6cbaf7dc0fa9825a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Total Protein (g)"
+        },
+        "6/declaration/body/13/argument/1/7/7/3/3-placeholder": {
+          "type": "attribute",
+          "hash": "625a8e20511d561f81cd1d05b133efc4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "25"
+        }
+      }
+    },
     "components/fitness/meal-photo-analyzer.tsx": {
       "scopes": {
         "6/declaration/body/9/argument/1/1/3": {
@@ -5475,6 +5671,262 @@
           "content": "No meals logged today"
         },
         "11/declaration/body/30/argument/7/5/1/1/expression/consequent/5": {
+          "type": "element",
+          "hash": "f33b236852b72c8084fb6d97a46e0c95",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Use the AI analyzer to get started!"
+        },
+        "12/declaration/body/32/argument/11/1/expression/right/1/1/1/1/7/1/2": {
+          "type": "element",
+          "hash": "3ff660d3d4daef29018de3bb13f30481",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "calories"
+        },
+        "12/declaration/body/32/argument/11/1/expression/right/1/1/1/1/7/3/expression/right": {
+          "type": "element",
+          "hash": "dd54859faede47e39af10a48a6ff8283",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<expression/>g protein"
+        },
+        "12/declaration/body/32/argument/11/1/expression/right/1/3/11/expression/right/1": {
+          "type": "element",
+          "hash": "00c5d483044152af70ecb2164061f5d7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Notes:"
+        },
+        "12/declaration/body/32/argument/11/1/expression/right/1/3/15/1": {
+          "type": "element",
+          "hash": "73520178e9084a0fe9e7c3ad1d413bb2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Trash2></element:Trash2> Delete Meal"
+        },
+        "12/declaration/body/32/argument/11/1/expression/right/1/3/3/expression/right/1": {
+          "type": "element",
+          "hash": "b73c2bb21901ec54a7c00e03299c9b29",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Food Items:"
+        },
+        "12/declaration/body/32/argument/11/1/expression/right/1/3/3/expression/right/3/1/expression/0/body/3/2": {
+          "type": "element",
+          "hash": "ccacef079abde597bff5d86af2320a53",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "cal"
+        },
+        "12/declaration/body/32/argument/11/1/expression/right/1/3/7/expression/right/1": {
+          "type": "element",
+          "hash": "5123293f294057db33e00c9e8f946f59",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Analysis Notes:"
+        },
+        "12/declaration/body/32/argument/3/3/1/1/3": {
+          "type": "element",
+          "hash": "19ce1cdc7fb9cce8ee49cbf516fbee80",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "AI Meal Analyzer"
+        },
+        "12/declaration/body/32/argument/3/3/5/1/expression/right/1/1/3": {
+          "type": "element",
+          "hash": "2c4673698e47fce9b87d3dcefd7d5b1b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:strong>Note:</element:strong> This is an AI estimation to help build tracking habits. Results may not be 100% accurate but are better than not tracking at all!"
+        },
+        "12/declaration/body/32/argument/3/3/5/1/expression/right/3/1": {
+          "type": "element",
+          "hash": "705805e9bc9547c7234e80ea17ae0329",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "📸 Tips for better analysis:"
+        },
+        "12/declaration/body/32/argument/3/3/5/1/expression/right/3/3/1": {
+          "type": "element",
+          "hash": "4c4b69d9b605fabe2e28d0cca0d8a784",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "• Take photos from above for best view"
+        },
+        "12/declaration/body/32/argument/3/3/5/1/expression/right/3/3/3": {
+          "type": "element",
+          "hash": "2eedb10156bcaa3f74b8e62735b962da",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "• Ensure good lighting"
+        },
+        "12/declaration/body/32/argument/3/3/5/1/expression/right/3/3/5": {
+          "type": "element",
+          "hash": "f5dc23f1e8cc4ae66bb19a9dc5567103",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "• Include the whole plate/meal"
+        },
+        "12/declaration/body/32/argument/3/3/5/1/expression/right/3/3/7": {
+          "type": "element",
+          "hash": "a97a55876f94e7f9749ff8f0285080d1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "• Avoid blurry or dark photos"
+        },
+        "12/declaration/body/32/argument/3/3/9/3/expression/alternate/alternate/3/1": {
+          "type": "element",
+          "hash": "57e07f1a158fa5093c442229d7d8b0b9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Click to upload or drag & drop"
+        },
+        "12/declaration/body/32/argument/3/3/9/3/expression/alternate/alternate/3/3": {
+          "type": "element",
+          "hash": "3b881d7fd71d3120c747d00b801622ad",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "JPG, PNG, or other image formats"
+        },
+        "12/declaration/body/32/argument/3/3/9/3/expression/alternate/consequent/1-alt": {
+          "type": "attribute",
+          "hash": "8d7f12ab0b2861c27ff57a1fa42c7b94",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Meal preview"
+        },
+        "12/declaration/body/32/argument/3/3/9/3/expression/alternate/consequent/3": {
+          "type": "element",
+          "hash": "63d423c21cddba6e61304d593c12f211",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Click to analyze another meal"
+        },
+        "12/declaration/body/32/argument/3/3/9/3/expression/consequent/3": {
+          "type": "element",
+          "hash": "37753fcb7dd8cf333a42716c0179d1b0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Analyzing your meal..."
+        },
+        "12/declaration/body/32/argument/3/3/9/3/expression/consequent/5": {
+          "type": "element",
+          "hash": "aa4c14d089ebc9871e8879d0f9dc4464",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This may take a few seconds"
+        },
+        "12/declaration/body/32/argument/3/7/1/1/3": {
+          "type": "element",
+          "hash": "c795f95dab59a6aeb86629a759ce11b0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Today's Progress"
+        },
+        "12/declaration/body/32/argument/3/7/5/1/expression/right/1/1": {
+          "type": "element",
+          "hash": "e02eef58ecd3830c7031c4c83d07456e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "💡 Tip:"
+        },
+        "12/declaration/body/32/argument/3/7/9/3/3": {
+          "type": "element",
+          "hash": "5da39407cbbf9700ca13dd1abf51ccf0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "/ <expression/>"
+        },
+        "12/declaration/body/32/argument/7/1/1/3": {
+          "type": "element",
+          "hash": "c9a97e7889b83892ea5f2ce31c5e02f5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Today's Meals"
+        },
+        "12/declaration/body/32/argument/7/1/3": {
+          "type": "element",
+          "hash": "2f2508681208c15a925705ee9ea80873",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:svg><element:path></element:path></element:svg> Add Meal"
+        },
+        "12/declaration/body/32/argument/7/5/1/1/expression/alternate/alternate/1/1": {
+          "type": "element",
+          "hash": "66ab098ec727fbb1e4a1f3b96f0f22b1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Apple></element:Apple> Today's Meals ({todaysMeals.length})"
+        },
+        "12/declaration/body/32/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/1/2": {
+          "type": "element",
+          "hash": "ccacef079abde597bff5d86af2320a53",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "cal"
+        },
+        "12/declaration/body/32/argument/7/5/1/1/expression/alternate/alternate/3/1/expression/0/body/1/1/7/3/expression/right": {
+          "type": "element",
+          "hash": "79357613fe200ae9cf8fe9957dbab9f3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<expression/>g protein"
+        },
+        "12/declaration/body/32/argument/7/5/1/1/expression/alternate/consequent/1/1/7/1/2": {
+          "type": "element",
+          "hash": "ccacef079abde597bff5d86af2320a53",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "cal"
+        },
+        "12/declaration/body/32/argument/7/5/1/1/expression/alternate/consequent/1/1/7/3/expression/right": {
+          "type": "element",
+          "hash": "7744b1733b9eb3f870f4eeda7e5758b0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<expression/>g protein"
+        },
+        "12/declaration/body/32/argument/7/5/1/1/expression/consequent/3": {
+          "type": "element",
+          "hash": "79eaa1ed6008036e23766fc821c0a7fe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "No meals logged today"
+        },
+        "12/declaration/body/32/argument/7/5/1/1/expression/consequent/5": {
           "type": "element",
           "hash": "f33b236852b72c8084fb6d97a46e0c95",
           "context": "",

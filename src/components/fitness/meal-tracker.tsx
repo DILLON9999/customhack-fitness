@@ -23,6 +23,7 @@ import { useAuth } from "@/lib/auth-context";
 import { motion, AnimatePresence } from "motion/react";
 import { analyzeMealPhoto } from "@/lib/gemini";
 import { Marquee } from '@/components/magicui/marquee';
+import ManualMealEntryModal from './manual-meal-entry-modal';
 
 interface MealTrackerProps {
   refreshTrigger?: number;
@@ -54,6 +55,9 @@ export default function MealTracker({ refreshTrigger, onMealAdded, fitnessGoal }
   // Meal details popup state
   const [selectedMeal, setSelectedMeal] = useState<MealEntry | null>(null);
   const [showMealDetails, setShowMealDetails] = useState(false);
+  
+  // Manual meal entry state
+  const [showManualMealEntry, setShowManualMealEntry] = useState(false);
 
   const today = format(new Date(), 'yyyy-MM-dd');
 
@@ -242,6 +246,45 @@ export default function MealTracker({ refreshTrigger, onMealAdded, fitnessGoal }
   const handleCloseMealDetails = () => {
     setShowMealDetails(false);
     setSelectedMeal(null);
+  };
+
+  const handleManualMealSave = async (analysis: MealAnalysis) => {
+    if (!user) return;
+
+    try {
+      const today = format(new Date(), 'yyyy-MM-dd');
+      
+      // Save the manual meal analysis to the nutrition_entries table
+      const nutritionData = {
+        user_id: user.id,
+        date: today,
+        calories: analysis.total_calories,
+        protein: analysis.total_protein,
+        notes: JSON.stringify(analysis), // Store the full analysis in notes
+      };
+
+      console.log('Saving manual meal entry:', nutritionData);
+
+      const result = await supabase
+        .from('nutrition_entries')
+        .insert(nutritionData)
+        .select();
+
+      if (result.error) {
+        console.error('Error saving manual meal:', result.error);
+        alert(`Error saving meal: ${result.error.message}`);
+        return;
+      }
+
+      console.log('Manual meal saved successfully:', result);
+      
+      // Refresh the meals list
+      loadTodaysMeals();
+      
+    } catch (error) {
+      console.error('Error saving manual meal:', error);
+      alert(`Error saving meal: ${error instanceof Error ? error.message : 'Unknown error'}`);
+    }
   };
 
   if (loading) {
@@ -503,9 +546,20 @@ export default function MealTracker({ refreshTrigger, onMealAdded, fitnessGoal }
 
       {/* Today's Meals Section - Full Width Below */}
       <div className="relative">
-        <div className="flex items-center gap-1.5 mb-3">
-          <Utensils className="w-5 h-5 text-orange-600" />
-          <h3 className="text-lg font-bold text-gray-900">Today's Meals</h3>
+        <div className="flex items-center justify-between mb-3">
+          <div className="flex items-center gap-1.5">
+            <Utensils className="w-5 h-5 text-orange-600" />
+            <h3 className="text-lg font-bold text-gray-900">Today's Meals</h3>
+          </div>
+          <button
+            onClick={() => setShowManualMealEntry(true)}
+            className="flex items-center gap-1 px-3 py-1.5 text-sm bg-orange-600 text-white rounded-md hover:bg-orange-700 transition-colors"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+            </svg>
+            Add Meal
+          </button>
         </div>
 
         {/* Meals List */}
@@ -767,6 +821,17 @@ export default function MealTracker({ refreshTrigger, onMealAdded, fitnessGoal }
               </div>
             </motion.div>
           </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Manual Meal Entry Modal */}
+      <AnimatePresence>
+        {showManualMealEntry && (
+          <ManualMealEntryModal
+            isOpen={showManualMealEntry}
+            onClose={() => setShowManualMealEntry(false)}
+            onSave={handleManualMealSave}
+          />
         )}
       </AnimatePresence>
     </div>
