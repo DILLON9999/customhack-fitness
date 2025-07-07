@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { format, startOfMonth, endOfMonth, eachDayOfInterval, isSameMonth, isToday, parseISO, isSameDay } from "date-fns";
 import { ChevronLeft, ChevronRight, Dumbbell, Apple, Plus, Play, Pause, Square, Timer } from "lucide-react";
-import { DayData, WorkoutEntry, NutritionEntry } from "@/types/fitness";
+import { DayData, WorkoutEntry, NutritionEntry, FitnessGoal } from "@/types/fitness";
 import { supabase } from "@/lib/supabase";
 import { useAuth } from "@/lib/auth-context";
 
@@ -11,11 +11,12 @@ interface FitnessCalendarProps {
   onDayClick: (date: string, dayData: DayData) => void;
   refreshTrigger?: number;
   onWorkoutComplete?: (durationMinutes: number) => Promise<void>;
+  fitnessGoal?: FitnessGoal;
 }
 
 type CalendarMode = 'workout' | 'nutrition';
 
-export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutComplete }: FitnessCalendarProps) {
+export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutComplete, fitnessGoal = 'lose_weight' }: FitnessCalendarProps) {
   const { user } = useAuth();
   const [currentDate, setCurrentDate] = useState(new Date());
   const [monthData, setMonthData] = useState<Map<string, DayData>>(new Map());
@@ -173,12 +174,15 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
     } else {
       // Nutrition mode
       if (dayData?.hasNutrition && !isTodayDate) {
-        const calories = getNutritionCalories(dayData);
-        const calorieStatus = getCalorieStatus(calories);
-        if (calorieStatus === 'over') {
-          classes += "bg-red-100 border-red-300 text-red-900 ";
-        } else if (calorieStatus === 'under') {
-          classes += "bg-green-100 border-green-300 text-green-900 ";
+        const nutritionStatus = getNutritionStatus(dayData);
+        if (nutritionStatus === 'over_goal') {
+          classes += fitnessGoal === 'lose_weight' 
+            ? "bg-red-100 border-red-300 text-red-900 "
+            : "bg-green-100 border-green-300 text-green-900 ";
+        } else if (nutritionStatus === 'under_goal') {
+          classes += fitnessGoal === 'lose_weight' 
+            ? "bg-green-100 border-green-300 text-green-900 "
+            : "bg-red-100 border-red-300 text-red-900 ";
         } else {
           classes += "bg-white border-gray-200 hover:border-gray-300 ";
         }
@@ -190,25 +194,62 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
     return classes;
   };
 
-  const getNutritionCalories = (dayData: DayData | undefined) => {
+  const getNutritionValue = (dayData: DayData | undefined) => {
     if (!dayData?.nutrition) return 0;
     
-    try {
-      const notes = dayData.nutrition.notes;
-      if (typeof notes === 'string') {
-        const parsed = JSON.parse(notes);
-        return parsed.total_calories || dayData.nutrition.calories || 0;
+    if (fitnessGoal === 'gain_muscle') {
+      // Return protein value
+      if (dayData.nutrition.protein) return dayData.nutrition.protein;
+      
+      // Try to get protein from meal analysis
+      try {
+        const notes = dayData.nutrition.notes;
+        if (typeof notes === 'string') {
+          const parsed = JSON.parse(notes);
+          return parsed.total_protein || 0;
+        }
+      } catch {
+        // Fall back to 0 if no protein data
       }
-      return dayData.nutrition.calories || 0;
-    } catch {
-      return dayData.nutrition.calories || 0;
+      return 0;
+    } else {
+      // Return calories value
+      try {
+        const notes = dayData.nutrition.notes;
+        if (typeof notes === 'string') {
+          const parsed = JSON.parse(notes);
+          return parsed.total_calories || dayData.nutrition.calories || 0;
+        }
+        return dayData.nutrition.calories || 0;
+      } catch {
+        return dayData.nutrition.calories || 0;
+      }
     }
   };
 
-  const getCalorieStatus = (calories: number, goal: number = 2000) => {
-    if (calories === 0) return 'none';
-    if (calories > goal) return 'over';
-    return 'under';
+  const getNutritionStatus = (dayData: DayData | undefined) => {
+    if (!dayData?.nutrition) return 'none';
+    
+    const value = getNutritionValue(dayData);
+    if (value === 0) return 'none';
+    
+    if (fitnessGoal === 'gain_muscle') {
+      const proteinGoal = 120; // grams
+      if (value >= proteinGoal) return 'over_goal';
+      return 'under_goal';
+    } else {
+      const calorieGoal = 1800; // calories for weight loss
+      if (value > calorieGoal) return 'over_goal';
+      return 'under_goal';
+    }
+  };
+
+  const getNutritionGoal = () => {
+    return fitnessGoal === 'gain_muscle' ? '120g' : '1800';
+  };
+
+  const getNutritionLabel = () => {
+    return fitnessGoal === 'gain_muscle' ? 'Protein' : 'Calories';
   };
 
   if (loading) {
@@ -314,7 +355,7 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
             }`}
           >
             <Apple className="w-4 h-4" />
-            Nutrition
+            {getNutritionLabel()}
           </button>
         </div>
       </div>
@@ -360,15 +401,15 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
                       ) : null}
                     </>
                   ) : (
-                    // Nutrition mode - show calories centered
+                    // Nutrition mode - show value centered
                     <>
                       {dayData?.hasNutrition && isCurrentMonth ? (
                         <div className="text-center">
                           <div className="text-xs font-bold leading-tight">
-                            {getNutritionCalories(dayData)}
+                            {getNutritionValue(dayData)}
                           </div>
                           <div className="text-xs text-gray-600 leading-tight">
-                            /2000
+                            /{getNutritionGoal()}
                           </div>
                         </div>
                       ) : isCurrentMonth ? (
@@ -400,11 +441,11 @@ export default function FitnessCalendar({ onDayClick, refreshTrigger, onWorkoutC
           <>
             <div className="flex items-center gap-1">
               <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-              <span>Under Goal</span>
+              <span>{fitnessGoal === 'gain_muscle' ? 'Hit Goal' : 'Under Goal'}</span>
             </div>
             <div className="flex items-center gap-1">
               <div className="w-2 h-2 bg-red-400 rounded-full"></div>
-              <span>Over Goal</span>
+              <span>{fitnessGoal === 'gain_muscle' ? 'Need More' : 'Over Goal'}</span>
             </div>
           </>
         )}

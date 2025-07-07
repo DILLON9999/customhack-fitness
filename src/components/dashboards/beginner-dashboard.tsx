@@ -7,9 +7,10 @@ import FitnessCalendar from "@/components/fitness/fitness-calendar";
 import StreakDisplay from "@/components/fitness/streak-display";
 import DayEntryModal from "@/components/fitness/day-entry-modal";
 import MealTracker from "@/components/fitness/meal-tracker";
-import { DayData, MealAnalysis } from "@/types/fitness";
+import { DayData, MealAnalysis, FitnessGoal } from "@/types/fitness";
 import { supabase } from "@/lib/supabase";
 import { useAuth } from "@/lib/auth-context";
+import { Target, Zap } from "lucide-react";
 
 export default function BeginnerDashboard() {
   const { user } = useAuth();
@@ -17,6 +18,7 @@ export default function BeginnerDashboard() {
   const [selectedDayData, setSelectedDayData] = useState<DayData | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [refreshTrigger, setRefreshTrigger] = useState(0);
+  const [fitnessGoal, setFitnessGoal] = useState<FitnessGoal>('lose_weight');
 
   const handleDayClick = (date: string, dayData: DayData) => {
     setSelectedDate(date);
@@ -118,6 +120,7 @@ export default function BeginnerDashboard() {
         user_id: user.id,
         date: today,
         calories: analysis.total_calories,
+        protein: analysis.total_protein,
         notes: JSON.stringify(analysis), // Store the full analysis in notes
       };
 
@@ -171,13 +174,45 @@ export default function BeginnerDashboard() {
             <StreakDisplay refreshTrigger={refreshTrigger} />
           </div>
 
-          {/* Center Column - Calendar (spans 2 columns) */}
-          <div className="lg:col-span-2">
+          {/* Center Column - Calendar and Goal Selection (spans 2 columns) */}
+          <div className="lg:col-span-2 space-y-6">
             <FitnessCalendar 
               onDayClick={handleDayClick}
               refreshTrigger={refreshTrigger}
               onWorkoutComplete={handleWorkoutComplete}
+              fitnessGoal={fitnessGoal}
             />
+            
+            {/* Goal Selection */}
+            <div className="flex justify-center">
+              <div className="bg-white rounded-xl shadow-lg p-4 border-2 border-gray-100">
+                <h3 className="text-sm font-medium text-gray-700 mb-3 text-center">Your Goal</h3>
+                <div className="flex gap-2">
+                  <button
+                    onClick={() => setFitnessGoal('lose_weight')}
+                    className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                      fitnessGoal === 'lose_weight'
+                        ? 'bg-red-100 text-red-700 border-2 border-red-300'
+                        : 'bg-gray-100 text-gray-600 border-2 border-transparent hover:bg-gray-200'
+                    }`}
+                  >
+                    <Target className="w-4 h-4 inline mr-1" />
+                    Lose Weight
+                  </button>
+                  <button
+                    onClick={() => setFitnessGoal('gain_muscle')}
+                    className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                      fitnessGoal === 'gain_muscle'
+                        ? 'bg-green-100 text-green-700 border-2 border-green-300'
+                        : 'bg-gray-100 text-gray-600 border-2 border-transparent hover:bg-gray-200'
+                    }`}
+                  >
+                    <Zap className="w-4 h-4 inline mr-1" />
+                    Gain Muscle
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Right Column - Meal Tracker */}
@@ -185,6 +220,7 @@ export default function BeginnerDashboard() {
             <MealTracker 
               refreshTrigger={refreshTrigger}
               onMealAdded={handleMealAnalysisComplete}
+              fitnessGoal={fitnessGoal}
             />
           </div>
         </div>

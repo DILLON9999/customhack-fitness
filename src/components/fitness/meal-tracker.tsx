@@ -12,9 +12,10 @@ import {
   Loader2, 
   Utensils, 
   Info,
-  AlertCircle
+  AlertCircle,
+  Zap
 } from "lucide-react";
-import { MealAnalysis, NutritionEntry } from "@/types/fitness";
+import { MealAnalysis, NutritionEntry, FitnessGoal } from "@/types/fitness";
 import { supabase } from "@/lib/supabase";
 import { useAuth } from "@/lib/auth-context";
 import { motion, AnimatePresence } from "motion/react";
@@ -23,16 +24,18 @@ import { analyzeMealPhoto } from "@/lib/gemini";
 interface MealTrackerProps {
   refreshTrigger?: number;
   onMealAdded: (analysis: MealAnalysis) => void;
+  fitnessGoal: FitnessGoal;
 }
 
 interface MealEntry extends NutritionEntry {
   meal_analysis?: MealAnalysis;
 }
 
-export default function MealTracker({ refreshTrigger, onMealAdded }: MealTrackerProps) {
+export default function MealTracker({ refreshTrigger, onMealAdded, fitnessGoal }: MealTrackerProps) {
   const { user } = useAuth();
   const [todaysMeals, setTodaysMeals] = useState<MealEntry[]>([]);
   const [totalCalories, setTotalCalories] = useState(0);
+  const [totalProtein, setTotalProtein] = useState(0);
   const [loading, setLoading] = useState(true);
   
   // Photo analyzer state
@@ -83,9 +86,16 @@ export default function MealTracker({ refreshTrigger, onMealAdded }: MealTracker
 
       setTodaysMeals(mealsWithAnalysis);
       
-      // Calculate total calories
-      const total = mealsWithAnalysis.reduce((sum, meal) => sum + meal.calories, 0);
-      setTotalCalories(total);
+      // Calculate totals
+      const totalCals = mealsWithAnalysis.reduce((sum, meal) => sum + meal.calories, 0);
+      const totalProt = mealsWithAnalysis.reduce((sum, meal) => {
+        if (meal.protein) return sum + meal.protein;
+        if (meal.meal_analysis?.total_protein) return sum + meal.meal_analysis.total_protein;
+        return sum;
+      }, 0);
+      
+      setTotalCalories(totalCals);
+      setTotalProtein(totalProt);
       
     } catch (error) {
       console.error('Error loading today\'s meals:', error);
@@ -119,14 +129,24 @@ export default function MealTracker({ refreshTrigger, onMealAdded }: MealTracker
     }
   };
 
-  const getCalorieGoalStatus = () => {
-    const goal = 2000; // Could be made configurable
-    const percentage = (totalCalories / goal) * 100;
-    
-    if (percentage < 50) return { color: 'text-red-600', message: 'Below target' };
-    if (percentage < 80) return { color: 'text-yellow-600', message: 'Getting there' };
-    if (percentage <= 110) return { color: 'text-green-600', message: 'On track!' };
-    return { color: 'text-orange-600', message: 'Above target' };
+  const getGoalStatus = () => {
+    if (fitnessGoal === 'lose_weight') {
+      const goal = 1800; // Lower calorie goal for weight loss
+      const percentage = (totalCalories / goal) * 100;
+      
+      if (percentage < 50) return { color: 'text-red-600', message: 'Too low - eat more!' };
+      if (percentage < 80) return { color: 'text-green-600', message: 'Great deficit!' };
+      if (percentage <= 100) return { color: 'text-green-600', message: 'Perfect range!' };
+      return { color: 'text-red-600', message: 'Over target' };
+    } else {
+      const goal = 120; // Protein goal for muscle gain (grams)
+      const percentage = (totalProtein / goal) * 100;
+      
+      if (percentage < 50) return { color: 'text-red-600', message: 'Need more protein!' };
+      if (percentage < 80) return { color: 'text-orange-600', message: 'Getting there' };
+      if (percentage >= 100) return { color: 'text-green-600', message: 'Great job!' };
+      return { color: 'text-orange-600', message: 'Almost there' };
+    }
   };
 
   // Photo analyzer methods
@@ -204,7 +224,7 @@ export default function MealTracker({ refreshTrigger, onMealAdded }: MealTracker
     );
   }
 
-  const goalStatus = getCalorieGoalStatus();
+  const goalStatus = getGoalStatus();
 
   return (
     <div className="bg-white rounded-xl shadow-lg p-6 border-2 border-orange-100 space-y-6">
@@ -339,22 +359,75 @@ export default function MealTracker({ refreshTrigger, onMealAdded }: MealTracker
               className="absolute top-16 right-4 bg-white rounded-lg shadow-xl border border-gray-200 p-4 z-10 w-64"
             >
               <p className="text-xs text-gray-700">
-                <strong>💡 Tip:</strong> Regular meal tracking helps build healthy habits. 
-                Even rough estimates are better than no tracking at all!
+                <strong>💡 Tip:</strong> {fitnessGoal === 'lose_weight' 
+                  ? 'Track calories to stay in a deficit for weight loss. Focus on whole foods and portion control.'
+                  : 'Track protein to support muscle growth. Aim for protein with every meal and snack.'
+                }
               </p>
             </motion.div>
           )}
         </AnimatePresence>
 
-        {/* Calorie Summary */}
-        <div className="mb-6 p-4 bg-gradient-to-r from-orange-50 to-yellow-50 rounded-lg border border-orange-200">
+        {/* Goal Summary */}
+        <div className={`mb-6 p-4 rounded-lg border ${
+          fitnessGoal === 'lose_weight' 
+            ? (function() {
+                const percentage = (totalCalories / 1800) * 100;
+                if (percentage < 50) return 'bg-gradient-to-r from-red-50 to-orange-50 border-red-200'; // Too low
+                if (percentage < 80) return 'bg-gradient-to-r from-green-50 to-emerald-50 border-green-200'; // Great deficit
+                if (percentage <= 100) return 'bg-gradient-to-r from-green-50 to-emerald-50 border-green-200'; // Perfect range
+                return 'bg-gradient-to-r from-red-50 to-orange-50 border-red-200'; // Over target
+              })()
+            : (function() {
+                const percentage = (totalProtein / 120) * 100;
+                if (percentage < 50) return 'bg-gradient-to-r from-red-50 to-orange-50 border-red-200'; // Need more
+                if (percentage < 80) return 'bg-gradient-to-r from-yellow-50 to-orange-50 border-yellow-200'; // Getting there
+                return 'bg-gradient-to-r from-green-50 to-emerald-50 border-green-200'; // Great job
+              })()
+        }`}>
           <div className="flex items-center justify-between mb-2">
-            <span className="text-sm font-medium text-gray-700">Total Calories</span>
-            <Target className="w-4 h-4 text-orange-600" />
+            <span className="text-sm font-medium text-gray-700">
+              {fitnessGoal === 'lose_weight' ? 'Total Calories' : 'Total Protein'}
+            </span>
+            {fitnessGoal === 'lose_weight' ? (
+              <Target className={`w-4 h-4 ${
+                (function() {
+                  const percentage = (totalCalories / 1800) * 100;
+                  if (percentage < 50 || percentage > 100) return 'text-red-600';
+                  return 'text-green-600';
+                })()
+              }`} />
+            ) : (
+              <Zap className={`w-4 h-4 ${
+                (function() {
+                  const percentage = (totalProtein / 120) * 100;
+                  if (percentage < 50) return 'text-red-600';
+                  if (percentage < 80) return 'text-orange-600';
+                  return 'text-green-600';
+                })()
+              }`} />
+            )}
           </div>
           <div className="flex items-baseline gap-2">
-            <span className="text-3xl font-bold text-orange-600">{totalCalories}</span>
-            <span className="text-sm text-gray-600">/ 2000</span>
+            <span className={`text-3xl font-bold ${
+              fitnessGoal === 'lose_weight' 
+                ? (function() {
+                    const percentage = (totalCalories / 1800) * 100;
+                    if (percentage < 50 || percentage > 100) return 'text-red-600';
+                    return 'text-green-600';
+                  })()
+                : (function() {
+                    const percentage = (totalProtein / 120) * 100;
+                    if (percentage < 50) return 'text-red-600';
+                    if (percentage < 80) return 'text-orange-600';
+                    return 'text-green-600';
+                  })()
+            }`}>
+              {fitnessGoal === 'lose_weight' ? totalCalories : totalProtein}
+            </span>
+            <span className="text-sm text-gray-600">
+              / {fitnessGoal === 'lose_weight' ? '1800' : '120g'}
+            </span>
           </div>
           <div className={`text-sm font-medium ${goalStatus.color} mt-1`}>
             {goalStatus.message}
@@ -363,8 +436,28 @@ export default function MealTracker({ refreshTrigger, onMealAdded }: MealTracker
           {/* Progress Bar */}
           <div className="mt-3 w-full bg-gray-200 rounded-full h-2">
             <div 
-              className="bg-orange-500 h-2 rounded-full transition-all duration-500"
-              style={{ width: `${Math.min((totalCalories / 2000) * 100, 100)}%` }}
+              className={`h-2 rounded-full transition-all duration-500 ${
+                fitnessGoal === 'lose_weight' 
+                  ? (function() {
+                      const percentage = (totalCalories / 1800) * 100;
+                      if (percentage < 50 || percentage > 100) return 'bg-red-500';
+                      return 'bg-green-500';
+                    })()
+                  : (function() {
+                      const percentage = (totalProtein / 120) * 100;
+                      if (percentage < 50) return 'bg-red-500';
+                      if (percentage < 80) return 'bg-orange-500';
+                      return 'bg-green-500';
+                    })()
+              }`}
+              style={{ 
+                width: `${Math.min(
+                  fitnessGoal === 'lose_weight' 
+                    ? (totalCalories / 1800) * 100 
+                    : (totalProtein / 120) * 100, 
+                  100
+                )}%` 
+              }}
             />
           </div>
         </div>
@@ -400,8 +493,13 @@ export default function MealTracker({ refreshTrigger, onMealAdded }: MealTracker
                           </span>
                         )}
                       </div>
-                      <div className="text-lg font-semibold text-gray-900 mb-1">
-                        {meal.calories} calories
+                      <div className="flex items-center gap-4 text-lg font-semibold text-gray-900 mb-1">
+                        <span>{meal.calories} calories</span>
+                        {(meal.protein || meal.meal_analysis?.total_protein) && (
+                          <span className="text-green-600">
+                            {meal.protein || meal.meal_analysis?.total_protein}g protein
+                          </span>
+                        )}
                       </div>
                     </div>
                     

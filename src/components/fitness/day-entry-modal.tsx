@@ -22,6 +22,7 @@ export default function DayEntryModal({ isOpen, onClose, date, dayData, onSave }
   const [workoutType, setWorkoutType] = useState("");
   const [workoutNotes, setWorkoutNotes] = useState("");
   const [calories, setCalories] = useState("");
+  const [protein, setProtein] = useState("");
   const [nutritionNotes, setNutritionNotes] = useState("");
   const [loading, setSaving] = useState(false);
 
@@ -32,6 +33,7 @@ export default function DayEntryModal({ isOpen, onClose, date, dayData, onSave }
       setWorkoutType(dayData.workout?.workout_type || "");
       setWorkoutNotes(dayData.workout?.notes || "");
       setCalories(dayData.nutrition?.calories?.toString() || "");
+      setProtein(dayData.nutrition?.protein?.toString() || "");
       setNutritionNotes(dayData.nutrition?.notes || "");
     }
   }, [isOpen, dayData]);
@@ -109,6 +111,7 @@ export default function DayEntryModal({ isOpen, onClose, date, dayData, onSave }
         user_id: user.id,
         date,
         calories: parseInt(calories),
+        protein: protein ? parseInt(protein) : null,
         notes: nutritionNotes || null,
       };
 
@@ -179,6 +182,7 @@ export default function DayEntryModal({ isOpen, onClose, date, dayData, onSave }
         .eq('id', dayData.nutrition.id);
       
       setCalories("");
+      setProtein("");
       setNutritionNotes("");
       onSave();
     } catch (error) {
@@ -319,6 +323,21 @@ export default function DayEntryModal({ isOpen, onClose, date, dayData, onSave }
                   placeholder="2000"
                   min="500"
                   max="5000"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Protein (grams)
+                </label>
+                <input
+                  type="number"
+                  value={protein}
+                  onChange={(e) => setProtein(e.target.value)}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  placeholder="120"
+                  min="0"
+                  max="300"
                 />
               </div>
 

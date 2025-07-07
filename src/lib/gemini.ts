@@ -25,7 +25,7 @@ export async function analyzeMealPhoto(imageFile: File): Promise<MealAnalysis> {
         role: 'user' as const,
         parts: [
           {
-            text: `Analyze this meal photo and estimate the calories. Return ONLY a JSON object with this exact structure:
+            text: `Analyze this meal photo and estimate the calories and protein. Return ONLY a JSON object with this exact structure:
 
 {
   "food_items": [
@@ -36,12 +36,14 @@ export async function analyzeMealPhoto(imageFile: File): Promise<MealAnalysis> {
     }
   ],
   "total_calories": number,
+  "total_protein": number,
   "meal_type": "breakfast" | "lunch" | "dinner" | "snack" | "unknown",
   "analysis_notes": "brief note about estimation accuracy"
 }
 
 Guidelines:
 - Be conservative with calorie estimates
+- Estimate protein in grams for the entire meal
 - Include all visible food items
 - Use "low" confidence for unclear/partial items
 - Use "medium" for clearly visible standard portions
@@ -57,6 +59,7 @@ Example response:
     {"name": "Steamed broccoli", "estimated_calories": 25, "confidence": "high"}
   ],
   "total_calories": 320,
+  "total_protein": 28,
   "meal_type": "lunch",
   "analysis_notes": "Standard portions, good visibility"
 }`,
@@ -91,7 +94,7 @@ Example response:
       const analysis = JSON.parse(fullResponse) as MealAnalysis;
       
       // Validate the response structure
-      if (!analysis.food_items || !Array.isArray(analysis.food_items) || typeof analysis.total_calories !== 'number') {
+      if (!analysis.food_items || !Array.isArray(analysis.food_items) || typeof analysis.total_calories !== 'number' || typeof analysis.total_protein !== 'number') {
         throw new Error('Invalid response structure');
       }
       

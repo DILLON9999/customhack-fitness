@@ -14,6 +14,7 @@ export interface NutritionEntry {
   user_id: string
   date: string // YYYY-MM-DD format
   calories: number
+  protein?: number
   notes?: string
   created_at: string
   updated_at: string
@@ -26,6 +27,7 @@ export interface MealAnalysis {
     confidence: 'low' | 'medium' | 'high'
   }>
   total_calories: number
+  total_protein: number
   meal_type?: string
   analysis_notes?: string
 }
@@ -82,4 +84,12 @@ export interface WorkoutTimerState {
   totalTime: number
 }
 
-export type FitnessLevel = 'beginner' | 'intermediate' | 'pro' 
+export type FitnessLevel = 'beginner' | 'intermediate' | 'pro'
+
+export type FitnessGoal = 'lose_weight' | 'gain_muscle'
+
+export interface UserGoalSettings {
+  goal: FitnessGoal
+  calorie_target?: number
+  protein_target?: number
+} 
