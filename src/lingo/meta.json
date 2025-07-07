@@ -2494,6 +2494,46 @@
           "overrides": {},
           "content": "<element:Zap></element:Zap> Gain Muscle"
         },
+        "10/declaration/body/11/argument/3/3/1/1": {
+          "type": "element",
+          "hash": "1646430227d99b4c44dabb827227fce4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Optimize Your Performance"
+        },
+        "10/declaration/body/11/argument/3/3/1/3": {
+          "type": "element",
+          "hash": "b6f937ad2114c91815a75e9d72dab0fc",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Track advanced metrics, fine-tune your nutrition, and achieve your fitness goals with precision."
+        },
+        "10/declaration/body/11/argument/3/3/5/1/1": {
+          "type": "element",
+          "hash": "6aea332907564007426c26076ab38fd3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Your Goal"
+        },
+        "10/declaration/body/11/argument/3/3/5/1/3/1": {
+          "type": "element",
+          "hash": "a10203ffd88ac1895284a7e902edc5f6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Target></element:Target> Lose Weight"
+        },
+        "10/declaration/body/11/argument/3/3/5/1/3/3": {
+          "type": "element",
+          "hash": "9d63f79611cbca86020a24114cd14d12",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Zap></element:Zap> Gain Muscle"
+        },
         "9/declaration/body/10/argument/3/3/1/1": {
           "type": "element",
           "hash": "1646430227d99b4c44dabb827227fce4",
@@ -3905,6 +3945,238 @@
           "skip": false,
           "overrides": {},
           "content": "What did you eat?"
+        },
+        "8/declaration/body/18/argument/1/3/1": {
+          "type": "element",
+          "hash": "d2f8cb657c95280444c6c87165e7b59c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Log Activity"
+        },
+        "8/declaration/body/18/argument/1/5/5/1/3": {
+          "type": "element",
+          "hash": "c81b285c234b1fc7e4fd96e66e1f7337",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Workout"
+        },
+        "8/declaration/body/18/argument/1/5/5/3/1/1": {
+          "type": "element",
+          "hash": "6dd4c711ac061baa18391be54ede43b4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Duration (minutes) *"
+        },
+        "8/declaration/body/18/argument/1/5/5/3/1/3-placeholder": {
+          "type": "attribute",
+          "hash": "68f48813072709a5578a77368cb6eaee",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "30"
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/1": {
+          "type": "element",
+          "hash": "7879142e0d2fbfb87b68eef20f393710",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Workout Type"
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/1": {
+          "type": "element",
+          "hash": "b1351c0abb557fa0e28d714f966f82d3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select type..."
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/11": {
+          "type": "element",
+          "hash": "010d4795c3d5df31edde92a3441d7017",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Running"
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/13": {
+          "type": "element",
+          "hash": "e08fa01ac6e95f902a87f7c86eebae2f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Cycling"
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/15": {
+          "type": "element",
+          "hash": "ae8c5212692f57444c316cddc6d034f9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Swimming"
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/17": {
+          "type": "element",
+          "hash": "9a471f95945421960faa376bda8b61c5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sports"
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/19": {
+          "type": "element",
+          "hash": "79acaa6cd481262bea4e743a422529d2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Other"
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/3": {
+          "type": "element",
+          "hash": "690afc773ae95fae62eded15d4699bb0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Cardio"
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/5": {
+          "type": "element",
+          "hash": "5761a9bbbc6a91d898106c6b4fa79470",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Strength Training"
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/7": {
+          "type": "element",
+          "hash": "cd2fc0a0df39e03e5982e24ac83d3410",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Yoga"
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/9": {
+          "type": "element",
+          "hash": "e212d25b019c939adb9f0937e55ddd40",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Walking"
+        },
+        "8/declaration/body/18/argument/1/5/5/3/5/1": {
+          "type": "element",
+          "hash": "ff13a47ee35d26bde183ce900f33a847",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Muscle Groups Trained"
+        },
+        "8/declaration/body/18/argument/1/5/5/3/7/1": {
+          "type": "element",
+          "hash": "2aebb7c9911bc09f40648a3e67867fbc",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Notes"
+        },
+        "8/declaration/body/18/argument/1/5/5/3/7/3-placeholder": {
+          "type": "attribute",
+          "hash": "8222deaf81e530e1e7bb4701487baf48",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "How did it go?"
+        },
+        "8/declaration/body/18/argument/1/5/9/1/3": {
+          "type": "element",
+          "hash": "522ed04eed90df49c1c0394e88804ec6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Nutrition"
+        },
+        "8/declaration/body/18/argument/1/5/9/3/1/1": {
+          "type": "element",
+          "hash": "6ddd3bf68c80c94497184342a12c1823",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Calories *"
+        },
+        "8/declaration/body/18/argument/1/5/9/3/1/3-placeholder": {
+          "type": "attribute",
+          "hash": "37d0be321914b50a14abb23987e6414e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "2000"
+        },
+        "8/declaration/body/18/argument/1/5/9/3/3/1/1": {
+          "type": "element",
+          "hash": "aa1c63cc48c8d36f5b97f14ef3bd980b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Protein (g)"
+        },
+        "8/declaration/body/18/argument/1/5/9/3/3/1/3-placeholder": {
+          "type": "attribute",
+          "hash": "f636dc4c84bbe36491e1b3cae15fcf62",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "120"
+        },
+        "8/declaration/body/18/argument/1/5/9/3/3/3/1": {
+          "type": "element",
+          "hash": "9e21f01bb7d45edaf70f7db542a7304b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Carbs (g)"
+        },
+        "8/declaration/body/18/argument/1/5/9/3/3/3/3-placeholder": {
+          "type": "attribute",
+          "hash": "33ea1e24e9a59c8f5bf068f88f478719",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "200"
+        },
+        "8/declaration/body/18/argument/1/5/9/3/3/5/1": {
+          "type": "element",
+          "hash": "534e2ccef113fb7693addb3239b127a7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Fat (g)"
+        },
+        "8/declaration/body/18/argument/1/5/9/3/3/5/3-placeholder": {
+          "type": "attribute",
+          "hash": "9aafa321420ae143428320a24fcc2dea",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "70"
+        },
+        "8/declaration/body/18/argument/1/5/9/3/5/1": {
+          "type": "element",
+          "hash": "2aebb7c9911bc09f40648a3e67867fbc",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Notes"
+        },
+        "8/declaration/body/18/argument/1/5/9/3/5/3-placeholder": {
+          "type": "attribute",
+          "hash": "b35d04b56e8950fdeec5f9a73de9d8ee",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "What did you eat?"
         }
       }
     },
@@ -4432,6 +4704,58 @@
         }
       }
     },
+    "components/fitness/macro-progress-charts.tsx": {
+      "scopes": {
+        "6/declaration/body/6/0/init/body/4/argument/1/5/3": {
+          "type": "element",
+          "hash": "4eb3ec911eab0761434db7b02fed29f9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "/ {goal}g"
+        },
+        "6/declaration/body/6/0/init/body/4/argument/3/3": {
+          "type": "element",
+          "hash": "5ffe4a4526d680df3dc6d6e7880cbc9a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<function:Math.round/>%"
+        },
+        "6/declaration/body/8/argument/1/1": {
+          "type": "element",
+          "hash": "d4bec30bf3778b3754346dbfb26ff8ea",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Daily Macros"
+        },
+        "6/declaration/body/8/argument/1/3": {
+          "type": "element",
+          "hash": "f5639c6307e1690d69170eb1e6a642ba",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Target goals for optimal performance"
+        },
+        "6/declaration/body/8/argument/7/1/1/1": {
+          "type": "element",
+          "hash": "e708214fcf04764261c4774e98afb000",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Total Calories (est):"
+        },
+        "6/declaration/body/8/argument/7/1/3": {
+          "type": "element",
+          "hash": "0384197ce4b361b1721fd9a99e08fdfe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "P: <expression/>% • C: <expression/>% • F: <expression/>%"
+        }
+      }
+    },
     "components/fitness/manual-meal-entry-modal.tsx": {
       "scopes": {
         "6/declaration/body/13/argument/1/3/1/1": {
@@ -4625,6 +4949,230 @@
           "skip": false,
           "overrides": {},
           "content": "25"
+        },
+        "6/declaration/body/15/argument/1/3/1/1": {
+          "type": "element",
+          "hash": "15270ce23f5b8863bcb4587465269e24",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Add Manual Meal Entry"
+        },
+        "6/declaration/body/15/argument/1/7/11/1/1": {
+          "type": "element",
+          "hash": "719ef850a8c844b3cd475c95298d25c7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Food Items (Optional)"
+        },
+        "6/declaration/body/15/argument/1/7/11/1/3": {
+          "type": "element",
+          "hash": "74dd94739fefdbf61250dcb685af0ef8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Plus></element:Plus> Add Item"
+        },
+        "6/declaration/body/15/argument/1/7/11/3/1/expression/0/body/1/1-placeholder": {
+          "type": "attribute",
+          "hash": "26080d827a4eff5a54ef1aa835ca786a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Food item name"
+        },
+        "6/declaration/body/15/argument/1/7/11/3/1/expression/0/body/3/1-placeholder": {
+          "type": "attribute",
+          "hash": "0138385868486ce98a4f8e653d5af7cc",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Calories"
+        },
+        "6/declaration/body/15/argument/1/7/11/3/1/expression/0/body/5/1/1": {
+          "type": "element",
+          "hash": "97359f18d6648e0980854c5e68bb0969",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Low"
+        },
+        "6/declaration/body/15/argument/1/7/11/3/1/expression/0/body/5/1/3": {
+          "type": "element",
+          "hash": "43983f2178fb28aacaef6c5f41282c4a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Medium"
+        },
+        "6/declaration/body/15/argument/1/7/11/3/1/expression/0/body/5/1/5": {
+          "type": "element",
+          "hash": "dabe777f3b670e9407e46c186197d188",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "High"
+        },
+        "6/declaration/body/15/argument/1/7/15/1": {
+          "type": "element",
+          "hash": "865d9eae7ccfa90c6174c5fc22acac01",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Notes (Optional)"
+        },
+        "6/declaration/body/15/argument/1/7/15/3-placeholder": {
+          "type": "attribute",
+          "hash": "ed5049a08e2484841fc6fe2d77533cfe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Any additional notes about this meal..."
+        },
+        "6/declaration/body/15/argument/1/7/19/1": {
+          "type": "element",
+          "hash": "07296eb8d91ad98e1b60cd7ab0def914",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Cancel"
+        },
+        "6/declaration/body/15/argument/1/7/19/3": {
+          "type": "element",
+          "hash": "b3448344ceda8c4114503a877acd5e1f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Save Meal"
+        },
+        "6/declaration/body/15/argument/1/7/3/1/1": {
+          "type": "element",
+          "hash": "d2a34d0d23abc9a5a6fb4e59318a32df",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Meal Title *"
+        },
+        "6/declaration/body/15/argument/1/7/3/1/3-placeholder": {
+          "type": "attribute",
+          "hash": "8f7c4dd0c65d3cb9ea3a316e6ab71911",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "e.g., Chicken Caesar Salad"
+        },
+        "6/declaration/body/15/argument/1/7/3/3/1": {
+          "type": "element",
+          "hash": "bb06ce52913465d4159f5ca8016448a4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Meal Type"
+        },
+        "6/declaration/body/15/argument/1/7/3/3/3/1": {
+          "type": "element",
+          "hash": "fa373e47f55ff081982844a853be3a88",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select type"
+        },
+        "6/declaration/body/15/argument/1/7/3/3/3/3": {
+          "type": "element",
+          "hash": "cc8f07be4ca9cf4532a19fe55d7604cd",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Breakfast"
+        },
+        "6/declaration/body/15/argument/1/7/3/3/3/5": {
+          "type": "element",
+          "hash": "a410a370ec7c0482e2a0136032939101",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Lunch"
+        },
+        "6/declaration/body/15/argument/1/7/3/3/3/7": {
+          "type": "element",
+          "hash": "d8cb61eb306b4e4949eb36d021a46d02",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Dinner"
+        },
+        "6/declaration/body/15/argument/1/7/3/3/3/9": {
+          "type": "element",
+          "hash": "3587d7632ba17db8b69a3f3f4d6acc92",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Snack"
+        },
+        "6/declaration/body/15/argument/1/7/7/1/1": {
+          "type": "element",
+          "hash": "f723da75b8b606492a32d39c8f386e07",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Total Calories *"
+        },
+        "6/declaration/body/15/argument/1/7/7/1/3-placeholder": {
+          "type": "attribute",
+          "hash": "a24caa2908796785d8cb7a7c0033a349",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "500"
+        },
+        "6/declaration/body/15/argument/1/7/7/3/1/1": {
+          "type": "element",
+          "hash": "b7bbf4e071486bb52327f06c14c3f38b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Protein (g)"
+        },
+        "6/declaration/body/15/argument/1/7/7/3/1/3-placeholder": {
+          "type": "attribute",
+          "hash": "625a8e20511d561f81cd1d05b133efc4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "25"
+        },
+        "6/declaration/body/15/argument/1/7/7/3/3/1": {
+          "type": "element",
+          "hash": "fb470bedf5f246da8dab9c31d0d64818",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Carbs (g)"
+        },
+        "6/declaration/body/15/argument/1/7/7/3/3/3-placeholder": {
+          "type": "attribute",
+          "hash": "f8102aa3f52a9cfeb3d4a860e83b45b4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "50"
+        },
+        "6/declaration/body/15/argument/1/7/7/3/5/1": {
+          "type": "element",
+          "hash": "276bde82d018a11b0ae8e7764b1d92eb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Fat (g)"
+        },
+        "6/declaration/body/15/argument/1/7/7/3/5/3-placeholder": {
+          "type": "attribute",
+          "hash": "3511a12194bafa913e6d6340475daeec",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "15"
         }
       }
     },

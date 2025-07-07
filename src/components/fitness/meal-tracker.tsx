@@ -61,11 +61,13 @@ export default function MealTracker({ refreshTrigger, onMealAdded, fitnessGoal }
 
   const today = format(new Date(), 'yyyy-MM-dd');
 
-  const loadTodaysMeals = async () => {
+  const loadTodaysMeals = async (skipLoading = false) => {
     if (!user) return;
 
     try {
-      setLoading(true);
+      if (!skipLoading) {
+        setLoading(true);
+      }
       
       // Load today's nutrition entries
       const { data: meals, error } = await supabase
@@ -118,7 +120,13 @@ export default function MealTracker({ refreshTrigger, onMealAdded, fitnessGoal }
   };
 
   useEffect(() => {
-    loadTodaysMeals();
+    if (refreshTrigger === 0) {
+      // Initial load - show loading state
+      loadTodaysMeals();
+    } else {
+      // Refresh - skip loading state for smoother UX
+      loadTodaysMeals(true);
+    }
   }, [user, refreshTrigger]);
 
   const handleDeleteMeal = async (mealId: string) => {
@@ -134,8 +142,8 @@ export default function MealTracker({ refreshTrigger, onMealAdded, fitnessGoal }
         return;
       }
 
-      // Refresh the list
-      loadTodaysMeals();
+      // Refresh the list without showing loading state
+      loadTodaysMeals(true);
     } catch (error) {
       console.error('Error deleting meal:', error);
       alert('Failed to delete meal');
@@ -260,6 +268,8 @@ export default function MealTracker({ refreshTrigger, onMealAdded, fitnessGoal }
         date: today,
         calories: analysis.total_calories,
         protein: analysis.total_protein,
+        carbs: analysis.total_carbs,
+        fat: analysis.total_fat,
         notes: JSON.stringify(analysis), // Store the full analysis in notes
       };
 
@@ -278,8 +288,8 @@ export default function MealTracker({ refreshTrigger, onMealAdded, fitnessGoal }
 
       console.log('Manual meal saved successfully:', result);
       
-      // Refresh the meals list
-      loadTodaysMeals();
+      // Refresh the meals list without showing loading state
+      loadTodaysMeals(true);
       
     } catch (error) {
       console.error('Error saving manual meal:', error);

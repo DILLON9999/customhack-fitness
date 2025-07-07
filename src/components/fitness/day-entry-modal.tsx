@@ -24,6 +24,8 @@ export default function DayEntryModal({ isOpen, onClose, date, dayData, onSave }
   const [workoutNotes, setWorkoutNotes] = useState("");
   const [calories, setCalories] = useState("");
   const [protein, setProtein] = useState("");
+  const [carbs, setCarbs] = useState("");
+  const [fat, setFat] = useState("");
   const [nutritionNotes, setNutritionNotes] = useState("");
   const [loading, setSaving] = useState(false);
 
@@ -36,6 +38,8 @@ export default function DayEntryModal({ isOpen, onClose, date, dayData, onSave }
       setWorkoutNotes(dayData.workout?.notes || "");
       setCalories(dayData.nutrition?.calories?.toString() || "");
       setProtein(dayData.nutrition?.protein?.toString() || "");
+      setCarbs(dayData.nutrition?.carbs?.toString() || "");
+      setFat(dayData.nutrition?.fat?.toString() || "");
       setNutritionNotes(dayData.nutrition?.notes || "");
     }
   }, [isOpen, dayData]);
@@ -115,6 +119,8 @@ export default function DayEntryModal({ isOpen, onClose, date, dayData, onSave }
         date,
         calories: parseInt(calories),
         protein: protein ? parseInt(protein) : null,
+        carbs: carbs ? parseInt(carbs) : null,
+        fat: fat ? parseInt(fat) : null,
         notes: nutritionNotes || null,
       };
 
@@ -187,6 +193,8 @@ export default function DayEntryModal({ isOpen, onClose, date, dayData, onSave }
       
       setCalories("");
       setProtein("");
+      setCarbs("");
+      setFat("");
       setNutritionNotes("");
       onSave();
     } catch (error) {
@@ -358,19 +366,51 @@ export default function DayEntryModal({ isOpen, onClose, date, dayData, onSave }
                 />
               </div>
 
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Protein (grams)
-                </label>
-                <input
-                  type="number"
-                  value={protein}
-                  onChange={(e) => setProtein(e.target.value)}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
-                  placeholder="120"
-                  min="0"
-                  max="300"
-                />
+              <div className="grid grid-cols-3 gap-3">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                    Protein (g)
+                  </label>
+                  <input
+                    type="number"
+                    value={protein}
+                    onChange={(e) => setProtein(e.target.value)}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
+                    placeholder="120"
+                    min="0"
+                    max="300"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                    Carbs (g)
+                  </label>
+                  <input
+                    type="number"
+                    value={carbs}
+                    onChange={(e) => setCarbs(e.target.value)}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
+                    placeholder="200"
+                    min="0"
+                    max="500"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                    Fat (g)
+                  </label>
+                  <input
+                    type="number"
+                    value={fat}
+                    onChange={(e) => setFat(e.target.value)}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
+                    placeholder="70"
+                    min="0"
+                    max="200"
+                  />
+                </div>
               </div>
 
               <div>

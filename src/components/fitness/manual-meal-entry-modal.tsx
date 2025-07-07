@@ -21,6 +21,8 @@ export default function ManualMealEntryModal({ isOpen, onClose, onSave }: Manual
   const [mealTitle, setMealTitle] = useState("");
   const [totalCalories, setTotalCalories] = useState("");
   const [totalProtein, setTotalProtein] = useState("");
+  const [totalCarbs, setTotalCarbs] = useState("");
+  const [totalFat, setTotalFat] = useState("");
   const [mealType, setMealType] = useState("");
   const [analysisNotes, setAnalysisNotes] = useState("");
   const [foodItems, setFoodItems] = useState<FoodItem[]>([
@@ -61,6 +63,8 @@ export default function ManualMealEntryModal({ isOpen, onClose, onSave }: Manual
       food_items: validFoodItems,
       total_calories: parseInt(totalCalories),
       total_protein: totalProtein ? parseInt(totalProtein) : 0,
+      total_carbs: totalCarbs ? parseInt(totalCarbs) : 0,
+      total_fat: totalFat ? parseInt(totalFat) : 0,
       meal_type: mealType || undefined,
       analysis_notes: analysisNotes.trim() || undefined
     };
@@ -74,6 +78,8 @@ export default function ManualMealEntryModal({ isOpen, onClose, onSave }: Manual
     setMealTitle("");
     setTotalCalories("");
     setTotalProtein("");
+    setTotalCarbs("");
+    setTotalFat("");
     setMealType("");
     setAnalysisNotes("");
     setFoodItems([{ name: "", estimated_calories: 0, confidence: 'medium' }]);
@@ -151,7 +157,7 @@ export default function ManualMealEntryModal({ isOpen, onClose, onSave }: Manual
           </div>
 
           {/* Nutrition Info */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="space-y-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
                 Total Calories *
@@ -167,18 +173,48 @@ export default function ManualMealEntryModal({ isOpen, onClose, onSave }: Manual
               />
             </div>
 
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
-                Total Protein (g)
-              </label>
-              <input
-                type="number"
-                value={totalProtein}
-                onChange={(e) => setTotalProtein(e.target.value)}
-                placeholder="25"
-                min="0"
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
-              />
+            <div className="grid grid-cols-3 gap-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Protein (g)
+                </label>
+                <input
+                  type="number"
+                  value={totalProtein}
+                  onChange={(e) => setTotalProtein(e.target.value)}
+                  placeholder="25"
+                  min="0"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Carbs (g)
+                </label>
+                <input
+                  type="number"
+                  value={totalCarbs}
+                  onChange={(e) => setTotalCarbs(e.target.value)}
+                  placeholder="50"
+                  min="0"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Fat (g)
+                </label>
+                <input
+                  type="number"
+                  value={totalFat}
+                  onChange={(e) => setTotalFat(e.target.value)}
+                  placeholder="15"
+                  min="0"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                />
+              </div>
             </div>
           </div>
 

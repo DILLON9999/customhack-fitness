@@ -18,6 +18,8 @@ export interface NutritionEntry {
   date: string // YYYY-MM-DD format
   calories: number
   protein?: number
+  carbs?: number
+  fat?: number
   notes?: string
   created_at: string
   updated_at: string
@@ -32,6 +34,8 @@ export interface MealAnalysis {
   }>
   total_calories: number
   total_protein: number
+  total_carbs?: number
+  total_fat?: number
   meal_type?: string
   analysis_notes?: string
 }

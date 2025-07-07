@@ -31,7 +31,7 @@ export async function analyzeMealPhoto(imageFile: File): Promise<MealAnalysis> {
           role: 'user' as const,
           parts: [
             {
-              text: `Analyze this meal photo and estimate the calories and protein. You MUST respond with ONLY valid JSON, no markdown formatting, no code blocks, no backticks.
+              text: `Analyze this meal photo and estimate the calories, protein, carbs, and fat. You MUST respond with ONLY valid JSON, no markdown formatting, no code blocks, no backticks.
 
 Return this exact JSON structure:
 
@@ -46,6 +46,8 @@ Return this exact JSON structure:
   ],
   "total_calories": number,
   "total_protein": number,
+  "total_carbs": number,
+  "total_fat": number,
   "meal_type": "breakfast" | "lunch" | "dinner" | "snack" | "unknown",
   "analysis_notes": "brief note about estimation accuracy"
 }
@@ -58,7 +60,7 @@ IMPORTANT:
 - For single items like burgers, pizza slices, sandwiches: treat as one food item
 - For plates with distinct separate items: list each main component
 - Be conservative with calorie estimates
-- Estimate protein in grams for the entire meal
+- Estimate protein, carbs, and fat in grams for the entire meal
 - Use "low" confidence for unclear/partial items
 - Use "medium" for clearly visible standard portions
 - Use "high" for items you can measure well
@@ -97,7 +99,9 @@ IMPORTANT:
       if (!analysis.meal_title || typeof analysis.meal_title !== 'string' || 
           !analysis.food_items || !Array.isArray(analysis.food_items) || 
           typeof analysis.total_calories !== 'number' || 
-          typeof analysis.total_protein !== 'number') {
+          typeof analysis.total_protein !== 'number' ||
+          typeof analysis.total_carbs !== 'number' ||
+          typeof analysis.total_fat !== 'number') {
         throw new Error('Invalid response structure from Gemini');
       }
       

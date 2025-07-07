@@ -2074,6 +2074,141 @@ export default {
           },
           hash: "4a0506b1ff8aaea4c934c15e5a92e9e1",
         },
+        "12/declaration/body/10/argument/3/3/1/1": {
+          content: {
+            de: "Baue deine Fitness-Gewohnheiten auf",
+            en: "Build Your Fitness Habits",
+            es: "Construye tus hábitos de fitness",
+            fr: "Construisez vos habitudes fitness",
+          },
+          hash: "017dfc1af39d462343be93d247516d1f",
+        },
+        "12/declaration/body/10/argument/3/3/1/3": {
+          content: {
+            de: "Konsequenz ist der Schlüssel! Verfolge deine Workouts, halte deine Serie aufrecht und entwickle dauerhafte Gewohnheiten.",
+            en: "Consistency is key! Track your workouts, maintain your streak, and build lasting habits.",
+            es: "¡La constancia es clave! Registra tus entrenamientos, mantén tu racha y construye hábitos duraderos.",
+            fr: "La constance est la clé ! Suivez vos entraînements, maintenez votre série et développez des habitudes durables.",
+          },
+          hash: "832179bf966e43e64a65dafb989f5e01",
+        },
+        "12/declaration/body/10/argument/3/3/5/1/1": {
+          content: {
+            de: "Dein Ziel",
+            en: "Your Goal",
+            es: "Tu objetivo",
+            fr: "Votre objectif",
+          },
+          hash: "6aea332907564007426c26076ab38fd3",
+        },
+        "12/declaration/body/10/argument/3/3/5/1/3/1": {
+          content: {
+            de: "<element:Target></element:Target> Gewicht verlieren",
+            en: "<element:Target></element:Target> Lose Weight",
+            es: "<element:Target></element:Target> Perder peso",
+            fr: "<element:Target></element:Target> Perdre du poids",
+          },
+          hash: "a10203ffd88ac1895284a7e902edc5f6",
+        },
+        "12/declaration/body/10/argument/3/3/5/1/3/3": {
+          content: {
+            de: "<element:Zap></element:Zap> Muskeln aufbauen",
+            en: "<element:Zap></element:Zap> Gain Muscle",
+            es: "<element:Zap></element:Zap> Ganar músculo",
+            fr: "<element:Zap></element:Zap> Prendre du muscle",
+          },
+          hash: "9d63f79611cbca86020a24114cd14d12",
+        },
+        "12/declaration/body/13/argument/3/3/1/1": {
+          content: {
+            de: "Baue deine Fitness-Gewohnheiten auf",
+            en: "Build Your Fitness Habits",
+            es: "Construye tus hábitos de fitness",
+            fr: "Construisez vos habitudes fitness",
+          },
+          hash: "017dfc1af39d462343be93d247516d1f",
+        },
+        "12/declaration/body/13/argument/3/3/1/3": {
+          content: {
+            de: "Konsequenz ist der Schlüssel! Verfolge deine Workouts, halte deine Serie aufrecht und entwickle dauerhafte Gewohnheiten.",
+            en: "Consistency is key! Track your workouts, maintain your streak, and build lasting habits.",
+            es: "¡La constancia es clave! Registra tus entrenamientos, mantén tu racha y construye hábitos duraderos.",
+            fr: "La constance est la clé ! Suivez vos entraînements, maintenez votre série et développez des habitudes durables.",
+          },
+          hash: "832179bf966e43e64a65dafb989f5e01",
+        },
+        "12/declaration/body/13/argument/3/3/5/1/1": {
+          content: {
+            de: "Dein Ziel",
+            en: "Your Goal",
+            es: "Tu objetivo",
+            fr: "Votre objectif",
+          },
+          hash: "6aea332907564007426c26076ab38fd3",
+        },
+        "12/declaration/body/13/argument/3/3/5/1/3/1": {
+          content: {
+            de: "<element:Target></element:Target> Gewicht verlieren",
+            en: "<element:Target></element:Target> Lose Weight",
+            es: "<element:Target></element:Target> Perder peso",
+            fr: "<element:Target></element:Target> Perdre du poids",
+          },
+          hash: "a10203ffd88ac1895284a7e902edc5f6",
+        },
+        "12/declaration/body/13/argument/3/3/5/1/3/3": {
+          content: {
+            de: "<element:Zap></element:Zap> Muskeln aufbauen",
+            en: "<element:Zap></element:Zap> Gain Muscle",
+            es: "<element:Zap></element:Zap> Ganar músculo",
+            fr: "<element:Zap></element:Zap> Prendre du muscle",
+          },
+          hash: "9d63f79611cbca86020a24114cd14d12",
+        },
+        "12/declaration/body/14/argument/3/3/1/1": {
+          content: {
+            de: "Baue deine Fitness-Gewohnheiten auf",
+            en: "Build Your Fitness Habits",
+            es: "Construye tus hábitos de fitness",
+            fr: "Construisez vos habitudes fitness",
+          },
+          hash: "017dfc1af39d462343be93d247516d1f",
+        },
+        "12/declaration/body/14/argument/3/3/1/3": {
+          content: {
+            de: "Konsequenz ist der Schlüssel! Verfolge deine Workouts, halte deine Serie aufrecht und entwickle dauerhafte Gewohnheiten.",
+            en: "Consistency is key! Track your workouts, maintain your streak, and build lasting habits.",
+            es: "¡La constancia es clave! Registra tus entrenamientos, mantén tu racha y construye hábitos duraderos.",
+            fr: "La constance est la clé ! Suivez vos entraînements, maintenez votre série et développez des habitudes durables.",
+          },
+          hash: "832179bf966e43e64a65dafb989f5e01",
+        },
+        "12/declaration/body/14/argument/3/3/5/1/1": {
+          content: {
+            de: "Dein Ziel",
+            en: "Your Goal",
+            es: "Tu objetivo",
+            fr: "Votre objectif",
+          },
+          hash: "6aea332907564007426c26076ab38fd3",
+        },
+        "12/declaration/body/14/argument/3/3/5/1/3/1": {
+          content: {
+            de: "<element:Target></element:Target> Gewicht verlieren",
+            en: "<element:Target></element:Target> Lose Weight",
+            es: "<element:Target></element:Target> Perder peso",
+            fr: "<element:Target></element:Target> Perdre du poids",
+          },
+          hash: "a10203ffd88ac1895284a7e902edc5f6",
+        },
+        "12/declaration/body/14/argument/3/3/5/1/3/3": {
+          content: {
+            de: "<element:Zap></element:Zap> Muskeln aufbauen",
+            en: "<element:Zap></element:Zap> Gain Muscle",
+            es: "<element:Zap></element:Zap> Ganar músculo",
+            fr: "<element:Zap></element:Zap> Prendre du muscle",
+          },
+          hash: "9d63f79611cbca86020a24114cd14d12",
+        },
         "9/declaration/body/8/argument/11/1": {
           content: {
             de: "💡 Tipps für Anfänger",
@@ -3217,6 +3352,296 @@ export default {
         },
       },
     },
+    "components/fitness/beginner-day-entry-modal.tsx": {
+      entries: {
+        "8/declaration/body/15/argument/1/3/1": {
+          content: {
+            de: "Aktivität eintragen",
+            en: "Log Activity",
+            es: "Registrar actividad",
+            fr: "Enregistrer une activité",
+          },
+          hash: "d2f8cb657c95280444c6c87165e7b59c",
+        },
+        "8/declaration/body/15/argument/1/5/5/1/3": {
+          content: {
+            de: "Workout",
+            en: "Workout",
+            es: "Entrenamiento",
+            fr: "Entraînement",
+          },
+          hash: "c81b285c234b1fc7e4fd96e66e1f7337",
+        },
+        "8/declaration/body/15/argument/1/5/5/3/1/1": {
+          content: {
+            de: "Dauer (Minuten) *",
+            en: "Duration (minutes) *",
+            es: "Duración (minutos) *",
+            fr: "Durée (minutes) *",
+          },
+          hash: "6dd4c711ac061baa18391be54ede43b4",
+        },
+        "8/declaration/body/15/argument/1/5/5/3/1/3-placeholder": {
+          content: {
+            de: "30",
+            en: "30",
+            es: "30",
+            fr: "30",
+          },
+          hash: "68f48813072709a5578a77368cb6eaee",
+        },
+        "8/declaration/body/15/argument/1/5/5/3/3/1": {
+          content: {
+            de: "Workout-Typ",
+            en: "Workout Type",
+            es: "Tipo de entrenamiento",
+            fr: "Type d'entraînement",
+          },
+          hash: "7879142e0d2fbfb87b68eef20f393710",
+        },
+        "8/declaration/body/15/argument/1/5/5/3/3/3/1": {
+          content: {
+            de: "Typ auswählen...",
+            en: "Select type...",
+            es: "Seleccionar tipo...",
+            fr: "Sélectionner un type...",
+          },
+          hash: "b1351c0abb557fa0e28d714f966f82d3",
+        },
+        "8/declaration/body/15/argument/1/5/5/3/3/3/11": {
+          content: {
+            de: "Laufen",
+            en: "Running",
+            es: "Running",
+            fr: "Course à pied",
+          },
+          hash: "010d4795c3d5df31edde92a3441d7017",
+        },
+        "8/declaration/body/15/argument/1/5/5/3/3/3/13": {
+          content: {
+            de: "Radfahren",
+            en: "Cycling",
+            es: "Ciclismo",
+            fr: "Cyclisme",
+          },
+          hash: "e08fa01ac6e95f902a87f7c86eebae2f",
+        },
+        "8/declaration/body/15/argument/1/5/5/3/3/3/15": {
+          content: {
+            de: "Schwimmen",
+            en: "Swimming",
+            es: "Natación",
+            fr: "Natation",
+          },
+          hash: "ae8c5212692f57444c316cddc6d034f9",
+        },
+        "8/declaration/body/15/argument/1/5/5/3/3/3/17": {
+          content: {
+            de: "Sport",
+            en: "Sports",
+            es: "Deportes",
+            fr: "Sports",
+          },
+          hash: "9a471f95945421960faa376bda8b61c5",
+        },
+        "8/declaration/body/15/argument/1/5/5/3/3/3/19": {
+          content: {
+            de: "Sonstiges",
+            en: "Other",
+            es: "Otro",
+            fr: "Autre",
+          },
+          hash: "79acaa6cd481262bea4e743a422529d2",
+        },
+        "8/declaration/body/15/argument/1/5/5/3/3/3/3": {
+          content: {
+            de: "Cardio",
+            en: "Cardio",
+            es: "Cardio",
+            fr: "Cardio",
+          },
+          hash: "690afc773ae95fae62eded15d4699bb0",
+        },
+        "8/declaration/body/15/argument/1/5/5/3/3/3/5": {
+          content: {
+            de: "Krafttraining",
+            en: "Strength Training",
+            es: "Entrenamiento de fuerza",
+            fr: "Musculation",
+          },
+          hash: "5761a9bbbc6a91d898106c6b4fa79470",
+        },
+        "8/declaration/body/15/argument/1/5/5/3/3/3/7": {
+          content: {
+            de: "Yoga",
+            en: "Yoga",
+            es: "Yoga",
+            fr: "Yoga",
+          },
+          hash: "cd2fc0a0df39e03e5982e24ac83d3410",
+        },
+        "8/declaration/body/15/argument/1/5/5/3/3/3/9": {
+          content: {
+            de: "Gehen",
+            en: "Walking",
+            es: "Caminata",
+            fr: "Marche",
+          },
+          hash: "e212d25b019c939adb9f0937e55ddd40",
+        },
+        "8/declaration/body/15/argument/1/5/5/3/5/1": {
+          content: {
+            de: "Notizen",
+            en: "Notes",
+            es: "Notas",
+            fr: "Notes",
+          },
+          hash: "2aebb7c9911bc09f40648a3e67867fbc",
+        },
+        "8/declaration/body/15/argument/1/5/5/3/5/3-placeholder": {
+          content: {
+            de: "Wie ist es gelaufen?",
+            en: "How did it go?",
+            es: "¿Cómo te fue?",
+            fr: "Comment ça s'est passé ?",
+          },
+          hash: "8222deaf81e530e1e7bb4701487baf48",
+        },
+        "8/declaration/body/15/argument/1/5/9/1/3": {
+          content: {
+            de: "Ernährung",
+            en: "Nutrition",
+            es: "Nutrición",
+            fr: "Nutrition",
+          },
+          hash: "522ed04eed90df49c1c0394e88804ec6",
+        },
+        "8/declaration/body/15/argument/1/5/9/3/1/1": {
+          content: {
+            de: "Kalorien *",
+            en: "Calories *",
+            es: "Calorías *",
+            fr: "Calories *",
+          },
+          hash: "6ddd3bf68c80c94497184342a12c1823",
+        },
+        "8/declaration/body/15/argument/1/5/9/3/1/3-placeholder": {
+          content: {
+            de: "2000",
+            en: "2000",
+            es: "2000",
+            fr: "2000",
+          },
+          hash: "37d0be321914b50a14abb23987e6414e",
+        },
+        "8/declaration/body/15/argument/1/5/9/3/3/1": {
+          content: {
+            de: "Protein (gramm)",
+            en: "Protein (grams)",
+            es: "Proteínas (gramos)",
+            fr: "Protéines (grammes)",
+          },
+          hash: "985b7fab9909f4d92e747008c39e30a1",
+        },
+        "8/declaration/body/15/argument/1/5/9/3/3/3-placeholder": {
+          content: {
+            de: "120",
+            en: "120",
+            es: "120",
+            fr: "120",
+          },
+          hash: "f636dc4c84bbe36491e1b3cae15fcf62",
+        },
+        "8/declaration/body/15/argument/1/5/9/3/5/1": {
+          content: {
+            de: "Notizen",
+            en: "Notes",
+            es: "Notas",
+            fr: "Notes",
+          },
+          hash: "2aebb7c9911bc09f40648a3e67867fbc",
+        },
+        "8/declaration/body/15/argument/1/5/9/3/5/3-placeholder": {
+          content: {
+            de: "Was hast du gegessen?",
+            en: "What did you eat?",
+            es: "¿Qué comiste?",
+            fr: "Qu'avez-vous mangé ?",
+          },
+          hash: "b35d04b56e8950fdeec5f9a73de9d8ee",
+        },
+      },
+    },
+    "components/fitness/beginner-fitness-calendar.tsx": {
+      entries: {
+        "8/declaration/body/27/argument/15/1/expression/0/body/4/argument/1/3/1/expression/alternate/1/expression/consequent/3":
+          {
+            content: {
+              de: "/<function:getNutritionGoal/>",
+              en: "/<function:getNutritionGoal/>",
+              es: "/<function:getNutritionGoal/>",
+              fr: "/<function:getNutritionGoal/>",
+            },
+            hash: "c5d96c0fd7ca5a6b690044a87d6a6299",
+          },
+        "8/declaration/body/27/argument/15/1/expression/0/body/4/argument/1/3/1/expression/consequent/1/expression/alternate/consequent-title":
+          {
+            content: {
+              de: "Verpasstes Training",
+              en: "Missed workout",
+              es: "Entrenamiento perdido",
+              fr: "Entraînement manqué",
+            },
+            hash: "e09e72097801f815733897742ceac96d",
+          },
+        "8/declaration/body/27/argument/15/1/expression/0/body/4/argument/1/3/1/expression/consequent/1/expression/consequent-title":
+          {
+            content: {
+              de: "Workout abgeschlossen",
+              en: "Workout completed",
+              es: "Entrenamiento completado",
+              fr: "Entraînement terminé",
+            },
+            hash: "86d680f99ff3adb8650e7218921f159f",
+          },
+        "8/declaration/body/27/argument/19/1/expression/consequent/1/3": {
+          content: {
+            de: "Training absolviert",
+            en: "Workout Done",
+            es: "Entrenamiento completado",
+            fr: "Entraînement terminé",
+          },
+          hash: "aaf357a8bd241d7070c3138b7321ac2a",
+        },
+        "8/declaration/body/27/argument/19/1/expression/consequent/3/3": {
+          content: {
+            de: "Tag verpasst",
+            en: "Missed Day",
+            es: "Día perdido",
+            fr: "Jour manqué",
+          },
+          hash: "3e3975219771f259028f6905ec55d0e1",
+        },
+        "8/declaration/body/27/argument/19/3/3": {
+          content: {
+            de: "Heute",
+            en: "Today",
+            es: "Hoy",
+            fr: "Aujourd'hui",
+          },
+          hash: "142173f9752e18e92109623a3ee68cad",
+        },
+        "8/declaration/body/27/argument/7/1/1": {
+          content: {
+            de: "<element:Dumbbell></element:Dumbbell> Training",
+            en: "<element:Dumbbell></element:Dumbbell> Workout",
+            es: "<element:Dumbbell></element:Dumbbell> Entrenamiento",
+            fr: "<element:Dumbbell></element:Dumbbell> Entraînement",
+          },
+          hash: "41055a260308373bc15c130ce57fe604",
+        },
+      },
+    },
     "components/fitness/day-entry-modal.tsx": {
       entries: {
         "8/declaration/body/14/argument/1/3/1": {
@@ -3867,6 +4292,267 @@ export default {
           },
           hash: "b35d04b56e8950fdeec5f9a73de9d8ee",
         },
+        "8/declaration/body/18/argument/1/3/1": {
+          content: {
+            de: "Aktivität eintragen",
+            en: "Log Activity",
+            es: "Registrar actividad",
+            fr: "Enregistrer une activité",
+          },
+          hash: "d2f8cb657c95280444c6c87165e7b59c",
+        },
+        "8/declaration/body/18/argument/1/5/5/1/3": {
+          content: {
+            de: "Workout",
+            en: "Workout",
+            es: "Entrenamiento",
+            fr: "Entraînement",
+          },
+          hash: "c81b285c234b1fc7e4fd96e66e1f7337",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/1/1": {
+          content: {
+            de: "Dauer (Minuten) *",
+            en: "Duration (minutes) *",
+            es: "Duración (minutos) *",
+            fr: "Durée (minutes) *",
+          },
+          hash: "6dd4c711ac061baa18391be54ede43b4",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/1/3-placeholder": {
+          content: {
+            de: "30",
+            en: "30",
+            es: "30",
+            fr: "30",
+          },
+          hash: "68f48813072709a5578a77368cb6eaee",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/1": {
+          content: {
+            de: "Workout-Typ",
+            en: "Workout Type",
+            es: "Tipo de entrenamiento",
+            fr: "Type d'entraînement",
+          },
+          hash: "7879142e0d2fbfb87b68eef20f393710",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/1": {
+          content: {
+            de: "Typ auswählen...",
+            en: "Select type...",
+            es: "Seleccionar tipo...",
+            fr: "Sélectionner un type...",
+          },
+          hash: "b1351c0abb557fa0e28d714f966f82d3",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/11": {
+          content: {
+            de: "Laufen",
+            en: "Running",
+            es: "Running",
+            fr: "Course à pied",
+          },
+          hash: "010d4795c3d5df31edde92a3441d7017",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/13": {
+          content: {
+            de: "Radfahren",
+            en: "Cycling",
+            es: "Ciclismo",
+            fr: "Cyclisme",
+          },
+          hash: "e08fa01ac6e95f902a87f7c86eebae2f",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/15": {
+          content: {
+            de: "Schwimmen",
+            en: "Swimming",
+            es: "Natación",
+            fr: "Natation",
+          },
+          hash: "ae8c5212692f57444c316cddc6d034f9",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/17": {
+          content: {
+            de: "Sport",
+            en: "Sports",
+            es: "Deportes",
+            fr: "Sports",
+          },
+          hash: "9a471f95945421960faa376bda8b61c5",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/19": {
+          content: {
+            de: "Sonstiges",
+            en: "Other",
+            es: "Otro",
+            fr: "Autre",
+          },
+          hash: "79acaa6cd481262bea4e743a422529d2",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/3": {
+          content: {
+            de: "Cardio",
+            en: "Cardio",
+            es: "Cardio",
+            fr: "Cardio",
+          },
+          hash: "690afc773ae95fae62eded15d4699bb0",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/5": {
+          content: {
+            de: "Krafttraining",
+            en: "Strength Training",
+            es: "Entrenamiento de fuerza",
+            fr: "Musculation",
+          },
+          hash: "5761a9bbbc6a91d898106c6b4fa79470",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/7": {
+          content: {
+            de: "Yoga",
+            en: "Yoga",
+            es: "Yoga",
+            fr: "Yoga",
+          },
+          hash: "cd2fc0a0df39e03e5982e24ac83d3410",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/3/3/9": {
+          content: {
+            de: "Gehen",
+            en: "Walking",
+            es: "Caminata",
+            fr: "Marche",
+          },
+          hash: "e212d25b019c939adb9f0937e55ddd40",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/5/1": {
+          content: {
+            de: "Trainierte Muskelgruppen",
+            en: "Muscle Groups Trained",
+            es: "Grupos musculares entrenados",
+            fr: "Groupes musculaires entraînés",
+          },
+          hash: "ff13a47ee35d26bde183ce900f33a847",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/7/1": {
+          content: {
+            de: "Notizen",
+            en: "Notes",
+            es: "Notas",
+            fr: "Notes",
+          },
+          hash: "2aebb7c9911bc09f40648a3e67867fbc",
+        },
+        "8/declaration/body/18/argument/1/5/5/3/7/3-placeholder": {
+          content: {
+            de: "Wie ist es gelaufen?",
+            en: "How did it go?",
+            es: "¿Cómo te fue?",
+            fr: "Comment ça s'est passé ?",
+          },
+          hash: "8222deaf81e530e1e7bb4701487baf48",
+        },
+        "8/declaration/body/18/argument/1/5/9/1/3": {
+          content: {
+            de: "Ernährung",
+            en: "Nutrition",
+            es: "Nutrición",
+            fr: "Nutrition",
+          },
+          hash: "522ed04eed90df49c1c0394e88804ec6",
+        },
+        "8/declaration/body/18/argument/1/5/9/3/1/1": {
+          content: {
+            de: "Kalorien *",
+            en: "Calories *",
+            es: "Calorías *",
+            fr: "Calories *",
+          },
+          hash: "6ddd3bf68c80c94497184342a12c1823",
+        },
+        "8/declaration/body/18/argument/1/5/9/3/1/3-placeholder": {
+          content: {
+            de: "2000",
+            en: "2000",
+            es: "2000",
+            fr: "2000",
+          },
+          hash: "37d0be321914b50a14abb23987e6414e",
+        },
+        "8/declaration/body/18/argument/1/5/9/3/3/1/1": {
+          content: {
+            de: "Protein (g)",
+            en: "Protein (g)",
+            es: "Proteínas (g)",
+            fr: "Protéines (g)",
+          },
+          hash: "aa1c63cc48c8d36f5b97f14ef3bd980b",
+        },
+        "8/declaration/body/18/argument/1/5/9/3/3/1/3-placeholder": {
+          content: {
+            de: "120",
+            en: "120",
+            es: "120",
+            fr: "120",
+          },
+          hash: "f636dc4c84bbe36491e1b3cae15fcf62",
+        },
+        "8/declaration/body/18/argument/1/5/9/3/3/3/1": {
+          content: {
+            de: "Kohlenhydrate (g)",
+            en: "Carbs (g)",
+            es: "Carbohidratos (g)",
+            fr: "Glucides (g)",
+          },
+          hash: "9e21f01bb7d45edaf70f7db542a7304b",
+        },
+        "8/declaration/body/18/argument/1/5/9/3/3/3/3-placeholder": {
+          content: {
+            de: "200",
+            en: "200",
+            es: "200",
+            fr: "200",
+          },
+          hash: "33ea1e24e9a59c8f5bf068f88f478719",
+        },
+        "8/declaration/body/18/argument/1/5/9/3/3/5/1": {
+          content: {
+            de: "Fett (g)",
+            en: "Fat (g)",
+            es: "Grasas (g)",
+            fr: "Lipides (g)",
+          },
+          hash: "534e2ccef113fb7693addb3239b127a7",
+        },
+        "8/declaration/body/18/argument/1/5/9/3/3/5/3-placeholder": {
+          content: {
+            de: "70",
+            en: "70",
+            es: "70",
+            fr: "70",
+          },
+          hash: "9aafa321420ae143428320a24fcc2dea",
+        },
+        "8/declaration/body/18/argument/1/5/9/3/5/1": {
+          content: {
+            de: "Notizen",
+            en: "Notes",
+            es: "Notas",
+            fr: "Notes",
+          },
+          hash: "2aebb7c9911bc09f40648a3e67867fbc",
+        },
+        "8/declaration/body/18/argument/1/5/9/3/5/3-placeholder": {
+          content: {
+            de: "Was hast du gegessen?",
+            en: "What did you eat?",
+            es: "¿Qué comiste?",
+            fr: "Qu'avez-vous mangé ?",
+          },
+          hash: "b35d04b56e8950fdeec5f9a73de9d8ee",
+        },
       },
     },
     "components/fitness/fitness-calendar.tsx": {
@@ -4487,6 +5173,64 @@ export default {
         },
       },
     },
+    "components/fitness/macro-progress-charts.tsx": {
+      entries: {
+        "6/declaration/body/6/0/init/body/4/argument/1/5/3": {
+          content: {
+            de: "/ {goal}g",
+            en: "/ {goal}g",
+            es: "/ {goal}g",
+            fr: "/ {goal}g",
+          },
+          hash: "4eb3ec911eab0761434db7b02fed29f9",
+        },
+        "6/declaration/body/6/0/init/body/4/argument/3/3": {
+          content: {
+            de: "<function:Math.round/>%",
+            en: "<function:Math.round/>%",
+            es: "<function:Math.round/>%",
+            fr: "<function:Math.round/>%",
+          },
+          hash: "5ffe4a4526d680df3dc6d6e7880cbc9a",
+        },
+        "6/declaration/body/8/argument/1/1": {
+          content: {
+            de: "Tägliche Makros",
+            en: "Daily Macros",
+            es: "Macros diarios",
+            fr: "Macros quotidiens",
+          },
+          hash: "d4bec30bf3778b3754346dbfb26ff8ea",
+        },
+        "6/declaration/body/8/argument/1/3": {
+          content: {
+            de: "Zielwerte für optimale Leistung",
+            en: "Target goals for optimal performance",
+            es: "Objetivos para un rendimiento óptimo",
+            fr: "Objectifs cibles pour une performance optimale",
+          },
+          hash: "f5639c6307e1690d69170eb1e6a642ba",
+        },
+        "6/declaration/body/8/argument/7/1/1/1": {
+          content: {
+            de: "Gesamtkalorien (geschätzt):",
+            en: "Total Calories (est):",
+            es: "Calorías totales (est):",
+            fr: "Calories totales (est.) :",
+          },
+          hash: "e708214fcf04764261c4774e98afb000",
+        },
+        "6/declaration/body/8/argument/7/1/3": {
+          content: {
+            de: "P: <expression/>% • K: <expression/>% • F: <expression/>%",
+            en: "P: <expression/>% • C: <expression/>% • F: <expression/>%",
+            es: "P: <expression/>% • C: <expression/>% • G: <expression/>%",
+            fr: "P : <expression/>% • G : <expression/>% • L : <expression/>%",
+          },
+          hash: "0384197ce4b361b1721fd9a99e08fdfe",
+        },
+      },
+    },
     "components/fitness/manual-meal-entry-modal.tsx": {
       entries: {
         "6/declaration/body/13/argument/1/3/1/1": {
@@ -4706,6 +5450,260 @@ export default {
             fr: "25",
           },
           hash: "625a8e20511d561f81cd1d05b133efc4",
+        },
+        "6/declaration/body/15/argument/1/3/1/1": {
+          content: {
+            de: "Manuelle Mahlzeit hinzufügen",
+            en: "Add Manual Meal Entry",
+            es: "Añadir entrada manual de comida",
+            fr: "Ajouter une entrée manuelle de repas",
+          },
+          hash: "15270ce23f5b8863bcb4587465269e24",
+        },
+        "6/declaration/body/15/argument/1/7/11/1/1": {
+          content: {
+            de: "Lebensmittel (Optional)",
+            en: "Food Items (Optional)",
+            es: "Alimentos (opcional)",
+            fr: "Aliments (Facultatif)",
+          },
+          hash: "719ef850a8c844b3cd475c95298d25c7",
+        },
+        "6/declaration/body/15/argument/1/7/11/1/3": {
+          content: {
+            de: "<element:Plus></element:Plus> Element hinzufügen",
+            en: "<element:Plus></element:Plus> Add Item",
+            es: "<element:Plus></element:Plus> Añadir alimento",
+            fr: "<element:Plus></element:Plus> Ajouter un élément",
+          },
+          hash: "74dd94739fefdbf61250dcb685af0ef8",
+        },
+        "6/declaration/body/15/argument/1/7/11/3/1/expression/0/body/1/1-placeholder":
+          {
+            content: {
+              de: "Name des Lebensmittels",
+              en: "Food item name",
+              es: "Nombre del alimento",
+              fr: "Nom de l'aliment",
+            },
+            hash: "26080d827a4eff5a54ef1aa835ca786a",
+          },
+        "6/declaration/body/15/argument/1/7/11/3/1/expression/0/body/3/1-placeholder":
+          {
+            content: {
+              de: "Kalorien",
+              en: "Calories",
+              es: "Calorías",
+              fr: "Calories",
+            },
+            hash: "0138385868486ce98a4f8e653d5af7cc",
+          },
+        "6/declaration/body/15/argument/1/7/11/3/1/expression/0/body/5/1/1": {
+          content: {
+            de: "Niedrig",
+            en: "Low",
+            es: "Bajo",
+            fr: "Faible",
+          },
+          hash: "97359f18d6648e0980854c5e68bb0969",
+        },
+        "6/declaration/body/15/argument/1/7/11/3/1/expression/0/body/5/1/3": {
+          content: {
+            de: "Mittel",
+            en: "Medium",
+            es: "Medio",
+            fr: "Moyen",
+          },
+          hash: "43983f2178fb28aacaef6c5f41282c4a",
+        },
+        "6/declaration/body/15/argument/1/7/11/3/1/expression/0/body/5/1/5": {
+          content: {
+            de: "Hoch",
+            en: "High",
+            es: "Alto",
+            fr: "Élevé",
+          },
+          hash: "dabe777f3b670e9407e46c186197d188",
+        },
+        "6/declaration/body/15/argument/1/7/15/1": {
+          content: {
+            de: "Notizen (Optional)",
+            en: "Notes (Optional)",
+            es: "Notas (opcional)",
+            fr: "Notes (Facultatif)",
+          },
+          hash: "865d9eae7ccfa90c6174c5fc22acac01",
+        },
+        "6/declaration/body/15/argument/1/7/15/3-placeholder": {
+          content: {
+            de: "Zusätzliche Anmerkungen zu dieser Mahlzeit...",
+            en: "Any additional notes about this meal...",
+            es: "Cualquier nota adicional sobre esta comida...",
+            fr: "Toute note supplémentaire concernant ce repas...",
+          },
+          hash: "ed5049a08e2484841fc6fe2d77533cfe",
+        },
+        "6/declaration/body/15/argument/1/7/19/1": {
+          content: {
+            de: "Abbrechen",
+            en: "Cancel",
+            es: "Cancelar",
+            fr: "Annuler",
+          },
+          hash: "07296eb8d91ad98e1b60cd7ab0def914",
+        },
+        "6/declaration/body/15/argument/1/7/19/3": {
+          content: {
+            de: "Mahlzeit speichern",
+            en: "Save Meal",
+            es: "Guardar comida",
+            fr: "Enregistrer le repas",
+          },
+          hash: "b3448344ceda8c4114503a877acd5e1f",
+        },
+        "6/declaration/body/15/argument/1/7/3/1/1": {
+          content: {
+            de: "Mahlzeittitel *",
+            en: "Meal Title *",
+            es: "Título de la comida *",
+            fr: "Titre du repas *",
+          },
+          hash: "d2a34d0d23abc9a5a6fb4e59318a32df",
+        },
+        "6/declaration/body/15/argument/1/7/3/1/3-placeholder": {
+          content: {
+            de: "z.B. Hähnchen-Caesar-Salat",
+            en: "e.g., Chicken Caesar Salad",
+            es: "p. ej., ensalada César con pollo",
+            fr: "ex., salade César au poulet",
+          },
+          hash: "8f7c4dd0c65d3cb9ea3a316e6ab71911",
+        },
+        "6/declaration/body/15/argument/1/7/3/3/1": {
+          content: {
+            de: "Mahlzeittyp",
+            en: "Meal Type",
+            es: "Tipo de comida",
+            fr: "Type de repas",
+          },
+          hash: "bb06ce52913465d4159f5ca8016448a4",
+        },
+        "6/declaration/body/15/argument/1/7/3/3/3/1": {
+          content: {
+            de: "Typ auswählen",
+            en: "Select type",
+            es: "Seleccionar tipo",
+            fr: "Sélectionner un type",
+          },
+          hash: "fa373e47f55ff081982844a853be3a88",
+        },
+        "6/declaration/body/15/argument/1/7/3/3/3/3": {
+          content: {
+            de: "Frühstück",
+            en: "Breakfast",
+            es: "Desayuno",
+            fr: "Petit-déjeuner",
+          },
+          hash: "cc8f07be4ca9cf4532a19fe55d7604cd",
+        },
+        "6/declaration/body/15/argument/1/7/3/3/3/5": {
+          content: {
+            de: "Mittagessen",
+            en: "Lunch",
+            es: "Almuerzo",
+            fr: "Déjeuner",
+          },
+          hash: "a410a370ec7c0482e2a0136032939101",
+        },
+        "6/declaration/body/15/argument/1/7/3/3/3/7": {
+          content: {
+            de: "Abendessen",
+            en: "Dinner",
+            es: "Cena",
+            fr: "Dîner",
+          },
+          hash: "d8cb61eb306b4e4949eb36d021a46d02",
+        },
+        "6/declaration/body/15/argument/1/7/3/3/3/9": {
+          content: {
+            de: "Snack",
+            en: "Snack",
+            es: "Tentempié",
+            fr: "Collation",
+          },
+          hash: "3587d7632ba17db8b69a3f3f4d6acc92",
+        },
+        "6/declaration/body/15/argument/1/7/7/1/1": {
+          content: {
+            de: "Gesamtkalorien *",
+            en: "Total Calories *",
+            es: "Calorías totales *",
+            fr: "Calories totales *",
+          },
+          hash: "f723da75b8b606492a32d39c8f386e07",
+        },
+        "6/declaration/body/15/argument/1/7/7/1/3-placeholder": {
+          content: {
+            de: "500",
+            en: "500",
+            es: "500",
+            fr: "500",
+          },
+          hash: "a24caa2908796785d8cb7a7c0033a349",
+        },
+        "6/declaration/body/15/argument/1/7/7/3/1/1": {
+          content: {
+            de: "Protein (g)",
+            en: "Protein (g)",
+            es: "Proteínas (g)",
+            fr: "Protéines (g)",
+          },
+          hash: "b7bbf4e071486bb52327f06c14c3f38b",
+        },
+        "6/declaration/body/15/argument/1/7/7/3/1/3-placeholder": {
+          content: {
+            de: "25",
+            en: "25",
+            es: "25",
+            fr: "25",
+          },
+          hash: "625a8e20511d561f81cd1d05b133efc4",
+        },
+        "6/declaration/body/15/argument/1/7/7/3/3/1": {
+          content: {
+            de: "Kohlenhydrate (g)",
+            en: "Carbs (g)",
+            es: "Carbohidratos (g)",
+            fr: "Glucides (g)",
+          },
+          hash: "fb470bedf5f246da8dab9c31d0d64818",
+        },
+        "6/declaration/body/15/argument/1/7/7/3/3/3-placeholder": {
+          content: {
+            de: "50",
+            en: "50",
+            es: "50",
+            fr: "50",
+          },
+          hash: "f8102aa3f52a9cfeb3d4a860e83b45b4",
+        },
+        "6/declaration/body/15/argument/1/7/7/3/5/1": {
+          content: {
+            de: "Fett (g)",
+            en: "Fat (g)",
+            es: "Grasas (g)",
+            fr: "Lipides (g)",
+          },
+          hash: "276bde82d018a11b0ae8e7764b1d92eb",
+        },
+        "6/declaration/body/15/argument/1/7/7/3/5/3-placeholder": {
+          content: {
+            de: "15",
+            en: "15",
+            es: "15",
+            fr: "15",
+          },
+          hash: "3511a12194bafa913e6d6340475daeec",
         },
       },
     },

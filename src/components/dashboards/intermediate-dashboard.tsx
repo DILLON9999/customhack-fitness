@@ -5,6 +5,7 @@ import { format } from "date-fns";
 import FitnessCalendar from "@/components/fitness/fitness-calendar";
 import DayEntryModal from "@/components/fitness/day-entry-modal";
 import MealTracker from "@/components/fitness/meal-tracker";
+import MacroProgressCharts from "@/components/fitness/macro-progress-charts";
 import { DayData, MealAnalysis, FitnessGoal } from "@/types/fitness";
 import { supabase } from "@/lib/supabase";
 import { useAuth } from "@/lib/auth-context";
@@ -16,6 +17,7 @@ export default function IntermediateDashboard() {
   const [selectedDayData, setSelectedDayData] = useState<DayData | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [refreshTrigger, setRefreshTrigger] = useState(0);
+  const [mealRefreshTrigger, setMealRefreshTrigger] = useState(0);
   const [fitnessGoal, setFitnessGoal] = useState<FitnessGoal>('lose_weight');
 
   const handleDayClick = (date: string, dayData: DayData) => {
@@ -26,7 +28,9 @@ export default function IntermediateDashboard() {
 
   const handleModalSave = () => {
     setIsModalOpen(false);
+    // Refresh both calendar and meal components since modal can save both workouts and nutrition
     setRefreshTrigger(prev => prev + 1);
+    setMealRefreshTrigger(prev => prev + 1);
   };
 
   const handleWorkoutComplete = async (durationMinutes: number) => {
@@ -119,6 +123,8 @@ export default function IntermediateDashboard() {
         date: today,
         calories: analysis.total_calories,
         protein: analysis.total_protein,
+        carbs: analysis.total_carbs,
+        fat: analysis.total_fat,
         notes: JSON.stringify(analysis), // Store the full analysis in notes
       };
 
@@ -137,8 +143,8 @@ export default function IntermediateDashboard() {
 
       console.log('Meal analysis saved successfully:', result);
       
-      // Refresh components
-      setRefreshTrigger(prev => prev + 1);
+      // Refresh only meal-related components
+      setMealRefreshTrigger(prev => prev + 1);
       
       // Clean up the image URL to prevent memory leaks
       if (imageUrl) {
@@ -210,12 +216,15 @@ export default function IntermediateDashboard() {
             />
           </div>
 
-          {/* Right Column - Meal Tracker */}
-          <div className="lg:col-span-5">
+          {/* Right Column - Meal Tracker and Macros */}
+          <div className="lg:col-span-5 space-y-4">
             <MealTracker 
-              refreshTrigger={refreshTrigger}
+              refreshTrigger={mealRefreshTrigger}
               onMealAdded={handleMealAnalysisComplete}
               fitnessGoal={fitnessGoal}
+            />
+            <MacroProgressCharts 
+              refreshTrigger={mealRefreshTrigger}
             />
           </div>
         </div>
